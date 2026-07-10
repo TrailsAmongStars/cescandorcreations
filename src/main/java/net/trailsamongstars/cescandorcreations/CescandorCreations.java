@@ -1,6 +1,7 @@
 package net.trailsamongstars.cescandorcreations;
 
 import net.minecraft.world.item.CreativeModeTabs;
+import net.trailsamongstars.cescandorcreations.block.ModBlocks;
 import net.trailsamongstars.cescandorcreations.item.ModItems;
 import org.slf4j.Logger;
 
@@ -36,6 +37,7 @@ public class CescandorCreations {
         NeoForge.EVENT_BUS.register(this);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -54,6 +56,10 @@ public class CescandorCreations {
             event.accept(ModItems.ECHO_PLATE);
             event.accept(ModItems.RAW_ELECTRUM);
             event.accept(ModItems.ELECTRUM_INGOT);
+        }
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.ELECTRUM_BLOCK);
+            event.accept(ModBlocks.ELECTRUM_ORE);
         }
     }
 

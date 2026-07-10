@@ -2,5 +2,8 @@
   "item.cescandorcreations.echo_dust": "Echo Dust",
   "item.cescandorcreations.echo_plate": "Echo Plate",
   "item.cescandorcreations.raw_electrum": "Raw Electrum",
-  "item.cescandorcreations.electrum_ingot": "Electrum Ingot"
+  "item.cescandorcreations.electrum_ingot": "Electrum Ingot",
+
+  "block.cescandorcreations.electrum_block": "Block of Electrum",
+  "block.cescandorcreations.electrum_ore": "Electrum Ore"
 }
