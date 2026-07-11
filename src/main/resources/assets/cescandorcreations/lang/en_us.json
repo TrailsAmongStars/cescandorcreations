@@ -5,5 +5,7 @@
   "item.cescandorcreations.electrum_ingot": "Electrum Ingot",
 
   "block.cescandorcreations.electrum_block": "Block of Electrum",
-  "block.cescandorcreations.electrum_ore": "Electrum Ore"
+  "block.cescandorcreations.electrum_ore": "Electrum Ore",
+
+  "creativetab.cescandorcreations.cescandor_items": "Cescandor Exclusive Items"
 }
