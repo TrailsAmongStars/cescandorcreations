@@ -17,6 +17,20 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> ELECTRUM_INGOT = ITEMS.register("electrum_ingot",
             () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> NOTE = ITEMS.register("note",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> CHORD = ITEMS.register("chord",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> VERSE = ITEMS.register("verse",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> STANZA = ITEMS.register("stanza",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> ENTANGLER = ITEMS.register("entangler",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> DETANGLER = ITEMS.register("detangler",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> CHRONO_CATALYST = ITEMS.register("chrono_catalyst",
+            () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);

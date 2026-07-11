@@ -3,9 +3,20 @@
   "item.cescandorcreations.echo_plate": "Echo Plate",
   "item.cescandorcreations.raw_electrum": "Raw Electrum",
   "item.cescandorcreations.electrum_ingot": "Electrum Ingot",
+  "item.cescandorcreations.note": "Note",
+  "item.cescandorcreations.chord": "Chord",
+  "item.cescandorcreations.verse": "Verse",
+  "item.cescandorcreations.stanza": "Stanza",
+  "item.cescandorcreations.entangler": "Entangler",
+  "item.cescandorcreations.detangler": "Detangler",
+  "item.cescandorcreations.chrono_catalyst": "Chrono Catalyst",
 
   "block.cescandorcreations.electrum_block": "Block of Electrum",
   "block.cescandorcreations.electrum_ore": "Electrum Ore",
 
-  "creativetab.cescandorcreations.cescandor_items": "Cescandor Exclusive Items"
+  "creativetab.cescandorcreations.cescandor_items": "Cescandor: Items",
+  "creativetab.cescandorcreations.cescandor_blocks": "Cescandor: Blocks",
+  "creativetab.cescandorcreations.cescandor_tools": "Cescandor: Tools",
+  "creativetab.cescandorcreations.cescandor_armor": "Cescandor: Armor",
+  "creativetab.cescandorcreations.cescandor_money": "Cescandor: Money"
 }

@@ -2,11 +2,13 @@ package net.trailsamongstars.cescandorcreations.item;
 
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.trailsamongstars.cescandorcreations.CescandorCreations;
+import net.trailsamongstars.cescandorcreations.block.ModBlocks;
 
 import java.util.function.Supplier;
 
@@ -22,6 +24,45 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.ECHO_PLATE);
                         output.accept(ModItems.ELECTRUM_INGOT);
                         output.accept(ModItems.RAW_ELECTRUM);
+                        output.accept(ModItems.ENTANGLER);
+                        output.accept(ModItems.DETANGLER);
+                        output.accept(ModItems.CHRONO_CATALYST);
+                    }).build());
+
+    public static final Supplier<CreativeModeTab> CESCANDOR_BLOCKS_TAB = CREATIVE_MODE_TAB.register("cescandor_blocks_tab",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.ELECTRUM_BLOCK))
+                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(CescandorCreations.MOD_ID, "cescandor_items_tab"))
+                    .title(Component.translatable("creativetab.cescandorcreations.cescandor_blocks"))
+                    .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(ModBlocks.ELECTRUM_BLOCK);
+                        output.accept(ModBlocks.ELECTRUM_ORE);
+                    }).build());
+
+    public static final Supplier<CreativeModeTab> CESCANDOR_TOOLS_TAB = CREATIVE_MODE_TAB.register("cescandor_tools_tab",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.ELECTRUM_BLOCK))
+                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(CescandorCreations.MOD_ID, "cescandor_blocks_tab"))
+                    .title(Component.translatable("creativetab.cescandorcreations.cescandor_tools"))
+                    .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(ModBlocks.ELECTRUM_BLOCK);
+                    }).build());
+
+    public static final Supplier<CreativeModeTab> CESCANDOR_ARMOR_TAB = CREATIVE_MODE_TAB.register("cescandor_armor_tab",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.ELECTRUM_BLOCK))
+                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(CescandorCreations.MOD_ID, "cescandor_tools_tab"))
+                    .title(Component.translatable("creativetab.cescandorcreations.cescandor_armor"))
+                    .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(ModBlocks.ELECTRUM_BLOCK);
+                    }).build());
+
+    public static final Supplier<CreativeModeTab> CESCANDOR_MONEY_TAB = CREATIVE_MODE_TAB.register("cescandor_money_tab",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.ELECTRUM_BLOCK))
+                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(CescandorCreations.MOD_ID, "cescandor_armor_tab"))
+                    .title(Component.translatable("creativetab.cescandorcreations.cescandor_money"))
+                    .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(ModItems.NOTE);
+                        output.accept(ModItems.CHORD);
+                        output.accept(ModItems.VERSE);
+                        output.accept(ModItems.STANZA);
                     }).build());
 
     public static void register(IEventBus eventBus) {
