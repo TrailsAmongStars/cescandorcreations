@@ -55,7 +55,7 @@ public class ModCreativeModeTabs {
                     }).build());
 
     public static final Supplier<CreativeModeTab> CESCANDOR_MONEY_TAB = CREATIVE_MODE_TAB.register("cescandor_money_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.ELECTRUM_BLOCK))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.NOTE.get()))
                     .withTabsBefore(ResourceLocation.fromNamespaceAndPath(CescandorCreations.MOD_ID, "cescandor_armor_tab"))
                     .title(Component.translatable("creativetab.cescandorcreations.cescandor_money"))
                     .displayItems((itemDisplayParameters, output) -> {
