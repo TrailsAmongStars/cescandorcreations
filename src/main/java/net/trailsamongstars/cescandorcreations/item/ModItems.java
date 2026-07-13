@@ -5,6 +5,8 @@ import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.trailsamongstars.cescandorcreations.CescandorCreations;
+import net.trailsamongstars.cescandorcreations.item.custom.FuelItem;
+import net.trailsamongstars.cescandorcreations.item.custom.WandItem;
 
 public class ModItems {
     public static final DeferredRegister.Items ITEMS=DeferredRegister.createItems(CescandorCreations.MOD_ID);
@@ -31,6 +33,12 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> CHRONO_CATALYST = ITEMS.register("chrono_catalyst",
             () -> new Item(new Item.Properties()));
+
+    public static final DeferredItem<Item> MELANTHIUM = ITEMS.register("melanthium",
+            () -> new FuelItem(new Item.Properties(), 5000));
+
+    public static final DeferredItem<Item> WAND = ITEMS.register("wand",
+            () -> new WandItem(new Item.Properties().durability(32)));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);

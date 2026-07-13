@@ -1,0 +1,16 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:coal"
+    },
+    {
+      "item": "cescandorcreations:electrum_ingot"
+    }
+  ],
+  "results": [
+    {
+      "id": "cescandorcreations:melanthium"
+    }
+  ]
+}

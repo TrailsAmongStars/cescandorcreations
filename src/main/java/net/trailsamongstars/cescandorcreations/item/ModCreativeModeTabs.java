@@ -27,6 +27,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.ENTANGLER);
                         output.accept(ModItems.DETANGLER);
                         output.accept(ModItems.CHRONO_CATALYST);
+                        output.accept(ModItems.WAND);
+                        output.accept(ModItems.MELANTHIUM);
                     }).build());
 
     public static final Supplier<CreativeModeTab> CESCANDOR_BLOCKS_TAB = CREATIVE_MODE_TAB.register("cescandor_blocks_tab",
