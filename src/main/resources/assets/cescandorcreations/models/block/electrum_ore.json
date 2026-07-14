@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "cescandorcreations:block/electrum_ore"
-  }
-}
