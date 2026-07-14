@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "cescandorcreations:charged_electrum_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "cescandorcreations:charged_electrum"
+  }
+}
