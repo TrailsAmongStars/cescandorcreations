@@ -23,12 +23,18 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.ECHO_DUST);
                         output.accept(ModItems.ECHO_PLATE);
                         output.accept(ModItems.ELECTRUM_INGOT);
+                        output.accept(ModItems.ELECTRUM_DUST);
                         output.accept(ModItems.RAW_ELECTRUM);
                         output.accept(ModItems.ENTANGLER);
                         output.accept(ModItems.DETANGLER);
                         output.accept(ModItems.CHRONO_CATALYST);
                         output.accept(ModItems.WAND);
                         output.accept(ModItems.MELANTHIUM);
+                        output.accept(ModItems.CHARGED_ELECTRUM);
+                        output.accept(ModItems.ENCHANTED_BLUE_DYE);
+                        output.accept(ModItems.ENCHANTED_GREEN_DYE);
+                        output.accept(ModItems.ENCHANTED_RED_DYE);
+                        output.accept(ModItems.ENCHANTED_YELLOW_DYE);
                     }).build());
 
     public static final Supplier<CreativeModeTab> CESCANDOR_BLOCKS_TAB = CREATIVE_MODE_TAB.register("cescandor_blocks_tab",
@@ -38,6 +44,7 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModBlocks.ELECTRUM_BLOCK);
                         output.accept(ModBlocks.ELECTRUM_ORE);
+                        output.accept(ModBlocks.CHARGED_ELECTRUM_BLOCK);
                     }).build());
 
     public static final Supplier<CreativeModeTab> CESCANDOR_TOOLS_TAB = CREATIVE_MODE_TAB.register("cescandor_tools_tab",

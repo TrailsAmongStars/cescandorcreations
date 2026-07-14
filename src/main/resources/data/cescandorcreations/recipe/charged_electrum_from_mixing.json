@@ -1,0 +1,16 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "cescandorcreations:electrum_ingot"
+    }
+  ],
+  "results": [
+    {
+      "id": "cescandorcreations:charged_electrum"
+    }
+  ]
+}

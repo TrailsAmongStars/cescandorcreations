@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "cescandorcreations:electrum_dust"
+    },
+    "B": {
+      "item": "cescandorcreations:charged_electrum"
+    },
+    "C": {
+      "item": "minecraft:breeze_rod"
+    }
+  },
+  "pattern": [
+    " AA",
+    " BA",
+    "C  "
+  ],
+  "result": {
+    "count": 1,
+    "id": "cescandorcreations:wand"
+  }
+}

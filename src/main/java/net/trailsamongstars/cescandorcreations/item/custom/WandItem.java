@@ -16,7 +16,10 @@ import java.util.Map;
 public class WandItem extends Item {
     private static final Map<Block, Block> WAND_MAP =
             Map.of(
-                    Blocks.DIORITE, Blocks.ANDESITE
+                    Blocks.DIORITE, Blocks.ANDESITE,
+                    Blocks.GRANITE, Blocks.ANDESITE,
+                    Blocks.BASALT, Blocks.TUFF,
+                    Blocks.BLACKSTONE, Blocks.TUFF
             );
 
     public WandItem(Properties properties) {
@@ -35,7 +38,8 @@ public class WandItem extends Item {
                 context.getItemInHand().hurtAndBreak(1, ((ServerLevel) level), context.getPlayer(),
                         item -> context.getPlayer().onEquippedItemBroken(item, EquipmentSlot.MAINHAND));
 
-                level.playSound(null, context.getClickedPos(), SoundEvents.GRINDSTONE_USE, SoundSource.BLOCKS);
+                level.playSound(null, context.getClickedPos(), SoundEvents.AMETHYST_CLUSTER_PLACE,
+                        SoundSource.BLOCKS);
             }
         }
 

@@ -11,6 +11,7 @@ import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.trailsamongstars.cescandorcreations.CescandorCreations;
+import net.trailsamongstars.cescandorcreations.block.custom.MagicBlock;
 import net.trailsamongstars.cescandorcreations.item.ModItems;
 
 import java.util.function.Supplier;
@@ -26,6 +27,9 @@ public class ModBlocks {
             () -> new DropExperienceBlock(UniformInt.of(2, 4),
                     BlockBehaviour.Properties.of()
                             .strength(3f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+
+    public static final DeferredBlock<Block> CHARGED_ELECTRUM_BLOCK = registerBlock("charged_electrum_block",
+            () -> new MagicBlock(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
 
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {

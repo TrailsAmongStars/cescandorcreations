@@ -3,6 +3,8 @@
   "item.cescandorcreations.echo_plate": "Echo Plate",
   "item.cescandorcreations.raw_electrum": "Raw Electrum",
   "item.cescandorcreations.electrum_ingot": "Electrum Ingot",
+  "item.cescandorcreations.electrum_dust": "Electrum Dust",
+  "item.cescandorcreations.charged_electrum": "Charged Electrum",
   "item.cescandorcreations.note": "Note",
   "item.cescandorcreations.chord": "Chord",
   "item.cescandorcreations.verse": "Verse",
@@ -13,10 +15,16 @@
 
   "item.cescandorcreations.melanthium": "Melanthium",
 
+  "item.cescandorcreations.enchanted_blue_dye": "Enchanted Blue Dye",
+  "item.cescandorcreations.enchanted_green_dye": "Enchanted Green Dye",
+  "item.cescandorcreations.enchanted_red_dye": "Enchanted Red Dye",
+  "item.cescandorcreations.enchanted_yellow_dye": "Enchanted Yellow Dye",
+
   "item.cescandorcreations.wand": "Wand",
 
   "block.cescandorcreations.electrum_block": "Block of Electrum",
   "block.cescandorcreations.electrum_ore": "Electrum Ore",
+  "block.cescandorcreations.charged_electrum_block": "Block of Charged Electrum",
 
   "creativetab.cescandorcreations.cescandor_items": "Cescandor: Items",
   "creativetab.cescandorcreations.cescandor_blocks": "Cescandor: Blocks",
