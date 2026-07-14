@@ -30,5 +30,10 @@
   "creativetab.cescandorcreations.cescandor_blocks": "Cescandor: Blocks",
   "creativetab.cescandorcreations.cescandor_tools": "Cescandor: Tools",
   "creativetab.cescandorcreations.cescandor_armor": "Cescandor: Armor",
-  "creativetab.cescandorcreations.cescandor_money": "Cescandor: Money"
+  "creativetab.cescandorcreations.cescandor_money": "Cescandor: Money",
+
+  "tooltip.cescandorcreations.charged_electrum_block.shift_down": "Drop either a §1Blue§r, §aGreen§r, §cRed§r, or §eYellow§r dye on this block to enchant it.",
+  "tooltip.cescandorcreations.charged_electrum_block": "Press §eShift§r for more information.",
+  "tooltip.cescandorcreations.wand.shift_down": "Right Click on certain blocks to transform them into Andesite or Tuff.",
+  "tooltip.cescandorcreations.wand": "Press §eShift§r for more information."
 }
