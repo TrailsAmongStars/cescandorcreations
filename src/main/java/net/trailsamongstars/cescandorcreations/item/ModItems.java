@@ -44,13 +44,7 @@ public class ModItems {
 
     public static final DeferredItem<Item> WAND = ITEMS.register("wand",
             () -> new WandItem(new Item.Properties().durability(128)));
-    public static final DeferredItem<Item> ENCHANTED_BLUE_DYE = ITEMS.register("enchanted_blue_dye",
-            () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> ENCHANTED_GREEN_DYE = ITEMS.register("enchanted_green_dye",
-            () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> ENCHANTED_RED_DYE = ITEMS.register("enchanted_red_dye",
-            () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> ENCHANTED_YELLOW_DYE = ITEMS.register("enchanted_yellow_dye",
+    public static final DeferredItem<Item> MAGIC_PASTE = ITEMS.register("magic_paste",
             () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus){

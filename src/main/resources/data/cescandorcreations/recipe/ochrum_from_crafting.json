@@ -6,7 +6,10 @@
       "item": "minecraft:tuff"
     },
     {
-      "item": "cescandorcreations:enchanted_yellow_dye"
+      "item": "cescandorcreations:magic_paste"
+    },
+    {
+      "item": "minecraft:yellow_dye"
     }
   ],
   "result": {

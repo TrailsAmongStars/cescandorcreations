@@ -13,6 +13,7 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockState;
 import net.trailsamongstars.cescandorcreations.item.ModItems;
+import net.trailsamongstars.cescandorcreations.util.ModTags;
 
 import java.util.List;
 
@@ -26,34 +27,17 @@ public class MagicBlock extends Block {
     public void stepOn(Level level, BlockPos pos, BlockState state, Entity entity) {
 
         if(entity instanceof ItemEntity itemEntity) {
-            if(itemEntity.getItem().getItem() == Items.BLUE_DYE) {
-                itemEntity.setItem(new ItemStack(ModItems.ENCHANTED_BLUE_DYE.get(),
-                        itemEntity.getItem().getCount()));
-            }
-        }
-
-        if(entity instanceof ItemEntity itemEntity) {
-            if(itemEntity.getItem().getItem() == Items.GREEN_DYE) {
-                itemEntity.setItem(new ItemStack(ModItems.ENCHANTED_GREEN_DYE.get(),
-                        itemEntity.getItem().getCount()));
-            }
-        }
-
-        if(entity instanceof ItemEntity itemEntity) {
-            if(itemEntity.getItem().getItem() == Items.RED_DYE) {
-                itemEntity.setItem(new ItemStack(ModItems.ENCHANTED_RED_DYE.get(),
-                        itemEntity.getItem().getCount()));
-            }
-        }
-
-        if(entity instanceof ItemEntity itemEntity) {
-            if(itemEntity.getItem().getItem() == Items.YELLOW_DYE) {
-                itemEntity.setItem(new ItemStack(ModItems.ENCHANTED_YELLOW_DYE.get(),
+            if(isValidItem(itemEntity.getItem())) {
+                itemEntity.setItem(new ItemStack(ModItems.MAGIC_PASTE.get(),
                         itemEntity.getItem().getCount()));
             }
         }
 
         super.stepOn(level, pos, state, entity);
+    }
+
+    private boolean isValidItem(ItemStack item) {
+        return item.is(ModTags.Items.TRANSFORMABLE_DYES);
     }
 
     @Override

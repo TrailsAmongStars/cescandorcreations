@@ -15,10 +15,7 @@
 
   "item.cescandorcreations.melanthium": "Melanthium",
 
-  "item.cescandorcreations.enchanted_blue_dye": "Enchanted Blue Dye",
-  "item.cescandorcreations.enchanted_green_dye": "Enchanted Green Dye",
-  "item.cescandorcreations.enchanted_red_dye": "Enchanted Red Dye",
-  "item.cescandorcreations.enchanted_yellow_dye": "Enchanted Yellow Dye",
+  "item.cescandorcreations.magic_paste": "Magic Paste",
 
   "item.cescandorcreations.wand": "Wand",
 
@@ -32,7 +29,7 @@
   "creativetab.cescandorcreations.cescandor_armor": "Cescandor: Armor",
   "creativetab.cescandorcreations.cescandor_money": "Cescandor: Money",
 
-  "tooltip.cescandorcreations.charged_electrum_block.shift_down": "Drop either a §1Blue§r, §aGreen§r, §cRed§r, or §eYellow§r dye on this block to enchant it.",
+  "tooltip.cescandorcreations.charged_electrum_block.shift_down": "Drop any dye onto this block to create Magic Paste",
   "tooltip.cescandorcreations.charged_electrum_block": "Press §eShift§r for more information.",
   "tooltip.cescandorcreations.wand.shift_down": "Right Click on certain blocks to transform them into Andesite or Tuff.",
   "tooltip.cescandorcreations.wand": "Press §eShift§r for more information."

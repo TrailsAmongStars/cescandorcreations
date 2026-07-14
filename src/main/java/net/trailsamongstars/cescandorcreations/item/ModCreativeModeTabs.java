@@ -31,10 +31,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.WAND);
                         output.accept(ModItems.MELANTHIUM);
                         output.accept(ModItems.CHARGED_ELECTRUM);
-                        output.accept(ModItems.ENCHANTED_BLUE_DYE);
-                        output.accept(ModItems.ENCHANTED_GREEN_DYE);
-                        output.accept(ModItems.ENCHANTED_RED_DYE);
-                        output.accept(ModItems.ENCHANTED_YELLOW_DYE);
+                        output.accept(ModItems.MAGIC_PASTE);
                     }).build());
 
     public static final Supplier<CreativeModeTab> CESCANDOR_BLOCKS_TAB = CREATIVE_MODE_TAB.register("cescandor_blocks_tab",
