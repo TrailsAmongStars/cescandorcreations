@@ -32,5 +32,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.MAGIC_PASTE.get());
         basicItem(ModItems.SHATTERED_ECHO_SHARD.get());
         basicItem(ModItems.POWDERED_END_STONE.get());
+        basicItem(ModItems.SHULKER_SLAG.get());
+        basicItem(ModItems.SHULKER_SHARD.get());
     }
 }

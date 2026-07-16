@@ -34,6 +34,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.MAGIC_PASTE);
                         output.accept(ModItems.SHATTERED_ECHO_SHARD);
                         output.accept(ModItems.POWDERED_END_STONE);
+                        output.accept(ModItems.SHULKER_SLAG);
+                        output.accept(ModItems.SHULKER_SHARD);
                     }).build());
 
     public static final Supplier<CreativeModeTab> CESCANDOR_BLOCKS_TAB = CREATIVE_MODE_TAB.register("cescandor_blocks_tab",

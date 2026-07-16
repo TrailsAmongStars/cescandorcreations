@@ -41,6 +41,10 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> POWDERED_END_STONE = ITEMS.register("powdered_end_stone",
             () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> SHULKER_SLAG = ITEMS.register("shulker_slag",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> SHULKER_SHARD = ITEMS.register("shulker_shard",
+            () -> new Item(new Item.Properties()));
 
 
     public static final DeferredItem<Item> MELANTHIUM = ITEMS.register("melanthium",
