@@ -24,6 +24,7 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
     protected void generate() {
         dropSelf(ModBlocks.ELECTRUM_BLOCK.get());
         dropSelf(ModBlocks.CHARGED_ELECTRUM_BLOCK.get());
+        dropSelf(ModBlocks.DEHYDRATED_SCULK.get());
 
         add(ModBlocks.ELECTRUM_ORE.get(),
                 block -> createOreDrop(ModBlocks.ELECTRUM_ORE.get(), ModItems.RAW_ELECTRUM.get()));

@@ -1,0 +1,13 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "cescandorcreations:chrono_catalyst"
+    }
+  ],
+  "results": [
+    {
+      "id": "cescandorcreations:detangler"
+    }
+  ]
+}

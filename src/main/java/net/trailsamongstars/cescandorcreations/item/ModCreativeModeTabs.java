@@ -32,6 +32,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.MELANTHIUM);
                         output.accept(ModItems.CHARGED_ELECTRUM);
                         output.accept(ModItems.MAGIC_PASTE);
+                        output.accept(ModItems.SHATTERED_ECHO_SHARD);
+                        output.accept(ModItems.POWDERED_END_STONE);
                     }).build());
 
     public static final Supplier<CreativeModeTab> CESCANDOR_BLOCKS_TAB = CREATIVE_MODE_TAB.register("cescandor_blocks_tab",
@@ -42,6 +44,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.ELECTRUM_BLOCK);
                         output.accept(ModBlocks.ELECTRUM_ORE);
                         output.accept(ModBlocks.CHARGED_ELECTRUM_BLOCK);
+                        output.accept(ModBlocks.DEHYDRATED_SCULK);
                     }).build());
 
     public static final Supplier<CreativeModeTab> CESCANDOR_TOOLS_TAB = CREATIVE_MODE_TAB.register("cescandor_tools_tab",

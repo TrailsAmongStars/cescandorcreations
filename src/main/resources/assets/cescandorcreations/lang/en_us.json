@@ -12,6 +12,8 @@
   "item.cescandorcreations.entangler": "Entangler",
   "item.cescandorcreations.detangler": "Detangler",
   "item.cescandorcreations.chrono_catalyst": "Chrono Catalyst",
+  "item.cescandorcreations.shattered_echo_shard": "Shattered Echo Shard",
+  "item.cescandorcreations.powdered_end_stone": "Powdered End Stone",
 
   "item.cescandorcreations.melanthium": "Melanthium",
 
@@ -22,6 +24,7 @@
   "block.cescandorcreations.electrum_block": "Block of Electrum",
   "block.cescandorcreations.electrum_ore": "Electrum Ore",
   "block.cescandorcreations.charged_electrum_block": "Block of Charged Electrum",
+  "block.cescandorcreations.dehydrated_sculk": "Dehydrated Sculk",
 
   "creativetab.cescandorcreations.cescandor_items": "Cescandor: Items",
   "creativetab.cescandorcreations.cescandor_blocks": "Cescandor: Blocks",

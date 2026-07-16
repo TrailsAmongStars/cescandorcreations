@@ -31,6 +31,10 @@ public class ModBlocks {
     public static final DeferredBlock<Block> CHARGED_ELECTRUM_BLOCK = registerBlock("charged_electrum_block",
             () -> new MagicBlock(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
 
+    public static final DeferredBlock<Block> DEHYDRATED_SCULK = registerBlock("dehydrated_sculk",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.SCULK)));
+
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);

@@ -37,6 +37,10 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> CHRONO_CATALYST = ITEMS.register("chrono_catalyst",
             () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> SHATTERED_ECHO_SHARD = ITEMS.register("shattered_echo_shard",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> POWDERED_END_STONE = ITEMS.register("powdered_end_stone",
+            () -> new Item(new Item.Properties()));
 
 
     public static final DeferredItem<Item> MELANTHIUM = ITEMS.register("melanthium",

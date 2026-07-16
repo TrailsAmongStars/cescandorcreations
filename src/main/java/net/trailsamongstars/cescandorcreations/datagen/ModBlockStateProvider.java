@@ -17,6 +17,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.ELECTRUM_BLOCK);
         blockWithItem(ModBlocks.ELECTRUM_ORE);
         blockWithItem(ModBlocks.CHARGED_ELECTRUM_BLOCK);
+        blockWithItem(ModBlocks.DEHYDRATED_SCULK);
     }
 
     private void blockWithItem(DeferredBlock<?> deferredBlock) {
