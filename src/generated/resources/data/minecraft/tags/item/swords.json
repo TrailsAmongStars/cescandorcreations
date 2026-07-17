@@ -1,5 +1,11 @@
 {
   "values": [
-    "cescandorcreations:electrum_sword"
+    "cescandorcreations:electrum_sword",
+    "cescandorcreations:wooden_scythe",
+    "cescandorcreations:stone_scythe",
+    "cescandorcreations:iron_scythe",
+    "cescandorcreations:golden_scythe",
+    "cescandorcreations:diamond_scythe",
+    "cescandorcreations:netherite_scythe"
   ]
 }

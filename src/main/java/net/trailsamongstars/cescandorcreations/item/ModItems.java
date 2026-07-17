@@ -57,7 +57,7 @@ public class ModItems {
 
     public static final DeferredItem<SwordItem> ELECTRUM_SWORD = ITEMS.register("electrum_sword",
             () -> new SwordItem(ModToolTiers.ELECTRUM, new Item.Properties()
-                    .attributes(SwordItem.createAttributes(ModToolTiers.ELECTRUM, 5, -2.4f))));
+                    .attributes(SwordItem.createAttributes(ModToolTiers.ELECTRUM, 3, -2.4f))));
     public static final DeferredItem<PickaxeItem> ELECTRUM_PICKAXE = ITEMS.register("electrum_pickaxe",
             () -> new PickaxeItem(ModToolTiers.ELECTRUM, new Item.Properties()
                     .attributes(PickaxeItem.createAttributes(ModToolTiers.ELECTRUM, 1.0F, -2.8f))));
@@ -70,6 +70,28 @@ public class ModItems {
     public static final DeferredItem<HoeItem> ELECTRUM_HOE = ITEMS.register("electrum_hoe",
             () -> new HoeItem(ModToolTiers.ELECTRUM, new Item.Properties()
                     .attributes(HoeItem.createAttributes(ModToolTiers.ELECTRUM, 0F, -3.0f))));
+
+    public static final DeferredItem<SwordItem> WOODEN_SCYTHE = ITEMS.register("wooden_scythe",
+            () -> new SwordItem(Tiers.WOOD, new Item.Properties()
+                    .attributes(SwordItem.createAttributes(Tiers.WOOD, 7, -3.4f))));
+    public static final DeferredItem<SwordItem> STONE_SCYTHE = ITEMS.register("stone_scythe",
+            () -> new SwordItem(Tiers.STONE, new Item.Properties()
+                    .attributes(SwordItem.createAttributes(Tiers.STONE, 7, -3.4f))));
+    public static final DeferredItem<SwordItem> IRON_SCYTHE = ITEMS.register("iron_scythe",
+            () -> new SwordItem(Tiers.IRON, new Item.Properties()
+                    .attributes(SwordItem.createAttributes(Tiers.IRON, 7, -3.4f))));
+    public static final DeferredItem<SwordItem> GOLDEN_SCYTHE = ITEMS.register("golden_scythe",
+            () -> new SwordItem(Tiers.GOLD, new Item.Properties()
+                    .attributes(SwordItem.createAttributes(Tiers.GOLD, 7, -3.4f))));
+    public static final DeferredItem<SwordItem> DIAMOND_SCYTHE = ITEMS.register("diamond_scythe",
+            () -> new SwordItem(Tiers.DIAMOND, new Item.Properties()
+                    .attributes(SwordItem.createAttributes(Tiers.DIAMOND, 7, -3.4f))));
+    public static final DeferredItem<SwordItem> ELECTRUM_SCYTHE = ITEMS.register("electrum_scythe",
+            () -> new SwordItem(ModToolTiers.ELECTRUM, new Item.Properties()
+                    .attributes(SwordItem.createAttributes(ModToolTiers.ELECTRUM, 7, -3.4f))));
+    public static final DeferredItem<SwordItem> NETHERITE_SCYTHE = ITEMS.register("netherite_scythe",
+            () -> new SwordItem(Tiers.NETHERITE, new Item.Properties()
+                    .attributes(SwordItem.createAttributes(Tiers.NETHERITE, 7, -3.4f))));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);

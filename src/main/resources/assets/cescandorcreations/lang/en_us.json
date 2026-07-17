@@ -27,6 +27,12 @@
   "item.cescandorcreations.electrum_pickaxe": "Electrum Pickaxe",
   "item.cescandorcreations.electrum_shovel": "Electrum Shovel",
   "item.cescandorcreations.electrum_hoe": "Electrum Hoe",
+  "item.cescandorcreations.wooden_scythe": "Wooden Scythe",
+  "item.cescandorcreations.stone_scythe": "Stone Scythe",
+  "item.cescandorcreations.iron_scythe": "Iron Scythe",
+  "item.cescandorcreations.golden_scythe": "Golden Scythe",
+  "item.cescandorcreations.diamond_scythe": "Diamond Scythe",
+  "item.cescandorcreations.netherite_scythe": "Netherite Scythe",
 
   "block.cescandorcreations.electrum_block": "Block of Electrum",
   "block.cescandorcreations.electrum_ore": "Electrum Ore",

@@ -50,7 +50,7 @@ public class ModCreativeModeTabs {
                     }).build());
 
     public static final Supplier<CreativeModeTab> CESCANDOR_TOOLS_TAB = CREATIVE_MODE_TAB.register("cescandor_tools_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.ELECTRUM_BLOCK))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.DIAMOND_SCYTHE.get()))
                     .withTabsBefore(ResourceLocation.fromNamespaceAndPath(CescandorCreations.MOD_ID, "cescandor_blocks_tab"))
                     .title(Component.translatable("creativetab.cescandorcreations.cescandor_tools"))
                     .displayItems((itemDisplayParameters, output) -> {
@@ -59,6 +59,13 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.ELECTRUM_PICKAXE);
                         output.accept(ModItems.ELECTRUM_SHOVEL);
                         output.accept(ModItems.ELECTRUM_HOE);
+
+                        output.accept(ModItems.WOODEN_SCYTHE);
+                        output.accept(ModItems.STONE_SCYTHE);
+                        output.accept(ModItems.IRON_SCYTHE);
+                        output.accept(ModItems.GOLDEN_SCYTHE);
+                        output.accept(ModItems.DIAMOND_SCYTHE);
+                        output.accept(ModItems.NETHERITE_SCYTHE);
                     }).build());
 
     public static final Supplier<CreativeModeTab> CESCANDOR_ARMOR_TAB = CREATIVE_MODE_TAB.register("cescandor_armor_tab",

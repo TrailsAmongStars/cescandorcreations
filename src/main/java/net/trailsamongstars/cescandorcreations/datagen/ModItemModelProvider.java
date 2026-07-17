@@ -43,6 +43,12 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ModItems.ELECTRUM_PICKAXE);
         handheldItem(ModItems.ELECTRUM_SHOVEL);
         handheldItem(ModItems.ELECTRUM_HOE);
+        handheldItem(ModItems.WOODEN_SCYTHE);
+        handheldItem(ModItems.STONE_SCYTHE);
+        handheldItem(ModItems.IRON_SCYTHE);
+        handheldItem(ModItems.GOLDEN_SCYTHE);
+        handheldItem(ModItems.DIAMOND_SCYTHE);
+        handheldItem(ModItems.NETHERITE_SCYTHE);
     }
 
     private ItemModelBuilder handheldItem(DeferredItem<?> item) {
