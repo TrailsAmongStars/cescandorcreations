@@ -33,5 +33,12 @@ public class ModBlockTagProvider extends BlockTagsProvider {
 
         tag(BlockTags.MINEABLE_WITH_HOE)
                 .add(ModBlocks.DEHYDRATED_SCULK.get());
+
+        tag(ModTags.Blocks.NEEDS_ELECTRUM_TOOL)
+                .addTag(BlockTags.NEEDS_IRON_TOOL);
+
+        tag(ModTags.Blocks.INCORRECT_FOR_ELECTRUM_TOOL)
+                .addTag(BlockTags.INCORRECT_FOR_IRON_TOOL)
+                .remove(ModTags.Blocks.NEEDS_ELECTRUM_TOOL);
     }
 }

@@ -1,6 +1,6 @@
 package net.trailsamongstars.cescandorcreations.item;
 
-import net.minecraft.world.item.Item;
+import net.minecraft.world.item.*;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -54,6 +54,22 @@ public class ModItems {
             () -> new WandItem(new Item.Properties().durability(128)));
     public static final DeferredItem<Item> MAGIC_PASTE = ITEMS.register("magic_paste",
             () -> new Item(new Item.Properties()));
+
+    public static final DeferredItem<SwordItem> ELECTRUM_SWORD = ITEMS.register("electrum_sword",
+            () -> new SwordItem(ModToolTiers.ELECTRUM, new Item.Properties()
+                    .attributes(SwordItem.createAttributes(ModToolTiers.ELECTRUM, 5, -2.4f))));
+    public static final DeferredItem<PickaxeItem> ELECTRUM_PICKAXE = ITEMS.register("electrum_pickaxe",
+            () -> new PickaxeItem(ModToolTiers.ELECTRUM, new Item.Properties()
+                    .attributes(PickaxeItem.createAttributes(ModToolTiers.ELECTRUM, 1.0F, -2.8f))));
+    public static final DeferredItem<ShovelItem> ELECTRUM_SHOVEL = ITEMS.register("electrum_shovel",
+            () -> new ShovelItem(ModToolTiers.ELECTRUM, new Item.Properties()
+                    .attributes(ShovelItem.createAttributes(ModToolTiers.ELECTRUM, 1.5F, -3.0f))));
+    public static final DeferredItem<AxeItem> ELECTRUM_AXE = ITEMS.register("electrum_axe",
+            () -> new AxeItem(ModToolTiers.ELECTRUM, new Item.Properties()
+                    .attributes(AxeItem.createAttributes(ModToolTiers.ELECTRUM, 6.0F, -3.2f))));
+    public static final DeferredItem<HoeItem> ELECTRUM_HOE = ITEMS.register("electrum_hoe",
+            () -> new HoeItem(ModToolTiers.ELECTRUM, new Item.Properties()
+                    .attributes(HoeItem.createAttributes(ModToolTiers.ELECTRUM, 0F, -3.0f))));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);

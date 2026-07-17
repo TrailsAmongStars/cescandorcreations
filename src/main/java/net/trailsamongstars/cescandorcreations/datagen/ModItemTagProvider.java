@@ -3,10 +3,12 @@ package net.trailsamongstars.cescandorcreations.datagen;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.ItemTagsProvider;
+import net.minecraft.tags.ItemTags;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.level.block.Block;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
 import net.trailsamongstars.cescandorcreations.CescandorCreations;
+import net.trailsamongstars.cescandorcreations.item.ModItems;
 import net.trailsamongstars.cescandorcreations.util.ModTags;
 import org.jetbrains.annotations.Nullable;
 
@@ -39,5 +41,15 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(Items.WHITE_DYE)
                 .add(Items.YELLOW_DYE);
 
+        tag(ItemTags.SWORDS)
+                .add(ModItems.ELECTRUM_SWORD.get());
+        tag(ItemTags.AXES)
+                .add(ModItems.ELECTRUM_AXE.get());
+        tag(ItemTags.PICKAXES)
+                .add(ModItems.ELECTRUM_PICKAXE.get());
+        tag(ItemTags.SHOVELS)
+                .add(ModItems.ELECTRUM_SHOVEL.get());
+        tag(ItemTags.HOES)
+                .add(ModItems.ELECTRUM_HOE.get());
     }
 }

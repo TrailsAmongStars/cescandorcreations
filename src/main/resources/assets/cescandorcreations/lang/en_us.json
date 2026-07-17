@@ -20,8 +20,13 @@
   "item.cescandorcreations.melanthium": "Melanthium",
 
   "item.cescandorcreations.magic_paste": "Magic Paste",
-
   "item.cescandorcreations.wand": "Wand",
+
+  "item.cescandorcreations.electrum_sword": "Electrum Sword",
+  "item.cescandorcreations.electrum_axe": "Electrum Axe",
+  "item.cescandorcreations.electrum_pickaxe": "Electrum Pickaxe",
+  "item.cescandorcreations.electrum_shovel": "Electrum Shovel",
+  "item.cescandorcreations.electrum_hoe": "Electrum Hoe",
 
   "block.cescandorcreations.electrum_block": "Block of Electrum",
   "block.cescandorcreations.electrum_ore": "Electrum Ore",

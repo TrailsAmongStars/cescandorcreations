@@ -54,7 +54,11 @@ public class ModCreativeModeTabs {
                     .withTabsBefore(ResourceLocation.fromNamespaceAndPath(CescandorCreations.MOD_ID, "cescandor_blocks_tab"))
                     .title(Component.translatable("creativetab.cescandorcreations.cescandor_tools"))
                     .displayItems((itemDisplayParameters, output) -> {
-                        output.accept(ModBlocks.ELECTRUM_BLOCK);
+                        output.accept(ModItems.ELECTRUM_SWORD);
+                        output.accept(ModItems.ELECTRUM_AXE);
+                        output.accept(ModItems.ELECTRUM_PICKAXE);
+                        output.accept(ModItems.ELECTRUM_SHOVEL);
+                        output.accept(ModItems.ELECTRUM_HOE);
                     }).build());
 
     public static final Supplier<CreativeModeTab> CESCANDOR_ARMOR_TAB = CREATIVE_MODE_TAB.register("cescandor_armor_tab",
