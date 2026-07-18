@@ -27,9 +27,6 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.CHORD.get());
         basicItem(ModItems.VERSE.get());
         basicItem(ModItems.STANZA.get());
-        basicItem(ModItems.ENTANGLER.get());
-        basicItem(ModItems.DETANGLER.get());
-        basicItem(ModItems.CHRONO_CATALYST.get());
         basicItem(ModItems.MELANTHIUM.get());
         basicItem(ModItems.WAND.get());
         basicItem(ModItems.MAGIC_PASTE.get());

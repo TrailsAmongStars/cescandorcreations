@@ -31,12 +31,6 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> STANZA = ITEMS.register("stanza",
             () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> ENTANGLER = ITEMS.register("entangler",
-            () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> DETANGLER = ITEMS.register("detangler",
-            () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> CHRONO_CATALYST = ITEMS.register("chrono_catalyst",
-            () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> SHATTERED_ECHO_SHARD = ITEMS.register("shattered_echo_shard",
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> POWDERED_END_STONE = ITEMS.register("powdered_end_stone",

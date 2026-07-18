@@ -25,9 +25,6 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.ELECTRUM_INGOT);
                         output.accept(ModItems.ELECTRUM_DUST);
                         output.accept(ModItems.RAW_ELECTRUM);
-                        output.accept(ModItems.ENTANGLER);
-                        output.accept(ModItems.DETANGLER);
-                        output.accept(ModItems.CHRONO_CATALYST);
                         output.accept(ModItems.WAND);
                         output.accept(ModItems.MELANTHIUM);
                         output.accept(ModItems.CHARGED_ELECTRUM);
