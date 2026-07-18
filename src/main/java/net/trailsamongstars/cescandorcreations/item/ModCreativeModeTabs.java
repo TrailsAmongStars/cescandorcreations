@@ -66,11 +66,14 @@ public class ModCreativeModeTabs {
                     }).build());
 
     public static final Supplier<CreativeModeTab> CESCANDOR_ARMOR_TAB = CREATIVE_MODE_TAB.register("cescandor_armor_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.ELECTRUM_BLOCK))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.ELECTRUM_CHESTPLATE.get()))
                     .withTabsBefore(ResourceLocation.fromNamespaceAndPath(CescandorCreations.MOD_ID, "cescandor_tools_tab"))
                     .title(Component.translatable("creativetab.cescandorcreations.cescandor_armor"))
                     .displayItems((itemDisplayParameters, output) -> {
-                        output.accept(ModBlocks.ELECTRUM_BLOCK);
+                        output.accept(ModItems.ELECTRUM_HELMET);
+                        output.accept(ModItems.ELECTRUM_CHESTPLATE);
+                        output.accept(ModItems.ELECTRUM_LEGGINGS);
+                        output.accept(ModItems.ELECTRUM_BOOTS);
                     }).build());
 
     public static final Supplier<CreativeModeTab> CESCANDOR_MONEY_TAB = CREATIVE_MODE_TAB.register("cescandor_money_tab",

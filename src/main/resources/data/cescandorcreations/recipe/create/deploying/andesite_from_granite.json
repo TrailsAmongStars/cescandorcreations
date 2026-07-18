@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "minecraft:granite"
+    },
+    {
+      "item": "cescandorcreations:wand"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:andesite"
+    }
+  ]
+}

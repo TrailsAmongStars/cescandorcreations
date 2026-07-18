@@ -57,5 +57,11 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModItems.ELECTRUM_SHOVEL.get());
         tag(ItemTags.HOES)
                 .add(ModItems.ELECTRUM_HOE.get());
+
+        this.tag(ItemTags.TRIMMABLE_ARMOR)
+                .add(ModItems.ELECTRUM_HELMET.get())
+                .add(ModItems.ELECTRUM_CHESTPLATE.get())
+                .add(ModItems.ELECTRUM_LEGGINGS.get())
+                .add(ModItems.ELECTRUM_BOOTS.get());
     }
 }

@@ -135,7 +135,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.DIAMOND_SCYTHE.get())
                 .pattern("DDD")
                 .pattern(" S ")
-                .pattern("S      ")
+                .pattern("S  ")
                 .define('D', Items.DIAMOND)
                 .define('S', Items.STICK)
                 .unlockedBy("has_electrum", has(ModItems.ELECTRUM_INGOT)).save(recipeOutput);

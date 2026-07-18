@@ -87,6 +87,19 @@ public class ModItems {
             () -> new SwordItem(Tiers.NETHERITE, new Item.Properties()
                     .attributes(SwordItem.createAttributes(Tiers.NETHERITE, 7, -3.4f))));
 
+    public static final DeferredItem<ArmorItem> ELECTRUM_HELMET = ITEMS.register("electrum_helmet",
+            () -> new ArmorItem(ModArmorMaterials.ELECTRUM_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
+                    new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(16))));
+    public static final DeferredItem<ArmorItem> ELECTRUM_CHESTPLATE = ITEMS.register("electrum_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.ELECTRUM_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE,
+                    new Item.Properties().durability(ArmorItem.Type.CHESTPLATE.getDurability(16))));
+    public static final DeferredItem<ArmorItem> ELECTRUM_LEGGINGS = ITEMS.register("electrum_leggings",
+            () -> new ArmorItem(ModArmorMaterials.ELECTRUM_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS,
+                    new Item.Properties().durability(ArmorItem.Type.LEGGINGS.getDurability(16))));
+    public static final DeferredItem<ArmorItem> ELECTRUM_BOOTS = ITEMS.register("electrum_boots",
+            () -> new ArmorItem(ModArmorMaterials.ELECTRUM_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
+                    new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(16))));
+
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
     }

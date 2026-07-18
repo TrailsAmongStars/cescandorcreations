@@ -31,6 +31,11 @@
   "item.cescandorcreations.diamond_scythe": "Diamond Scythe",
   "item.cescandorcreations.netherite_scythe": "Netherite Scythe",
 
+  "item.cescandorcreations.electrum_helmet": "Electrum Helmet",
+  "item.cescandorcreations.electrum_chestplate": "Electrum Chestplate",
+  "item.cescandorcreations.electrum_leggings": "Electrum Leggings",
+  "item.cescandorcreations.electrum_boots": "Electrum Boots",
+
   "block.cescandorcreations.electrum_block": "Block of Electrum",
   "block.cescandorcreations.electrum_ore": "Electrum Ore",
   "block.cescandorcreations.charged_electrum_block": "Block of Charged Electrum",

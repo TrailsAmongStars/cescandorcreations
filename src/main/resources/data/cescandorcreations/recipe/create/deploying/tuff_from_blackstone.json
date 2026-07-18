@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "minecraft:blackstone"
+    },
+    {
+      "item": "cescandorcreations:wand"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:tuff"
+    }
+  ]
+}
