@@ -1,0 +1,26 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "minecraft:sculk"
+    },
+    {
+      "item": "minecraft:sculk"
+    },
+    {
+      "item": "minecraft:sculk"
+    },
+    {
+      "item": "minecraft:sculk"
+    }
+  ],
+  "results": [
+    {
+      "id": "cescandorcreations:dehydrated_sculk"
+    },
+    {
+      "count": 4,
+      "id": "create:experience_nugget"
+    }
+  ]
+}

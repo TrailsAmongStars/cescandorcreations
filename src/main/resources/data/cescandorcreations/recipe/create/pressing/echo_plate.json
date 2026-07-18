@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "cescandorcreations:echo_dust"
+    }
+  ],
+  "results": [
+    {
+      "id": "cescandorcreations:echo_plate"
+    }
+  ]
+}

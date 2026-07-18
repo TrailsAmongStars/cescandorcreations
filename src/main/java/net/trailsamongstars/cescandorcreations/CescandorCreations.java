@@ -54,16 +54,6 @@ public class CescandorCreations {
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.ECHO_DUST);
-            event.accept(ModItems.ECHO_PLATE);
-            event.accept(ModItems.RAW_ELECTRUM);
-            event.accept(ModItems.ELECTRUM_INGOT);
-        }
-        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
-            event.accept(ModBlocks.ELECTRUM_BLOCK);
-            event.accept(ModBlocks.ELECTRUM_ORE);
-        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
