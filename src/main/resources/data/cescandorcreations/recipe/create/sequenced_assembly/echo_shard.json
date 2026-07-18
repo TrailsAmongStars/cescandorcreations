@@ -1,0 +1,87 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "cescandorcreations:dehydrated_sculk"
+  },
+  "loops": 4,
+  "results": [
+    {
+      "chance": 120.0,
+      "id": "minecraft:echo_shard"
+    },
+    {
+      "chance": 8.0,
+      "id": "cescandorcreations:dehydrated_sculk"
+    },
+    {
+      "chance": 8.0,
+      "id": "minecraft:sculk"
+    },
+    {
+      "chance": 5.0,
+      "id": "create:experience_nugget"
+    },
+    {
+      "chance": 3.0,
+      "id": "minecraft:black_dye"
+    },
+    {
+      "chance": 3.0,
+      "id": "minecraft:sand"
+    },
+    {
+      "chance": 2.0,
+      "id": "minecraft:sculk_sensor"
+    },
+    {
+      "id": "minecraft:disc_fragment_5"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "cescandorcreations:shattered_echo_shard"
+        }
+      ],
+      "results": [
+        {
+          "id": "cescandorcreations:shattered_echo_shard"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "cescandorcreations:shattered_echo_shard"
+        }
+      ],
+      "results": [
+        {
+          "id": "cescandorcreations:shattered_echo_shard"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "cescandorcreations:shattered_echo_shard"
+        },
+        {
+          "item": "minecraft:glow_ink_sac"
+        }
+      ],
+      "results": [
+        {
+          "id": "cescandorcreations:shattered_echo_shard"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "cescandorcreations:shattered_echo_shard"
+  }
+}

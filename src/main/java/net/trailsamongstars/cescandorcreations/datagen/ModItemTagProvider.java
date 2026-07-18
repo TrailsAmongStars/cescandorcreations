@@ -43,12 +43,12 @@ public class ModItemTagProvider extends ItemTagsProvider {
 
         tag(ItemTags.SWORDS)
                 .add(ModItems.ELECTRUM_SWORD.get())
-                .add(ModItems.WOODEN_SCYTHE.get())
-                .add(ModItems.STONE_SCYTHE.get())
-                .add(ModItems.IRON_SCYTHE.get())
-                .add(ModItems.GOLDEN_SCYTHE.get())
                 .add(ModItems.DIAMOND_SCYTHE.get())
-                .add(ModItems.NETHERITE_SCYTHE.get());
+                .add(ModItems.STONE_SCYTHE.get())
+                .add(ModItems.GOLDEN_SCYTHE.get())
+                .add(ModItems.NETHERITE_SCYTHE.get())
+                .add(ModItems.WOODEN_SCYTHE.get())
+                .add(ModItems.IRON_SCYTHE.get());
         tag(ItemTags.AXES)
                 .add(ModItems.ELECTRUM_AXE.get());
         tag(ItemTags.PICKAXES)

@@ -56,6 +56,48 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
         oreSmelting(recipeOutput, CESCANDOR_SMELTABLES, RecipeCategory.MISC, ModItems.ELECTRUM_INGOT.get(), 0.25f, 200, "electrum");
         oreBlasting(recipeOutput, CESCANDOR_SMELTABLES, RecipeCategory.MISC, ModItems.ELECTRUM_INGOT.get(), 0.25f, 100, "electrum");
+
+        // Items
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ELECTRUM_SWORD.get())
+                .pattern(" E ")
+                .pattern(" E ")
+                .pattern(" S ")
+                .define('E', ModItems.ELECTRUM_INGOT.get())
+                .define('S', Items.STICK)
+                .unlockedBy("has_electrum", has(ModItems.ELECTRUM_INGOT)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ELECTRUM_AXE.get())
+                .pattern("EE ")
+                .pattern("ES ")
+                .pattern(" S ")
+                .define('E', ModItems.ELECTRUM_INGOT.get())
+                .define('S', Items.STICK)
+                .unlockedBy("has_electrum", has(ModItems.ELECTRUM_INGOT)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ELECTRUM_PICKAXE.get())
+                .pattern("EEE")
+                .pattern(" S ")
+                .pattern(" S ")
+                .define('E', ModItems.ELECTRUM_INGOT.get())
+                .define('S', Items.STICK)
+                .unlockedBy("has_electrum", has(ModItems.ELECTRUM_INGOT)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ELECTRUM_SHOVEL.get())
+                .pattern(" E ")
+                .pattern(" S ")
+                .pattern(" S ")
+                .define('E', ModItems.ELECTRUM_INGOT.get())
+                .define('S', Items.STICK)
+                .unlockedBy("has_electrum", has(ModItems.ELECTRUM_INGOT)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ELECTRUM_HOE.get())
+                .pattern("EE ")
+                .pattern(" S ")
+                .pattern(" S ")
+                .define('E', ModItems.ELECTRUM_INGOT.get())
+                .define('S', Items.STICK)
+                .unlockedBy("has_electrum", has(ModItems.ELECTRUM_INGOT)).save(recipeOutput);
+
     }
 
     protected static void oreSmelting(RecipeOutput recipeOutput, List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult,

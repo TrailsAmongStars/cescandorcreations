@@ -1,0 +1,21 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:phantom_membrane"
+    },
+    {
+      "item": "cescandorcreations:powdered_end_stone"
+    },
+    {
+      "type": "neoforge:single",
+      "amount": 250,
+      "fluid": "create_dragons_plus:magenta_dye"
+    }
+  ],
+  "results": [
+    {
+      "id": "cescandorcreations:shulker_slag"
+    }
+  ]
+}
