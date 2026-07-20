@@ -47,7 +47,6 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.RAW_ELECTRUM.get());
         basicItem(ModItems.ELECTRUM_INGOT.get());
         basicItem(ModItems.ELECTRUM_INGOT.get());
-        basicItem(ModItems.CHARGED_ELECTRUM.get());
         basicItem(ModItems.ELECTRUM_DUST.get());
         basicItem(ModItems.NOTE.get());
         basicItem(ModItems.CHORD.get());
@@ -60,7 +59,18 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.POWDERED_END_STONE.get());
         basicItem(ModItems.SHULKER_SLAG.get());
         basicItem(ModItems.SHULKER_SHARD.get());
-
+        basicItem(ModItems.APOLLIUM_INGOT.get());
+        basicItem(ModItems.HADISIUM_INGOT.get());
+        basicItem(ModItems.HEPHASTEUM_INGOT.get());
+        basicItem(ModItems.IOLIUM_INGOT.get());
+        basicItem(ModItems.OCEANIUM_INGOT.get());
+        basicItem(ModItems.SEMELIUM_INGOT.get());
+        basicItem(ModItems.TALIUM_INGOT.get());
+        basicItem(ModItems.ENCHANTED_SEMELIUM_INGOT.get());
+        basicItem(ModItems.CELESTIUM_INGOT.get());
+        basicItem(ModItems.MITHRAL_INGOT.get());
+        basicItem(ModItems.OPALIUM_INGOT.get());
+        basicItem(ModItems.ADAMANTIUM.get());
 
         handheldItem(ModItems.ELECTRUM_SWORD);
         handheldItem(ModItems.ELECTRUM_AXE);

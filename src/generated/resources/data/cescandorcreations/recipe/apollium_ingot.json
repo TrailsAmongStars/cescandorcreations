@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "cescandorcreations:apollium_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "cescandorcreations:apollium_ingot"
+  }
+}

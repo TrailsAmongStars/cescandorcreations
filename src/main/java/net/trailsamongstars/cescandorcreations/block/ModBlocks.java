@@ -28,7 +28,28 @@ public class ModBlocks {
                     BlockBehaviour.Properties.of()
                             .strength(3f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
 
-    public static final DeferredBlock<Block> CHARGED_ELECTRUM_BLOCK = registerBlock("charged_electrum_block",
+    public static final DeferredBlock<Block> APOLLIUM_BLOCK = registerBlock("apollium_block",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
+    public static final DeferredBlock<Block> HADISIUM_BLOCK = registerBlock("hadisium_block",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
+    public static final DeferredBlock<Block> HEPHASTEUM_BLOCK = registerBlock("hephasteum_block",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
+    public static final DeferredBlock<Block> IOLIUM_BLOCK = registerBlock("iolium_block",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
+    public static final DeferredBlock<Block> OCEANIUM_BLOCK = registerBlock("oceanium_block",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
+    public static final DeferredBlock<Block> SEMELIUM_BLOCK = registerBlock("semelium_block",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
+    public static final DeferredBlock<Block> TALIUM_BLOCK = registerBlock("talium_block",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
+    public static final DeferredBlock<Block> ENCHANTED_SEMELIUM_BLOCK = registerBlock("enchanted_semelium_block",
             () -> new MagicBlock(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
 
     public static final DeferredBlock<Block> DEHYDRATED_SCULK = registerBlock("dehydrated_sculk",

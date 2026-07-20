@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_apollium": {
+      "conditions": {
+        "items": [
+          {
+            "items": "cescandorcreations:apollium_ingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "cescandorcreations:apollium_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_apollium"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "cescandorcreations:apollium_block"
+    ]
+  }
+}

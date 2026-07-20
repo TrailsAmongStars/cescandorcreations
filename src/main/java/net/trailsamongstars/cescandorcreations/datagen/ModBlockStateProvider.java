@@ -16,8 +16,15 @@ public class ModBlockStateProvider extends BlockStateProvider {
     protected void registerStatesAndModels() {
         blockWithItem(ModBlocks.ELECTRUM_BLOCK);
         blockWithItem(ModBlocks.ELECTRUM_ORE);
-        blockWithItem(ModBlocks.CHARGED_ELECTRUM_BLOCK);
         blockWithItem(ModBlocks.DEHYDRATED_SCULK);
+        blockWithItem(ModBlocks.APOLLIUM_BLOCK);
+        blockWithItem(ModBlocks.HADISIUM_BLOCK);
+        blockWithItem(ModBlocks.HEPHASTEUM_BLOCK);
+        blockWithItem(ModBlocks.IOLIUM_BLOCK);
+        blockWithItem(ModBlocks.OCEANIUM_BLOCK);
+        blockWithItem(ModBlocks.SEMELIUM_BLOCK);
+        blockWithItem(ModBlocks.TALIUM_BLOCK);
+        blockWithItem(ModBlocks.ENCHANTED_SEMELIUM_BLOCK);
     }
 
     private void blockWithItem(DeferredBlock<?> deferredBlock) {

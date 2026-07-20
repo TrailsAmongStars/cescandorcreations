@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_enchanted_semelium": {
+      "conditions": {
+        "items": [
+          {
+            "items": "cescandorcreations:enchanted_semelium_ingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "cescandorcreations:enchanted_semelium_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_enchanted_semelium"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "cescandorcreations:enchanted_semelium_block"
+    ]
+  }
+}

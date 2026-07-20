@@ -1,0 +1,17 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "item": "cescandorcreations:hadisium_ingot"
+    },
+    {
+      "item": "cescandorcreations:oceanium_ingot"
+    }
+  ],
+  "results": [
+    {
+      "id": "cescandorcreations:mithral_ingot"
+    }
+  ]
+}

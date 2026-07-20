@@ -4,7 +4,6 @@
   "item.cescandorcreations.raw_electrum": "Raw Electrum",
   "item.cescandorcreations.electrum_ingot": "Electrum Ingot",
   "item.cescandorcreations.electrum_dust": "Electrum Dust",
-  "item.cescandorcreations.charged_electrum": "Charged Electrum",
   "item.cescandorcreations.note": "Note",
   "item.cescandorcreations.chord": "Chord",
   "item.cescandorcreations.verse": "Verse",
@@ -15,6 +14,18 @@
   "item.cescandorcreations.shulker_shard": "Shulker Shard",
 
   "item.cescandorcreations.melanthium": "Melanthium",
+  "item.cescandorcreations.apollium_ingot": "Apollium Alloy",
+  "item.cescandorcreations.hadisium_ingot": "Hadisium Alloy",
+  "item.cescandorcreations.hephasteum_ingot": "Hephasteum Alloy",
+  "item.cescandorcreations.iolium_ingot": "Iolium Alloy",
+  "item.cescandorcreations.oceanium_ingot": "Oceanium Alloy",
+  "item.cescandorcreations.semelium_ingot": "Semelium Alloy",
+  "item.cescandorcreations.talium_ingot": "Talium Alloy",
+  "item.cescandorcreations.enchanted_semelium_ingot": "Enchanted Semelium",
+  "item.cescandorcreations.celestium_ingot": "Celestium Alloy",
+  "item.cescandorcreations.mithral_ingot": "Mithral Alloy",
+  "item.cescandorcreations.opalium_ingot": "Opalium Alloy",
+  "item.cescandorcreations.adamantium": "Adamantium",
 
   "item.cescandorcreations.magic_paste": "Magic Paste",
   "item.cescandorcreations.wand": "Wand",
@@ -38,8 +49,16 @@
 
   "block.cescandorcreations.electrum_block": "Block of Electrum",
   "block.cescandorcreations.electrum_ore": "Electrum Ore",
-  "block.cescandorcreations.charged_electrum_block": "Block of Charged Electrum",
   "block.cescandorcreations.dehydrated_sculk": "Dehydrated Sculk",
+
+  "block.cescandorcreations.apollium_block": "Block of Apollium",
+  "block.cescandorcreations.hadisium_block": "Block of Hadisium",
+  "block.cescandorcreations.hephasteum_block": "Block of Hephasteum",
+  "block.cescandorcreations.iolium_block": "Block of Iolium",
+  "block.cescandorcreations.oceanium_block": "Block of Oceanium",
+  "block.cescandorcreations.semelium_block": "Block of Semelium",
+  "block.cescandorcreations.talium_block": "Block of Talium",
+  "block.cescandorcreations.enchanted_semelium_block": "Block of Enchanted Semelium",
 
   "creativetab.cescandorcreations.cescandor_items": "Cescandor: Items",
   "creativetab.cescandorcreations.cescandor_blocks": "Cescandor: Blocks",
@@ -47,8 +66,8 @@
   "creativetab.cescandorcreations.cescandor_armor": "Cescandor: Armor",
   "creativetab.cescandorcreations.cescandor_money": "Cescandor: Money",
 
-  "tooltip.cescandorcreations.charged_electrum_block.shift_down": "Drop any dye onto this block to create Magic Paste",
-  "tooltip.cescandorcreations.charged_electrum_block": "Press §eShift§r for more information.",
+  "tooltip.cescandorcreations.enchanted_semelium_block.shift_down": "Drop any dye onto this block to create Magic Paste",
+  "tooltip.cescandorcreations.enchanted_semelium_block": "Press §eShift§r for more information.",
   "tooltip.cescandorcreations.wand.shift_down": "Right Click on certain blocks to transform them into Andesite or Tuff.",
   "tooltip.cescandorcreations.wand": "Press §eShift§r for more information."
 }

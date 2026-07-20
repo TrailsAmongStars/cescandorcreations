@@ -27,12 +27,23 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.RAW_ELECTRUM);
                         output.accept(ModItems.WAND);
                         output.accept(ModItems.MELANTHIUM);
-                        output.accept(ModItems.CHARGED_ELECTRUM);
                         output.accept(ModItems.MAGIC_PASTE);
                         output.accept(ModItems.SHATTERED_ECHO_SHARD);
                         output.accept(ModItems.POWDERED_END_STONE);
                         output.accept(ModItems.SHULKER_SLAG);
                         output.accept(ModItems.SHULKER_SHARD);
+                        output.accept(ModItems.APOLLIUM_INGOT);
+                        output.accept(ModItems.HADISIUM_INGOT);
+                        output.accept(ModItems.HEPHASTEUM_INGOT);
+                        output.accept(ModItems.IOLIUM_INGOT);
+                        output.accept(ModItems.OCEANIUM_INGOT);
+                        output.accept(ModItems.SEMELIUM_INGOT);
+                        output.accept(ModItems.TALIUM_INGOT);
+                        output.accept(ModItems.ENCHANTED_SEMELIUM_INGOT);
+                        output.accept(ModItems.CELESTIUM_INGOT);
+                        output.accept(ModItems.MITHRAL_INGOT);
+                        output.accept(ModItems.OPALIUM_INGOT);
+                        output.accept(ModItems.ADAMANTIUM);
                     }).build());
 
     public static final Supplier<CreativeModeTab> CESCANDOR_BLOCKS_TAB = CREATIVE_MODE_TAB.register("cescandor_blocks_tab",
@@ -42,8 +53,15 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModBlocks.ELECTRUM_BLOCK);
                         output.accept(ModBlocks.ELECTRUM_ORE);
-                        output.accept(ModBlocks.CHARGED_ELECTRUM_BLOCK);
                         output.accept(ModBlocks.DEHYDRATED_SCULK);
+                        output.accept(ModBlocks.APOLLIUM_BLOCK);
+                        output.accept(ModBlocks.HADISIUM_BLOCK);
+                        output.accept(ModBlocks.HEPHASTEUM_BLOCK);
+                        output.accept(ModBlocks.IOLIUM_BLOCK);
+                        output.accept(ModBlocks.OCEANIUM_BLOCK);
+                        output.accept(ModBlocks.SEMELIUM_BLOCK);
+                        output.accept(ModBlocks.TALIUM_BLOCK);
+                        output.accept(ModBlocks.ENCHANTED_SEMELIUM_BLOCK);
                     }).build());
 
     public static final Supplier<CreativeModeTab> CESCANDOR_TOOLS_TAB = CREATIVE_MODE_TAB.register("cescandor_tools_tab",

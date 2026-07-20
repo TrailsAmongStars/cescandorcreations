@@ -19,8 +19,6 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> ELECTRUM_INGOT = ITEMS.register("electrum_ingot",
             () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> CHARGED_ELECTRUM = ITEMS.register("charged_electrum",
-            () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> ELECTRUM_DUST = ITEMS.register("electrum_dust",
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> NOTE = ITEMS.register("note",
@@ -43,6 +41,30 @@ public class ModItems {
 
     public static final DeferredItem<Item> MELANTHIUM = ITEMS.register("melanthium",
             () -> new FuelItem(new Item.Properties(), 5000));
+    public static final DeferredItem<Item> APOLLIUM_INGOT = ITEMS.register("apollium_ingot",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> HADISIUM_INGOT = ITEMS.register("hadisium_ingot",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> HEPHASTEUM_INGOT = ITEMS.register("hephasteum_ingot",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> IOLIUM_INGOT = ITEMS.register("iolium_ingot",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> OCEANIUM_INGOT = ITEMS.register("oceanium_ingot",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> SEMELIUM_INGOT = ITEMS.register("semelium_ingot",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> TALIUM_INGOT = ITEMS.register("talium_ingot",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> ENCHANTED_SEMELIUM_INGOT = ITEMS.register("enchanted_semelium_ingot",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> CELESTIUM_INGOT = ITEMS.register("celestium_ingot",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> MITHRAL_INGOT = ITEMS.register("mithral_ingot",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> OPALIUM_INGOT = ITEMS.register("opalium_ingot",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> ADAMANTIUM = ITEMS.register("adamantium",
+            () -> new Item(new Item.Properties()));
 
     public static final DeferredItem<Item> WAND = ITEMS.register("wand",
             () -> new WandItem(new Item.Properties().durability(128)));

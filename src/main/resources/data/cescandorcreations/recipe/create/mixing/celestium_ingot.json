@@ -1,0 +1,17 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "item": "cescandorcreations:apollium_ingot"
+    },
+    {
+      "item": "cescandorcreations:hephasteum_ingot"
+    }
+  ],
+  "results": [
+    {
+      "id": "cescandorcreations:celestium_ingot"
+    }
+  ]
+}

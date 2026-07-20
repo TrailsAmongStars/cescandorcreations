@@ -1,0 +1,17 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "item": "cescandorcreations:iolium_ingot"
+    },
+    {
+      "item": "cescandorcreations:talium_ingot"
+    }
+  ],
+  "results": [
+    {
+      "id": "cescandorcreations:opalium_ingot"
+    }
+  ]
+}

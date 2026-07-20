@@ -3,7 +3,6 @@ package net.trailsamongstars.cescandorcreations.datagen;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.tags.BlockTags;
-import net.minecraft.world.level.block.Blocks;
 import net.neoforged.neoforge.common.data.BlockTagsProvider;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
 import net.trailsamongstars.cescandorcreations.CescandorCreations;
@@ -24,12 +23,26 @@ public class ModBlockTagProvider extends BlockTagsProvider {
         tag(BlockTags.MINEABLE_WITH_PICKAXE)
                 .add(ModBlocks.ELECTRUM_BLOCK.get())
                 .add(ModBlocks.ELECTRUM_ORE.get())
-                .add(ModBlocks.CHARGED_ELECTRUM_BLOCK.get());
+                .add(ModBlocks.APOLLIUM_BLOCK.get())
+                .add(ModBlocks.HADISIUM_BLOCK.get())
+                .add(ModBlocks.HEPHASTEUM_BLOCK.get())
+                .add(ModBlocks.IOLIUM_BLOCK.get())
+                .add(ModBlocks.OCEANIUM_BLOCK.get())
+                .add(ModBlocks.SEMELIUM_BLOCK.get())
+                .add(ModBlocks.TALIUM_BLOCK.get());
 
         tag(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.ELECTRUM_BLOCK.get())
                 .add(ModBlocks.ELECTRUM_ORE.get())
-                .add(ModBlocks.CHARGED_ELECTRUM_BLOCK.get());
+                .add(ModBlocks.APOLLIUM_BLOCK.get())
+                .add(ModBlocks.HADISIUM_BLOCK.get())
+                .add(ModBlocks.HEPHASTEUM_BLOCK.get())
+                .add(ModBlocks.IOLIUM_BLOCK.get())
+                .add(ModBlocks.OCEANIUM_BLOCK.get())
+                .add(ModBlocks.SEMELIUM_BLOCK.get())
+                .add(ModBlocks.TALIUM_BLOCK.get())
+                .add(ModBlocks.ENCHANTED_SEMELIUM_BLOCK.get());
+
 
         tag(BlockTags.MINEABLE_WITH_HOE)
                 .add(ModBlocks.DEHYDRATED_SCULK.get());

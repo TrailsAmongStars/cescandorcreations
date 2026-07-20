@@ -1,0 +1,17 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "cescandorcreations:electrum_ingot"
+    }
+  ],
+  "results": [
+    {
+      "id": "cescandorcreations:apollium_ingot"
+    }
+  ]
+}

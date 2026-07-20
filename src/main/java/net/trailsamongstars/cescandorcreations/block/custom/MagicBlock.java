@@ -43,9 +43,9 @@ public class MagicBlock extends Block {
     @Override
     public void appendHoverText(ItemStack stack, Item.TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
         if(Screen.hasShiftDown()){
-            tooltipComponents.add(Component.translatable("tooltip.cescandorcreations.charged_electrum_block.shift_down"));
+            tooltipComponents.add(Component.translatable("tooltip.cescandorcreations.enchanted_semelium_block.shift_down"));
         } else {
-            tooltipComponents.add(Component.translatable("tooltip.cescandorcreations.charged_electrum_block"));
+            tooltipComponents.add(Component.translatable("tooltip.cescandorcreations.enchanted_semelium_block"));
         }
         super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
     }

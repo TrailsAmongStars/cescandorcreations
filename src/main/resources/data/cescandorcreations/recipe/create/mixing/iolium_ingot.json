@@ -1,0 +1,17 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "item": "create:zinc"
+    },
+    {
+      "item": "cescandorcreations:electrum_ingot"
+    }
+  ],
+  "results": [
+    {
+      "id": "cescandorcreations:iolium_ingot"
+    }
+  ]
+}

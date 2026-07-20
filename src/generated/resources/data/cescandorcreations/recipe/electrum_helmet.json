@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": {
+      "item": "cescandorcreations:electrum_ingot"
+    }
+  },
+  "pattern": [
+    "   ",
+    "EEE",
+    "E E"
+  ],
+  "result": {
+    "count": 1,
+    "id": "cescandorcreations:electrum_helmet"
+  }
+}

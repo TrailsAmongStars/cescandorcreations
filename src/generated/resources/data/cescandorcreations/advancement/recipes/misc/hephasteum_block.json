@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_hephasteum": {
+      "conditions": {
+        "items": [
+          {
+            "items": "cescandorcreations:hephasteum_ingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "cescandorcreations:hephasteum_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_hephasteum"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "cescandorcreations:hephasteum_block"
+    ]
+  }
+}

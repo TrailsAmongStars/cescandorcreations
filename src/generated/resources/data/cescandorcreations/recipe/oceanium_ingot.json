@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "cescandorcreations:oceanium_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "cescandorcreations:oceanium_ingot"
+  }
+}

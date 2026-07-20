@@ -1,0 +1,17 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "cescandorcreations:electrum_ingot"
+    }
+  ],
+  "results": [
+    {
+      "id": "cescandorcreations:hadisium_ingot"
+    }
+  ]
+}

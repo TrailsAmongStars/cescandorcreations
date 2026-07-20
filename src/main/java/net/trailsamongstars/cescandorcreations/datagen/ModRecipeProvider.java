@@ -4,7 +4,6 @@ import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
 import net.minecraft.tags.ItemTags;
-import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.*;
 import net.minecraft.world.level.ItemLike;
@@ -32,29 +31,100 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('B', ModItems.ELECTRUM_INGOT.get())
                 .unlockedBy("has_electrum", has(ModItems.ELECTRUM_INGOT)).save(recipeOutput);
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.CHARGED_ELECTRUM_BLOCK.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.APOLLIUM_BLOCK.get())
                 .pattern("BBB")
                 .pattern("BBB")
                 .pattern("BBB")
-                .define('B', ModItems.CHARGED_ELECTRUM.get())
-                .unlockedBy("has_electrum", has(ModItems.CHARGED_ELECTRUM)).save(recipeOutput);
+                .define('B', ModItems.APOLLIUM_INGOT.get())
+                .unlockedBy("has_apollium", has(ModItems.APOLLIUM_INGOT)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.HADISIUM_BLOCK.get())
+                .pattern("BBB")
+                .pattern("BBB")
+                .pattern("BBB")
+                .define('B', ModItems.HADISIUM_INGOT.get())
+                .unlockedBy("has_hadisium", has(ModItems.HADISIUM_INGOT)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.HEPHASTEUM_BLOCK.get())
+                .pattern("BBB")
+                .pattern("BBB")
+                .pattern("BBB")
+                .define('B', ModItems.HEPHASTEUM_INGOT.get())
+                .unlockedBy("has_hephasteum", has(ModItems.HEPHASTEUM_INGOT)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.IOLIUM_BLOCK.get())
+                .pattern("BBB")
+                .pattern("BBB")
+                .pattern("BBB")
+                .define('B', ModItems.IOLIUM_INGOT.get())
+                .unlockedBy("has_iolium", has(ModItems.IOLIUM_INGOT)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.OCEANIUM_BLOCK.get())
+                .pattern("BBB")
+                .pattern("BBB")
+                .pattern("BBB")
+                .define('B', ModItems.OCEANIUM_INGOT.get())
+                .unlockedBy("has_oceanium", has(ModItems.OCEANIUM_INGOT)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.SEMELIUM_BLOCK.get())
+                .pattern("BBB")
+                .pattern("BBB")
+                .pattern("BBB")
+                .define('B', ModItems.SEMELIUM_INGOT.get())
+                .unlockedBy("has_semelium", has(ModItems.SEMELIUM_INGOT)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.TALIUM_BLOCK.get())
+                .pattern("BBB")
+                .pattern("BBB")
+                .pattern("BBB")
+                .define('B', ModItems.TALIUM_INGOT.get())
+                .unlockedBy("has_talium", has(ModItems.TALIUM_INGOT)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.ENCHANTED_SEMELIUM_BLOCK.get())
+                .pattern("BBB")
+                .pattern("BBB")
+                .pattern("BBB")
+                .define('B', ModItems.ENCHANTED_SEMELIUM_INGOT.get())
+                .unlockedBy("has_enchanted_semelium", has(ModItems.ENCHANTED_SEMELIUM_INGOT)).save(recipeOutput);
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.WAND.get())
                 .pattern(" AA")
                 .pattern(" BA")
                 .pattern("C  ")
                 .define('A', ModItems.ELECTRUM_DUST.get())
-                .define('B', ModItems.CHARGED_ELECTRUM.get())
+                .define('B', ModItems.ENCHANTED_SEMELIUM_INGOT.get())
                 .define('C', Items.BREEZE_ROD)
-                .unlockedBy("has_charged_electrum", has(ModItems.CHARGED_ELECTRUM)).save(recipeOutput);
+                .unlockedBy("has_enchanted_semelium", has(ModItems.ENCHANTED_SEMELIUM_INGOT)).save(recipeOutput);
 
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.ELECTRUM_INGOT, 9)
                 .requires(ModBlocks.ELECTRUM_BLOCK.get())
                 .unlockedBy("has_electrum_block", has(ModBlocks.ELECTRUM_BLOCK)).save(recipeOutput);
 
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.CHARGED_ELECTRUM, 9)
-                .requires(ModBlocks.CHARGED_ELECTRUM_BLOCK.get())
-                .unlockedBy("has_electrum_block", has(ModBlocks.CHARGED_ELECTRUM_BLOCK)).save(recipeOutput);
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.APOLLIUM_INGOT, 9)
+                .requires(ModBlocks.APOLLIUM_BLOCK.get())
+                .unlockedBy("has_apollium_block", has(ModBlocks.APOLLIUM_BLOCK)).save(recipeOutput);
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.HADISIUM_INGOT, 9)
+                .requires(ModBlocks.HADISIUM_BLOCK.get())
+                .unlockedBy("has_hadisium_block", has(ModBlocks.HADISIUM_BLOCK)).save(recipeOutput);
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.HEPHASTEUM_INGOT, 9)
+                .requires(ModBlocks.HEPHASTEUM_BLOCK.get())
+                .unlockedBy("has_hephasteum_block", has(ModBlocks.HEPHASTEUM_BLOCK)).save(recipeOutput);
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.IOLIUM_INGOT, 9)
+                .requires(ModBlocks.IOLIUM_BLOCK.get())
+                .unlockedBy("has_iolium_block", has(ModBlocks.IOLIUM_BLOCK)).save(recipeOutput);
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.OCEANIUM_INGOT, 9)
+                .requires(ModBlocks.OCEANIUM_BLOCK.get())
+                .unlockedBy("has_oceanium_block", has(ModBlocks.OCEANIUM_BLOCK)).save(recipeOutput);
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.SEMELIUM_INGOT, 9)
+                .requires(ModBlocks.SEMELIUM_BLOCK.get())
+                .unlockedBy("has_semelium_block", has(ModBlocks.SEMELIUM_BLOCK)).save(recipeOutput);
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.TALIUM_INGOT, 9)
+                .requires(ModBlocks.TALIUM_BLOCK.get())
+                .unlockedBy("has_talium_block", has(ModBlocks.TALIUM_BLOCK)).save(recipeOutput);
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.ENCHANTED_SEMELIUM_INGOT, 9)
+                .requires(ModBlocks.ENCHANTED_SEMELIUM_BLOCK.get())
+                .unlockedBy("has_enchanted_semelium_block", has(ModBlocks.ENCHANTED_SEMELIUM_BLOCK))
+                .save(recipeOutput);
 
         oreSmelting(recipeOutput, CESCANDOR_SMELTABLES, RecipeCategory.MISC, ModItems.ELECTRUM_INGOT.get(), 0.25f, 200, "electrum");
         oreBlasting(recipeOutput, CESCANDOR_SMELTABLES, RecipeCategory.MISC, ModItems.ELECTRUM_INGOT.get(), 0.25f, 100, "electrum");
@@ -138,6 +208,34 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("S  ")
                 .define('D', Items.DIAMOND)
                 .define('S', Items.STICK)
+                .unlockedBy("has_electrum", has(ModItems.ELECTRUM_INGOT)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ELECTRUM_CHESTPLATE.get())
+                .pattern("E E")
+                .pattern("EEE")
+                .pattern("EEE")
+                .define('E', ModItems.ELECTRUM_INGOT.get())
+                .unlockedBy("has_electrum", has(ModItems.ELECTRUM_INGOT)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ELECTRUM_BOOTS.get())
+                .pattern("E E")
+                .pattern("E E")
+                .pattern("   ")
+                .define('E', ModItems.ELECTRUM_INGOT.get())
+                .unlockedBy("has_electrum", has(ModItems.ELECTRUM_INGOT)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ELECTRUM_LEGGINGS.get())
+                .pattern("EEE")
+                .pattern("E E")
+                .pattern("E E")
+                .define('E', ModItems.ELECTRUM_INGOT.get())
+                .unlockedBy("has_electrum", has(ModItems.ELECTRUM_INGOT)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ELECTRUM_HELMET.get())
+                .pattern("   ")
+                .pattern("EEE")
+                .pattern("E E")
+                .define('E', ModItems.ELECTRUM_INGOT.get())
                 .unlockedBy("has_electrum", has(ModItems.ELECTRUM_INGOT)).save(recipeOutput);
 
     }
