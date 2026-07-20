@@ -9,4 +9,8 @@ public class ModToolTiers {
     public static final Tier ELECTRUM = new SimpleTier(ModTags.Blocks.INCORRECT_FOR_ELECTRUM_TOOL,
             400, 16f, 2f, 28, () ->
             Ingredient.of(ModItems.ELECTRUM_INGOT));
+
+    public static final Tier ADAMANTIUM = new SimpleTier(ModTags.Blocks.INCORRECT_FOR_ADAMANTIUM_TOOL,
+            3063, 10f, 5f, 20, () ->
+            Ingredient.of(ModItems.ADAMANTIUM));
 }

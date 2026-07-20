@@ -27,6 +27,15 @@ public class ModArmorMaterials {
                 attribute.put(ArmorItem.Type.BODY, 9);
             }), 30, 1f, 0.0f, () -> ModItems.ELECTRUM_INGOT.get());
 
+    public static final Holder<ArmorMaterial> ADAMANTIUM_ARMOR_MATERIAL = register("adamantium",
+            Util.make(new EnumMap<>(ArmorItem.Type.class), attribute -> {
+                attribute.put(ArmorItem.Type.BOOTS, 4);
+                attribute.put(ArmorItem.Type.LEGGINGS, 8);
+                attribute.put(ArmorItem.Type.CHESTPLATE, 9);
+                attribute.put(ArmorItem.Type.HELMET, 3);
+                attribute.put(ArmorItem.Type.BODY, 13);
+            }), 30, 4f, 0.15f, () -> ModItems.ADAMANTIUM.get());
+
 
 
     private static Holder<ArmorMaterial> register(String name, EnumMap<ArmorItem.Type, Integer> typeProtection,

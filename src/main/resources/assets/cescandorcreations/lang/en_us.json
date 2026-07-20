@@ -35,6 +35,12 @@
   "item.cescandorcreations.electrum_pickaxe": "Electrum Pickaxe",
   "item.cescandorcreations.electrum_shovel": "Electrum Shovel",
   "item.cescandorcreations.electrum_hoe": "Electrum Hoe",
+  "item.cescandorcreations.adamantium_sword": "Adamantium Sword",
+  "item.cescandorcreations.adamantium_axe": "Adamantium Axe",
+  "item.cescandorcreations.adamantium_pickaxe": "Adamantium Pickaxe",
+  "item.cescandorcreations.adamantium_shovel": "Adamantium Shovel",
+  "item.cescandorcreations.adamantium_hoe": "Adamantium Hoe",
+
   "item.cescandorcreations.wooden_scythe": "Wooden Scythe",
   "item.cescandorcreations.stone_scythe": "Stone Scythe",
   "item.cescandorcreations.iron_scythe": "Iron Scythe",
@@ -46,6 +52,10 @@
   "item.cescandorcreations.electrum_chestplate": "Electrum Chestplate",
   "item.cescandorcreations.electrum_leggings": "Electrum Leggings",
   "item.cescandorcreations.electrum_boots": "Electrum Boots",
+  "item.cescandorcreations.adamantium_helmet": "Adamantium Helmet",
+  "item.cescandorcreations.adamantium_chestplate": "Adamantium Chestplate",
+  "item.cescandorcreations.adamantium_leggings": "Adamantium Leggings",
+  "item.cescandorcreations.adamantium_boots": "Adamantium Boots",
 
   "block.cescandorcreations.electrum_block": "Block of Electrum",
   "block.cescandorcreations.electrum_ore": "Electrum Ore",

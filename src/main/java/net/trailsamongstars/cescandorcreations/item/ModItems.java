@@ -87,6 +87,22 @@ public class ModItems {
             () -> new HoeItem(ModToolTiers.ELECTRUM, new Item.Properties()
                     .attributes(HoeItem.createAttributes(ModToolTiers.ELECTRUM, 0F, -3.0f))));
 
+    public static final DeferredItem<SwordItem> ADAMANTIUM_SWORD = ITEMS.register("adamantium_sword",
+            () -> new SwordItem(ModToolTiers.ADAMANTIUM, new Item.Properties()
+                    .attributes(SwordItem.createAttributes(ModToolTiers.ADAMANTIUM, 3, -2.4f))));
+    public static final DeferredItem<PickaxeItem> ADAMANTIUM_PICKAXE = ITEMS.register("adamantium_pickaxe",
+            () -> new PickaxeItem(ModToolTiers.ADAMANTIUM, new Item.Properties()
+                    .attributes(PickaxeItem.createAttributes(ModToolTiers.ADAMANTIUM, 1.0F, -2.8f))));
+    public static final DeferredItem<ShovelItem> ADAMANTIUM_SHOVEL = ITEMS.register("adamantium_shovel",
+            () -> new ShovelItem(ModToolTiers.ADAMANTIUM, new Item.Properties()
+                    .attributes(ShovelItem.createAttributes(ModToolTiers.ADAMANTIUM, 1.5F, -3.0f))));
+    public static final DeferredItem<AxeItem> ADAMANTIUM_AXE = ITEMS.register("adamantium_axe",
+            () -> new AxeItem(ModToolTiers.ADAMANTIUM, new Item.Properties()
+                    .attributes(AxeItem.createAttributes(ModToolTiers.ADAMANTIUM, 6.0F, -3.2f))));
+    public static final DeferredItem<HoeItem> ADAMANTIUM_HOE = ITEMS.register("adamantium_hoe",
+            () -> new HoeItem(ModToolTiers.ADAMANTIUM, new Item.Properties()
+                    .attributes(HoeItem.createAttributes(ModToolTiers.ADAMANTIUM, 0F, -3.0f))));
+
     public static final DeferredItem<SwordItem> WOODEN_SCYTHE = ITEMS.register("wooden_scythe",
             () -> new SwordItem(Tiers.WOOD, new Item.Properties()
                     .attributes(SwordItem.createAttributes(Tiers.WOOD, 7, -3.4f))));
@@ -121,6 +137,19 @@ public class ModItems {
     public static final DeferredItem<ArmorItem> ELECTRUM_BOOTS = ITEMS.register("electrum_boots",
             () -> new ArmorItem(ModArmorMaterials.ELECTRUM_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
                     new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(16))));
+
+    public static final DeferredItem<ArmorItem> ADAMANTIUM_HELMET = ITEMS.register("adamantium_helmet",
+            () -> new ArmorItem(ModArmorMaterials.ADAMANTIUM_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
+                    new Item.Properties().fireResistant().durability(ArmorItem.Type.HELMET.getDurability(40))));
+    public static final DeferredItem<ArmorItem> ADAMANTIUM_CHESTPLATE = ITEMS.register("adamantium_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.ADAMANTIUM_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE,
+                    new Item.Properties().fireResistant().durability(ArmorItem.Type.CHESTPLATE.getDurability(40))));
+    public static final DeferredItem<ArmorItem> ADAMANTIUM_LEGGINGS = ITEMS.register("adamantium_leggings",
+            () -> new ArmorItem(ModArmorMaterials.ADAMANTIUM_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS,
+                    new Item.Properties().fireResistant().durability(ArmorItem.Type.LEGGINGS.getDurability(40))));
+    public static final DeferredItem<ArmorItem> ADAMANTIUM_BOOTS = ITEMS.register("adamantium_boots",
+            () -> new ArmorItem(ModArmorMaterials.ADAMANTIUM_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
+                    new Item.Properties().fireResistant().durability(ArmorItem.Type.BOOTS.getDurability(40))));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);

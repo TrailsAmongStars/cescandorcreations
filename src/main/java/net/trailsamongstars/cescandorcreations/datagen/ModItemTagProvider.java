@@ -43,6 +43,7 @@ public class ModItemTagProvider extends ItemTagsProvider {
 
         tag(ItemTags.SWORDS)
                 .add(ModItems.ELECTRUM_SWORD.get())
+                .add(ModItems.ADAMANTIUM_SWORD.get())
                 .add(ModItems.DIAMOND_SCYTHE.get())
                 .add(ModItems.STONE_SCYTHE.get())
                 .add(ModItems.GOLDEN_SCYTHE.get())
@@ -50,18 +51,26 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModItems.WOODEN_SCYTHE.get())
                 .add(ModItems.IRON_SCYTHE.get());
         tag(ItemTags.AXES)
-                .add(ModItems.ELECTRUM_AXE.get());
+                .add(ModItems.ELECTRUM_AXE.get())
+                .add(ModItems.ADAMANTIUM_AXE.get());
         tag(ItemTags.PICKAXES)
-                .add(ModItems.ELECTRUM_PICKAXE.get());
+                .add(ModItems.ELECTRUM_PICKAXE.get())
+                .add(ModItems.ADAMANTIUM_PICKAXE.get());
         tag(ItemTags.SHOVELS)
-                .add(ModItems.ELECTRUM_SHOVEL.get());
+                .add(ModItems.ELECTRUM_SHOVEL.get())
+                .add(ModItems.ADAMANTIUM_SHOVEL.get());
         tag(ItemTags.HOES)
-                .add(ModItems.ELECTRUM_HOE.get());
+                .add(ModItems.ELECTRUM_HOE.get())
+                .add(ModItems.ADAMANTIUM_HOE.get());
 
         this.tag(ItemTags.TRIMMABLE_ARMOR)
                 .add(ModItems.ELECTRUM_HELMET.get())
                 .add(ModItems.ELECTRUM_CHESTPLATE.get())
                 .add(ModItems.ELECTRUM_LEGGINGS.get())
-                .add(ModItems.ELECTRUM_BOOTS.get());
+                .add(ModItems.ELECTRUM_BOOTS.get())
+                .add(ModItems.ADAMANTIUM_HELMET.get())
+                .add(ModItems.ADAMANTIUM_CHESTPLATE.get())
+                .add(ModItems.ADAMANTIUM_LEGGINGS.get())
+                .add(ModItems.ADAMANTIUM_BOOTS.get());
     }
 }

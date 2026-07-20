@@ -81,6 +81,11 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.ELECTRUM_PICKAXE);
                         output.accept(ModItems.ELECTRUM_SHOVEL);
                         output.accept(ModItems.ELECTRUM_HOE);
+                        output.accept(ModItems.ADAMANTIUM_SWORD);
+                        output.accept(ModItems.ADAMANTIUM_AXE);
+                        output.accept(ModItems.ADAMANTIUM_PICKAXE);
+                        output.accept(ModItems.ADAMANTIUM_SHOVEL);
+                        output.accept(ModItems.ADAMANTIUM_HOE);
 
                         output.accept(ModItems.WOODEN_SCYTHE);
                         output.accept(ModItems.STONE_SCYTHE);
@@ -99,6 +104,10 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.ELECTRUM_CHESTPLATE);
                         output.accept(ModItems.ELECTRUM_LEGGINGS);
                         output.accept(ModItems.ELECTRUM_BOOTS);
+                        output.accept(ModItems.ADAMANTIUM_HELMET);
+                        output.accept(ModItems.ADAMANTIUM_CHESTPLATE);
+                        output.accept(ModItems.ADAMANTIUM_LEGGINGS);
+                        output.accept(ModItems.ADAMANTIUM_BOOTS);
                     }).build());
 
     public static final Supplier<CreativeModeTab> CESCANDOR_MONEY_TAB = CREATIVE_MODE_TAB.register("cescandor_money_tab",

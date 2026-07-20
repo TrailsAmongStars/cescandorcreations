@@ -10,7 +10,9 @@ import net.trailsamongstars.cescandorcreations.CescandorCreations;
 
 public class ModTags {
     public static class Blocks {
-        public static final TagKey<Block> NEEDS_ADAMANTINE_TOOL = createTag("needs_adamantine_tool");
+        public static final TagKey<Block> NEEDS_ADAMANTIUM_TOOL = createTag("needs_adamantium_tool");
+        public static final TagKey<Block> INCORRECT_FOR_ADAMANTIUM_TOOL =
+                createTag("incorrect_for_adamantium_tool");
         public static final TagKey<Block> NEEDS_ELECTRUM_TOOL = createTag("needs_electrum_tool");
         public static final TagKey<Block> INCORRECT_FOR_ELECTRUM_TOOL =
                 createTag("incorrect_for_electrum_tool");

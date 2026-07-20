@@ -77,6 +77,12 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ModItems.ELECTRUM_PICKAXE);
         handheldItem(ModItems.ELECTRUM_SHOVEL);
         handheldItem(ModItems.ELECTRUM_HOE);
+        handheldItem(ModItems.ADAMANTIUM_SWORD);
+        handheldItem(ModItems.ADAMANTIUM_AXE);
+        handheldItem(ModItems.ADAMANTIUM_PICKAXE);
+        handheldItem(ModItems.ADAMANTIUM_SHOVEL);
+        handheldItem(ModItems.ADAMANTIUM_HOE);
+
         handheldItem(ModItems.WOODEN_SCYTHE);
         handheldItem(ModItems.STONE_SCYTHE);
         handheldItem(ModItems.IRON_SCYTHE);
@@ -88,6 +94,10 @@ public class ModItemModelProvider extends ItemModelProvider {
         trimmedArmorItem(ModItems.ELECTRUM_CHESTPLATE);
         trimmedArmorItem(ModItems.ELECTRUM_LEGGINGS);
         trimmedArmorItem(ModItems.ELECTRUM_BOOTS);
+        trimmedArmorItem(ModItems.ADAMANTIUM_HELMET);
+        trimmedArmorItem(ModItems.ADAMANTIUM_CHESTPLATE);
+        trimmedArmorItem(ModItems.ADAMANTIUM_LEGGINGS);
+        trimmedArmorItem(ModItems.ADAMANTIUM_BOOTS);
 
     }
 
