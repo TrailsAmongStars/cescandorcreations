@@ -32,6 +32,13 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.POWDERED_END_STONE);
                         output.accept(ModItems.SHULKER_SLAG);
                         output.accept(ModItems.SHULKER_SHARD);
+                    }).build());
+
+    public static final Supplier<CreativeModeTab> CESCANDOR_ALLOYS_TAB = CREATIVE_MODE_TAB.register("cescandor_alloys_tab",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.ADAMANTIUM.get()))
+                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(CescandorCreations.MOD_ID, "cescandor_items_tab"))
+                    .title(Component.translatable("creativetab.cescandorcreations.cescandor_alloys"))
+                    .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.APOLLIUM_INGOT);
                         output.accept(ModItems.HADISIUM_INGOT);
                         output.accept(ModItems.HEPHASTEUM_INGOT);
@@ -48,7 +55,7 @@ public class ModCreativeModeTabs {
 
     public static final Supplier<CreativeModeTab> CESCANDOR_BLOCKS_TAB = CREATIVE_MODE_TAB.register("cescandor_blocks_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.ELECTRUM_BLOCK))
-                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(CescandorCreations.MOD_ID, "cescandor_items_tab"))
+                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(CescandorCreations.MOD_ID, "cescandor_alloys_tab"))
                     .title(Component.translatable("creativetab.cescandorcreations.cescandor_blocks"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModBlocks.ELECTRUM_BLOCK);
