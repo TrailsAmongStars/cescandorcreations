@@ -1,0 +1,9 @@
+{
+  "asset_name": "adamantium",
+  "description": {
+    "color": "#40644C",
+    "translate": "trim_material.cescandorcreations.adamantium"
+  },
+  "ingredient": "cescandorcreations:adamantium",
+  "item_model_index": 0.7
+}

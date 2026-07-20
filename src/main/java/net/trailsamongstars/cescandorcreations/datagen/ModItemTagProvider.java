@@ -72,5 +72,9 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModItems.ADAMANTIUM_CHESTPLATE.get())
                 .add(ModItems.ADAMANTIUM_LEGGINGS.get())
                 .add(ModItems.ADAMANTIUM_BOOTS.get());
+
+        this.tag(ItemTags.TRIM_MATERIALS)
+                .add(ModItems.ELECTRUM_INGOT.get())
+                .add(ModItems.ADAMANTIUM.get());
     }
 }

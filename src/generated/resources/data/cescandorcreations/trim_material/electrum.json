@@ -1,0 +1,9 @@
+{
+  "asset_name": "electrum",
+  "description": {
+    "color": "#DDA782",
+    "translate": "trim_material.cescandorcreations.electrum"
+  },
+  "ingredient": "cescandorcreations:electrum_ingot",
+  "item_model_index": 0.6
+}

@@ -80,5 +80,10 @@
   "tooltip.cescandorcreations.enchanted_semelium_block.shift_down": "Drop any dye onto this block to create Magic Paste",
   "tooltip.cescandorcreations.enchanted_semelium_block": "Press §eShift§r for more information.",
   "tooltip.cescandorcreations.wand.shift_down": "Right Click on certain blocks to transform them into Andesite or Tuff.",
-  "tooltip.cescandorcreations.wand": "Press §eShift§r for more information."
+  "tooltip.cescandorcreations.wand": "Press §eShift§r for more information.",
+  
+  "item.cescandorcreations.fate_armor_trim_smithing_template": "Fate Trim Template",
+  "trim_pattern.cescandorcreations.fate": "Fate Armor Trim",
+  "trim_material.cescandorcreations.electrum": "Electrum Material",
+  "trim_material.cescandorcreations.adamantium": "Adamantium Material"
 }

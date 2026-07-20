@@ -1,11 +1,13 @@
 package net.trailsamongstars.cescandorcreations.item;
 
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.*;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.trailsamongstars.cescandorcreations.CescandorCreations;
 import net.trailsamongstars.cescandorcreations.item.custom.FuelItem;
+import net.trailsamongstars.cescandorcreations.item.custom.ModArmorItem;
 import net.trailsamongstars.cescandorcreations.item.custom.WandItem;
 
 public class ModItems {
@@ -139,7 +141,7 @@ public class ModItems {
                     new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(16))));
 
     public static final DeferredItem<ArmorItem> ADAMANTIUM_HELMET = ITEMS.register("adamantium_helmet",
-            () -> new ArmorItem(ModArmorMaterials.ADAMANTIUM_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
+            () -> new ModArmorItem(ModArmorMaterials.ADAMANTIUM_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
                     new Item.Properties().fireResistant().durability(ArmorItem.Type.HELMET.getDurability(40))));
     public static final DeferredItem<ArmorItem> ADAMANTIUM_CHESTPLATE = ITEMS.register("adamantium_chestplate",
             () -> new ArmorItem(ModArmorMaterials.ADAMANTIUM_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE,
