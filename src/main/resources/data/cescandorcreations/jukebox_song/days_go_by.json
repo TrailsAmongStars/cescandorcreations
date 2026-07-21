@@ -1,0 +1,8 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate": "item.cescandorcreations.days_go_by_music_disc.desc"
+  },
+  "length_in_seconds": 197.0,
+  "sound_event": "cescandorcreations:days_go_by"
+}

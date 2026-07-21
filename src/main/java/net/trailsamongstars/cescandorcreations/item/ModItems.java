@@ -9,6 +9,7 @@ import net.trailsamongstars.cescandorcreations.CescandorCreations;
 import net.trailsamongstars.cescandorcreations.item.custom.FuelItem;
 import net.trailsamongstars.cescandorcreations.item.custom.ModArmorItem;
 import net.trailsamongstars.cescandorcreations.item.custom.WandItem;
+import net.trailsamongstars.cescandorcreations.sound.ModSounds;
 
 public class ModItems {
     public static final DeferredRegister.Items ITEMS=DeferredRegister.createItems(CescandorCreations.MOD_ID);
@@ -152,6 +153,15 @@ public class ModItems {
     public static final DeferredItem<ArmorItem> ADAMANTIUM_BOOTS = ITEMS.register("adamantium_boots",
             () -> new ArmorItem(ModArmorMaterials.ADAMANTIUM_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
                     new Item.Properties().fireResistant().durability(ArmorItem.Type.BOOTS.getDurability(40))));
+
+    public static final DeferredItem<Item> BANG_BANG_MUSIC_DISC = ITEMS.register("bang_bang_music_disc",
+            () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.BANG_BANG_KEY).stacksTo(1)));
+    public static final DeferredItem<Item> SNEAKMAN_MUSIC_DISC = ITEMS.register("sneakman_music_disc",
+            () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.SNEAKMAN_KEY).stacksTo(1)));
+    public static final DeferredItem<Item> DAYS_GO_BY_MUSIC_DISC = ITEMS.register("days_go_by_music_disc",
+            () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.DAYS_GO_BY_KEY).stacksTo(1)));
+    public static final DeferredItem<Item> CASIO_MUSIC_DISC = ITEMS.register("casio_music_disc",
+            () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.CASIO_KEY).stacksTo(1)));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);

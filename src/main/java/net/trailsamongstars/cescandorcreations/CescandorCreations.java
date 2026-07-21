@@ -4,6 +4,7 @@ import net.minecraft.world.item.CreativeModeTabs;
 import net.trailsamongstars.cescandorcreations.block.ModBlocks;
 import net.trailsamongstars.cescandorcreations.item.ModCreativeModeTabs;
 import net.trailsamongstars.cescandorcreations.item.ModItems;
+import net.trailsamongstars.cescandorcreations.sound.ModSounds;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -41,6 +42,8 @@ public class CescandorCreations {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+
+        ModSounds.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);

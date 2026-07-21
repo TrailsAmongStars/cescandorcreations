@@ -30,6 +30,15 @@
   "item.cescandorcreations.magic_paste": "Magic Paste",
   "item.cescandorcreations.wand": "Wand",
 
+  "item.cescandorcreations.bang_bang_music_disc": "Music Disc",
+  "item.cescandorcreations.bang_bang_music_disc.desc": "K'NAAN (feat. Adam Levine) - Bang Bang",
+  "item.cescandorcreations.sneakman_music_disc": "Music Disc",
+  "item.cescandorcreations.sneakman_music_disc.desc": "Hideki Naganuma - Sneakman (from Jet Set Radio)",
+  "item.cescandorcreations.days_go_by_music_disc": "Music Disc",
+  "item.cescandorcreations.days_go_by_music_disc.desc": "Men I Trust - Days Go By",
+  "item.cescandorcreations.casio_music_disc": "Music Disc",
+  "item.cescandorcreations.casio_music_disc.desc": "Jungle - Casio",
+
   "item.cescandorcreations.electrum_sword": "Electrum Sword",
   "item.cescandorcreations.electrum_axe": "Electrum Axe",
   "item.cescandorcreations.electrum_pickaxe": "Electrum Pickaxe",
@@ -76,6 +85,7 @@
   "creativetab.cescandorcreations.cescandor_tools": "Cescandor: Tools",
   "creativetab.cescandorcreations.cescandor_armor": "Cescandor: Armor",
   "creativetab.cescandorcreations.cescandor_money": "Cescandor: Money",
+  "creativetab.cescandorcreations.cescandor_music_discs": "Cescandor: Music Discs",
 
   "tooltip.cescandorcreations.enchanted_semelium_block.shift_down": "Drop any dye onto this block to create Magic Paste",
   "tooltip.cescandorcreations.enchanted_semelium_block": "Press §eShift§r for more information.",

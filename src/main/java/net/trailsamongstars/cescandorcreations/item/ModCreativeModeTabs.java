@@ -121,6 +121,17 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.STANZA);
                     }).build());
 
+    public static final Supplier<CreativeModeTab> CESCANDOR_MUSIC_DISCS_TAB = CREATIVE_MODE_TAB.register("cescandor_music_discs_tab",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.BANG_BANG_MUSIC_DISC.get()))
+                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(CescandorCreations.MOD_ID, "cescandor_money_tab"))
+                    .title(Component.translatable("creativetab.cescandorcreations.cescandor_music_discs"))
+                    .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(ModItems.BANG_BANG_MUSIC_DISC);
+                        output.accept(ModItems.SNEAKMAN_MUSIC_DISC);
+                        output.accept(ModItems.DAYS_GO_BY_MUSIC_DISC);
+                        output.accept(ModItems.CASIO_MUSIC_DISC);
+                    }).build());
+
     public static void register(IEventBus eventBus) {
         CREATIVE_MODE_TAB.register(eventBus);
     }

@@ -1,0 +1,34 @@
+{
+  "bang_bang": {
+    "sounds": [
+      {
+        "name": "cescandorcreations:bang_bang",
+        "stream": true
+      }
+    ]
+  },
+  "sneakman": {
+    "sounds": [
+      {
+        "name": "cescandorcreations:sneakman",
+        "stream": true
+      }
+    ]
+  },
+  "days_go_by": {
+    "sounds": [
+      {
+        "name": "cescandorcreations:days_go_by",
+        "stream": true
+      }
+    ]
+  },
+  "casio": {
+    "sounds": [
+      {
+        "name": "cescandorcreations:casio",
+        "stream": true
+      }
+    ]
+  }
+}

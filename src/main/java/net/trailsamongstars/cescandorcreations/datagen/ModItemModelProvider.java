@@ -59,6 +59,11 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.POWDERED_END_STONE.get());
         basicItem(ModItems.SHULKER_SLAG.get());
         basicItem(ModItems.SHULKER_SHARD.get());
+        basicItem(ModItems.BANG_BANG_MUSIC_DISC.get());
+        basicItem(ModItems.SNEAKMAN_MUSIC_DISC.get());
+        basicItem(ModItems.DAYS_GO_BY_MUSIC_DISC.get());
+        basicItem(ModItems.CASIO_MUSIC_DISC.get());
+
         basicItem(ModItems.APOLLIUM_INGOT.get());
         basicItem(ModItems.HADISIUM_INGOT.get());
         basicItem(ModItems.HEPHASTEUM_INGOT.get());
