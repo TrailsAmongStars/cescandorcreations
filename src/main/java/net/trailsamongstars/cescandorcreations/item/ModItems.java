@@ -162,6 +162,8 @@ public class ModItems {
             () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.DAYS_GO_BY_KEY).stacksTo(1)));
     public static final DeferredItem<Item> CASIO_MUSIC_DISC = ITEMS.register("casio_music_disc",
             () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.CASIO_KEY).stacksTo(1)));
+    public static final DeferredItem<Item> TOO_SWEET_MUSIC_DISC = ITEMS.register("too_sweet_music_disc",
+            () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.TOO_SWEET_KEY).stacksTo(1)));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);

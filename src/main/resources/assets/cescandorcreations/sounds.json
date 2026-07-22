@@ -30,5 +30,13 @@
         "stream": true
       }
     ]
+  },
+  "too_sweet": {
+    "sounds": [
+      {
+        "name": "cescandorcreations:too_sweet",
+        "stream": true
+      }
+    ]
   }
 }

@@ -25,6 +25,8 @@ public class ModSounds {
     public static final ResourceKey<JukeboxSong> DAYS_GO_BY_KEY = createSong("days_go_by");
     public static final Supplier<SoundEvent> CASIO = registerSoundEvent("casio");
     public static final ResourceKey<JukeboxSong> CASIO_KEY = createSong("casio");
+    public static final Supplier<SoundEvent> TOO_SWEET = registerSoundEvent("too_sweet");
+    public static final ResourceKey<JukeboxSong> TOO_SWEET_KEY = createSong("too_sweet");
 
     private static ResourceKey<JukeboxSong> createSong(String name) {
         return ResourceKey.create(Registries.JUKEBOX_SONG, ResourceLocation.fromNamespaceAndPath(CescandorCreations.MOD_ID, name));

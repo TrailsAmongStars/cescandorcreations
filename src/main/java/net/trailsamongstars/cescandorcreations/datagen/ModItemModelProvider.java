@@ -63,6 +63,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.SNEAKMAN_MUSIC_DISC.get());
         basicItem(ModItems.DAYS_GO_BY_MUSIC_DISC.get());
         basicItem(ModItems.CASIO_MUSIC_DISC.get());
+        basicItem(ModItems.TOO_SWEET_MUSIC_DISC.get());
 
         basicItem(ModItems.APOLLIUM_INGOT.get());
         basicItem(ModItems.HADISIUM_INGOT.get());
