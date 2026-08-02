@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:crimson_planks"
+    }
+  },
+  "pattern": [
+    "B  ",
+    "BB ",
+    "   "
+  ],
+  "result": {
+    "count": 4,
+    "id": "minecraft:crimson_stairs"
+  }
+}
