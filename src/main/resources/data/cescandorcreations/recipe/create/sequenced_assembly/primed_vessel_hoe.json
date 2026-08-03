@@ -1,0 +1,77 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "cescandorcreations:polished_vessel_hoe"
+  },
+  "results": [
+    {
+      "id": "cescandorcreations:primed_vessel_hoe"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "cescandorcreations:polished_vessel_hoe"
+        },
+        {
+          "item": "cescandorcreations:mithral_ingot"
+        }
+      ],
+      "results": [
+        {
+          "id": "cescandorcreations:polished_vessel_hoe"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "cescandorcreations:polished_vessel_hoe"
+        },
+        {
+          "item": "cescandorcreations:celestium_ingot"
+        }
+      ],
+      "results": [
+        {
+          "id": "cescandorcreations:polished_vessel_hoe"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "cescandorcreations:polished_vessel_hoe"
+        },
+        {
+          "item": "cescandorcreations:opalium_ingot"
+        }
+      ],
+      "results": [
+        {
+          "id": "cescandorcreations:polished_vessel_hoe"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "cescandorcreations:polished_vessel_hoe"
+        }
+      ],
+      "results": [
+        {
+          "id": "cescandorcreations:polished_vessel_hoe"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "cescandorcreations:polished_vessel_hoe"
+  }
+}

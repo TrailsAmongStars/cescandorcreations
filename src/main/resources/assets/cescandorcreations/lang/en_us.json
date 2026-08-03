@@ -13,6 +13,51 @@
   "item.cescandorcreations.shulker_slag": "Shulker Slag",
   "item.cescandorcreations.shulker_shard": "Shulker Shard",
 
+  "item.cescandorcreations.vessel_helmet": "Vessel Helmet",
+  "item.cescandorcreations.cut_vessel_helmet": "Vessel Helmet - Cut",
+  "item.cescandorcreations.polished_vessel_helmet": "Vessel Helmet - Polished",
+  "item.cescandorcreations.primed_vessel_helmet": "Vessel Helmet - Primed",
+
+  "item.cescandorcreations.vessel_chestplate": "Vessel Chestplate",
+  "item.cescandorcreations.cut_vessel_chestplate": "Vessel Chestplate - Cut",
+  "item.cescandorcreations.polished_vessel_chestplate": "Vessel Chestplate - Polished",
+  "item.cescandorcreations.primed_vessel_chestplate": "Vessel Chestplate - Primed",
+
+  "item.cescandorcreations.vessel_leggings": "Vessel Leggings",
+  "item.cescandorcreations.cut_vessel_leggings": "Vessel Leggings - Cut",
+  "item.cescandorcreations.polished_vessel_leggings": "Vessel Leggings - Polished",
+  "item.cescandorcreations.primed_vessel_leggings": "Vessel Leggings - Primed",
+
+  "item.cescandorcreations.vessel_boots": "Vessel Boots",
+  "item.cescandorcreations.cut_vessel_boots": "Vessel Boots - Cut",
+  "item.cescandorcreations.polished_vessel_boots": "Vessel Boots - Polished",
+  "item.cescandorcreations.primed_vessel_boots": "Vessel Boots - Primed",
+
+  "item.cescandorcreations.vessel_axe": "Vessel Axe",
+  "item.cescandorcreations.cut_vessel_axe": "Vessel Axe - Cut",
+  "item.cescandorcreations.polished_vessel_axe": "Vessel Axe - Polished",
+  "item.cescandorcreations.primed_vessel_axe": "Vessel Axe - Primed",
+
+  "item.cescandorcreations.vessel_hoe": "Vessel Hoe",
+  "item.cescandorcreations.cut_vessel_hoe": "Vessel Hoe - Cut",
+  "item.cescandorcreations.polished_vessel_hoe": "Vessel Hoe - Polished",
+  "item.cescandorcreations.primed_vessel_hoe": "Vessel Hoe - Primed",
+
+  "item.cescandorcreations.vessel_pickaxe": "Vessel Pickaxe",
+  "item.cescandorcreations.cut_vessel_pickaxe": "Vessel Pickaxe - Cut",
+  "item.cescandorcreations.polished_vessel_pickaxe": "Vessel Pickaxe - Polished",
+  "item.cescandorcreations.primed_vessel_pickaxe": "Vessel Pickaxe - Primed",
+
+  "item.cescandorcreations.vessel_shovel": "Vessel Shovel",
+  "item.cescandorcreations.cut_vessel_shovel": "Vessel Shovel - Cut",
+  "item.cescandorcreations.polished_vessel_shovel": "Vessel Shovel - Polished",
+  "item.cescandorcreations.primed_vessel_shovel": "Vessel Shovel - Primed",
+
+  "item.cescandorcreations.vessel_sword": "Vessel Sword",
+  "item.cescandorcreations.cut_vessel_sword": "Vessel Sword - Cut",
+  "item.cescandorcreations.polished_vessel_sword": "Vessel Sword - Polished",
+  "item.cescandorcreations.primed_vessel_sword": "Vessel Sword - Primed",
+
   "item.cescandorcreations.melanthium": "Melanthium",
   "item.cescandorcreations.apollium_ingot": "Apollium Alloy",
   "item.cescandorcreations.hadisium_ingot": "Hadisium Alloy",
@@ -94,8 +139,7 @@
   "tooltip.cescandorcreations.wand.shift_down": "Right Click on certain blocks to transform them into Andesite or Tuff.",
   "tooltip.cescandorcreations.wand": "Press §eShift§r for more information.",
   
-  "item.cescandorcreations.fate_armor_trim_smithing_template": "Fate Trim Template",
-  "trim_pattern.cescandorcreations.fate": "Fate Armor Trim",
+  "item.cescandorcreations.adamantium_upgrade_smithing_template": "Smithing Template - Adamantium",
   "trim_material.cescandorcreations.electrum": "Electrum Material",
   "trim_material.cescandorcreations.adamantium": "Adamantium Material"
 }

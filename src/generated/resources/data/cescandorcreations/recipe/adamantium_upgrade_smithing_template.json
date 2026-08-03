@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "cescandorcreations:adamantium_upgrade_smithing_template"
+    },
+    "B": {
+      "item": "minecraft:end_stone"
+    },
+    "C": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "pattern": [
+    "CAC",
+    "CBC",
+    "CCC"
+  ],
+  "result": {
+    "count": 2,
+    "id": "cescandorcreations:adamantium_upgrade_smithing_template"
+  }
+}

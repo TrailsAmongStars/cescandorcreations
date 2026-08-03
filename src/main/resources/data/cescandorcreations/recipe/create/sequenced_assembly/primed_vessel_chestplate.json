@@ -1,0 +1,77 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "cescandorcreations:polished_vessel_chestplate"
+  },
+  "results": [
+    {
+      "id": "cescandorcreations:primed_vessel_chestplate"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "cescandorcreations:polished_vessel_chestplate"
+        },
+        {
+          "item": "cescandorcreations:mithral_ingot"
+        }
+      ],
+      "results": [
+        {
+          "id": "cescandorcreations:polished_vessel_chestplate"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "cescandorcreations:polished_vessel_chestplate"
+        },
+        {
+          "item": "cescandorcreations:celestium_ingot"
+        }
+      ],
+      "results": [
+        {
+          "id": "cescandorcreations:polished_vessel_chestplate"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "cescandorcreations:polished_vessel_chestplate"
+        },
+        {
+          "item": "cescandorcreations:opalium_ingot"
+        }
+      ],
+      "results": [
+        {
+          "id": "cescandorcreations:polished_vessel_chestplate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "cescandorcreations:polished_vessel_chestplate"
+        }
+      ],
+      "results": [
+        {
+          "id": "cescandorcreations:polished_vessel_chestplate"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "cescandorcreations:polished_vessel_chestplate"
+  }
+}

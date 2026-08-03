@@ -1,0 +1,77 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "cescandorcreations:polished_vessel_helmet"
+  },
+  "results": [
+    {
+      "id": "cescandorcreations:primed_vessel_helmet"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "cescandorcreations:polished_vessel_helmet"
+        },
+        {
+          "item": "cescandorcreations:mithral_ingot"
+        }
+      ],
+      "results": [
+        {
+          "id": "cescandorcreations:polished_vessel_helmet"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "cescandorcreations:polished_vessel_helmet"
+        },
+        {
+          "item": "cescandorcreations:celestium_ingot"
+        }
+      ],
+      "results": [
+        {
+          "id": "cescandorcreations:polished_vessel_helmet"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "cescandorcreations:polished_vessel_helmet"
+        },
+        {
+          "item": "cescandorcreations:opalium_ingot"
+        }
+      ],
+      "results": [
+        {
+          "id": "cescandorcreations:polished_vessel_helmet"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "cescandorcreations:polished_vessel_helmet"
+        }
+      ],
+      "results": [
+        {
+          "id": "cescandorcreations:polished_vessel_helmet"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "cescandorcreations:polished_vessel_helmet"
+  }
+}

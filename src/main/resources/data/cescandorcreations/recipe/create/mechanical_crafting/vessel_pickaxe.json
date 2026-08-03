@@ -4,7 +4,7 @@
   "category": "misc",
   "key": {
     "N": {
-      "item": "minecraft:netherite_helmet"
+      "item": "minecraft:netherite_pickaxe"
     },
     "S": {
       "item": "minecraft:nether_star"
@@ -20,17 +20,17 @@
     }
   },
   "pattern": [
-    "  EEE  ",
-    " EZQZE ",
-    "EZZQZZE",
-    "EZQNQZE",
-    "ESZZZSE",
-    "EE   EE",
+    " EQNQE ",
+    " EQ QE ",
+    " EQ QE ",
+    " EZ ZE ",
+    " EZ ZE ",
+    "ESZ ZSE",
     "EE   EE"
   ],
   "result": {
     "count": 1,
-    "id": "cescandorcreations:vessel_helmet"
+    "id": "cescandorcreations:vessel_pickaxe"
   },
   "show_notification": false
 }

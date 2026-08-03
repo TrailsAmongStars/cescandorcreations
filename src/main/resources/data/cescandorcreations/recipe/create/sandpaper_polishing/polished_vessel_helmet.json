@@ -1,0 +1,13 @@
+{
+  "type": "create:sandpaper_polishing",
+  "ingredients": [
+    {
+      "item": "cescandorcreations:cut_vessel_helmet"
+    }
+  ],
+  "results": [
+    {
+      "id": "cescandorcreations:polished_vessel_helmet"
+    }
+  ]
+}

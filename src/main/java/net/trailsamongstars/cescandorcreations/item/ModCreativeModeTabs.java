@@ -32,6 +32,45 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.POWDERED_END_STONE);
                         output.accept(ModItems.SHULKER_SLAG);
                         output.accept(ModItems.SHULKER_SHARD);
+
+                        output.accept(ModItems.VESSEL_HELMET);
+                        output.accept(ModItems.CUT_VESSEL_HELMET);
+                        output.accept(ModItems.POLISHED_VESSEL_HELMET);
+                        output.accept(ModItems.PRIMED_VESSEL_HELMET);
+                        output.accept(ModItems.VESSEL_CHESTPLATE);
+                        output.accept(ModItems.CUT_VESSEL_CHESTPLATE);
+                        output.accept(ModItems.POLISHED_VESSEL_CHESTPLATE);
+                        output.accept(ModItems.PRIMED_VESSEL_CHESTPLATE);
+                        output.accept(ModItems.VESSEL_LEGGINGS);
+                        output.accept(ModItems.CUT_VESSEL_LEGGINGS);
+                        output.accept(ModItems.POLISHED_VESSEL_LEGGINGS);
+                        output.accept(ModItems.PRIMED_VESSEL_LEGGINGS);
+                        output.accept(ModItems.VESSEL_BOOTS);
+                        output.accept(ModItems.CUT_VESSEL_BOOTS);
+                        output.accept(ModItems.POLISHED_VESSEL_BOOTS);
+                        output.accept(ModItems.PRIMED_VESSEL_BOOTS);
+
+                        output.accept(ModItems.VESSEL_AXE);
+                        output.accept(ModItems.CUT_VESSEL_AXE);
+                        output.accept(ModItems.POLISHED_VESSEL_AXE);
+                        output.accept(ModItems.PRIMED_VESSEL_AXE);
+                        output.accept(ModItems.VESSEL_HOE);
+                        output.accept(ModItems.CUT_VESSEL_HOE);
+                        output.accept(ModItems.POLISHED_VESSEL_HOE);
+                        output.accept(ModItems.PRIMED_VESSEL_HOE);
+                        output.accept(ModItems.VESSEL_PICKAXE);
+                        output.accept(ModItems.CUT_VESSEL_PICKAXE);
+                        output.accept(ModItems.POLISHED_VESSEL_PICKAXE);
+                        output.accept(ModItems.PRIMED_VESSEL_PICKAXE);
+                        output.accept(ModItems.VESSEL_SHOVEL);
+                        output.accept(ModItems.CUT_VESSEL_SHOVEL);
+                        output.accept(ModItems.POLISHED_VESSEL_SHOVEL);
+                        output.accept(ModItems.PRIMED_VESSEL_SHOVEL);
+                        output.accept(ModItems.VESSEL_SWORD);
+                        output.accept(ModItems.CUT_VESSEL_SWORD);
+                        output.accept(ModItems.POLISHED_VESSEL_SWORD);
+                        output.accept(ModItems.PRIMED_VESSEL_SWORD);
+                        output.accept(ModItems.ADAMANTIUM_UPGRADE_SMITHING_TEMPLATE);
                     }).build());
 
     public static final Supplier<CreativeModeTab> CESCANDOR_ALLOYS_TAB = CREATIVE_MODE_TAB.register("cescandor_alloys_tab",

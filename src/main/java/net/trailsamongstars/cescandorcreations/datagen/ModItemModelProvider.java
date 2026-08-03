@@ -78,6 +78,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.MITHRAL_INGOT.get());
         basicItem(ModItems.OPALIUM_INGOT.get());
         basicItem(ModItems.ADAMANTIUM.get());
+        basicItem(ModItems.ADAMANTIUM_UPGRADE_SMITHING_TEMPLATE.get());
 
         basicItem(ModItems.VESSEL_HELMET.get());
         basicItem(ModItems.CUT_VESSEL_HELMET.get());
@@ -98,6 +99,31 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.CUT_VESSEL_BOOTS.get());
         basicItem(ModItems.POLISHED_VESSEL_BOOTS.get());
         basicItem(ModItems.PRIMED_VESSEL_BOOTS.get());
+
+        basicItem(ModItems.VESSEL_AXE.get());
+        basicItem(ModItems.CUT_VESSEL_AXE.get());
+        basicItem(ModItems.POLISHED_VESSEL_AXE.get());
+        basicItem(ModItems.PRIMED_VESSEL_AXE.get());
+
+        basicItem(ModItems.VESSEL_HOE.get());
+        basicItem(ModItems.CUT_VESSEL_HOE.get());
+        basicItem(ModItems.POLISHED_VESSEL_HOE.get());
+        basicItem(ModItems.PRIMED_VESSEL_HOE.get());
+
+        basicItem(ModItems.VESSEL_PICKAXE.get());
+        basicItem(ModItems.CUT_VESSEL_PICKAXE.get());
+        basicItem(ModItems.POLISHED_VESSEL_PICKAXE.get());
+        basicItem(ModItems.PRIMED_VESSEL_PICKAXE.get());
+
+        basicItem(ModItems.VESSEL_SHOVEL.get());
+        basicItem(ModItems.CUT_VESSEL_SHOVEL.get());
+        basicItem(ModItems.POLISHED_VESSEL_SHOVEL.get());
+        basicItem(ModItems.PRIMED_VESSEL_SHOVEL.get());
+
+        basicItem(ModItems.VESSEL_SWORD.get());
+        basicItem(ModItems.CUT_VESSEL_SWORD.get());
+        basicItem(ModItems.POLISHED_VESSEL_SWORD.get());
+        basicItem(ModItems.PRIMED_VESSEL_SWORD.get());
 
         handheldItem(ModItems.ELECTRUM_SWORD);
         handheldItem(ModItems.ELECTRUM_AXE);

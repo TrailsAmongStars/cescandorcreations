@@ -77,7 +77,50 @@ public class ModItems {
     public static final DeferredItem<Item> PRIMED_VESSEL_BOOTS = ITEMS.register("primed_vessel_boots",
             () -> new Item(new Item.Properties()));
 
+    public static final DeferredItem<Item> VESSEL_AXE = ITEMS.register("vessel_axe",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> CUT_VESSEL_AXE = ITEMS.register("cut_vessel_axe",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> POLISHED_VESSEL_AXE = ITEMS.register("polished_vessel_axe",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> PRIMED_VESSEL_AXE = ITEMS.register("primed_vessel_axe",
+            () -> new Item(new Item.Properties()));
 
+    public static final DeferredItem<Item> VESSEL_HOE = ITEMS.register("vessel_hoe",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> CUT_VESSEL_HOE = ITEMS.register("cut_vessel_hoe",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> POLISHED_VESSEL_HOE = ITEMS.register("polished_vessel_hoe",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> PRIMED_VESSEL_HOE = ITEMS.register("primed_vessel_hoe",
+            () -> new Item(new Item.Properties()));
+
+    public static final DeferredItem<Item> VESSEL_PICKAXE = ITEMS.register("vessel_pickaxe",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> CUT_VESSEL_PICKAXE = ITEMS.register("cut_vessel_pickaxe",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> POLISHED_VESSEL_PICKAXE = ITEMS.register("polished_vessel_pickaxe",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> PRIMED_VESSEL_PICKAXE = ITEMS.register("primed_vessel_pickaxe",
+            () -> new Item(new Item.Properties()));
+
+    public static final DeferredItem<Item> VESSEL_SHOVEL = ITEMS.register("vessel_shovel",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> CUT_VESSEL_SHOVEL = ITEMS.register("cut_vessel_shovel",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> POLISHED_VESSEL_SHOVEL = ITEMS.register("polished_vessel_shovel",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> PRIMED_VESSEL_SHOVEL = ITEMS.register("primed_vessel_shovel",
+            () -> new Item(new Item.Properties()));
+
+    public static final DeferredItem<Item> VESSEL_SWORD = ITEMS.register("vessel_sword",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> CUT_VESSEL_SWORD = ITEMS.register("cut_vessel_sword",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> POLISHED_VESSEL_SWORD = ITEMS.register("polished_vessel_sword",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> PRIMED_VESSEL_SWORD = ITEMS.register("primed_vessel_sword",
+            () -> new Item(new Item.Properties()));
 
     public static final DeferredItem<Item> MELANTHIUM = ITEMS.register("melanthium",
             () -> new FuelItem(new Item.Properties(), 5000));
@@ -109,6 +152,8 @@ public class ModItems {
     public static final DeferredItem<Item> WAND = ITEMS.register("wand",
             () -> new WandItem(new Item.Properties().durability(128)));
     public static final DeferredItem<Item> MAGIC_PASTE = ITEMS.register("magic_paste",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> ADAMANTIUM_UPGRADE_SMITHING_TEMPLATE = ITEMS.register("adamantium_upgrade_smithing_template",
             () -> new Item(new Item.Properties()));
 
     public static final DeferredItem<SwordItem> ELECTRUM_SWORD = ITEMS.register("electrum_sword",

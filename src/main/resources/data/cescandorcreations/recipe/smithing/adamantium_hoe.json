@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "cescandorcreations:adamantium_upgrade_smithing_template"
+  },
+  "base": {
+    "item": "cescandorcreations:primed_vessel_hoe"
+  },
+  "addition": {
+    "item": "cescandorcreations:adamantium"
+  },
+  "result": {
+    "id": "cescandorcreations:adamantium_hoe",
+    "count": 1
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "cescandorcreations:polished_vessel_leggings"
+  },
+  "results": [
+    {
+      "id": "cescandorcreations:primed_vessel_leggings"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "cescandorcreations:polished_vessel_leggings"
+        },
+        {
+          "item": "cescandorcreations:mithral_ingot"
+        }
+      ],
+      "results": [
+        {
+          "id": "cescandorcreations:polished_vessel_leggings"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "cescandorcreations:polished_vessel_leggings"
+        },
+        {
+          "item": "cescandorcreations:celestium_ingot"
+        }
+      ],
+      "results": [
+        {
+          "id": "cescandorcreations:polished_vessel_leggings"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "cescandorcreations:polished_vessel_leggings"
+        },
+        {
+          "item": "cescandorcreations:opalium_ingot"
+        }
+      ],
+      "results": [
+        {
+          "id": "cescandorcreations:polished_vessel_leggings"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "cescandorcreations:polished_vessel_leggings"
+        }
+      ],
+      "results": [
+        {
+          "id": "cescandorcreations:polished_vessel_leggings"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "cescandorcreations:polished_vessel_leggings"
+  }
+}

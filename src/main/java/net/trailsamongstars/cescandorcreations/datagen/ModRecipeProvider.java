@@ -239,6 +239,15 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('E', ModItems.ELECTRUM_INGOT.get())
                 .unlockedBy("has_electrum", has(ModItems.ELECTRUM_INGOT)).save(recipeOutput);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ADAMANTIUM_UPGRADE_SMITHING_TEMPLATE.get(), 2)
+                .pattern("CAC")
+                .pattern("CBC")
+                .pattern("CCC")
+                .define('A', ModItems.ADAMANTIUM_UPGRADE_SMITHING_TEMPLATE.get())
+                .define('B', Items.END_STONE)
+                .define('C', Items.DIAMOND)
+                .unlockedBy("has_electrum", has(ModItems.ELECTRUM_INGOT)).save(recipeOutput);
+
     }
 
     protected static void oreSmelting(RecipeOutput recipeOutput, List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult,

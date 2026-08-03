@@ -1,0 +1,77 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "cescandorcreations:polished_vessel_boots"
+  },
+  "results": [
+    {
+      "id": "cescandorcreations:primed_vessel_boots"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "cescandorcreations:polished_vessel_boots"
+        },
+        {
+          "item": "cescandorcreations:mithral_ingot"
+        }
+      ],
+      "results": [
+        {
+          "id": "cescandorcreations:polished_vessel_boots"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "cescandorcreations:polished_vessel_boots"
+        },
+        {
+          "item": "cescandorcreations:celestium_ingot"
+        }
+      ],
+      "results": [
+        {
+          "id": "cescandorcreations:polished_vessel_boots"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "cescandorcreations:polished_vessel_boots"
+        },
+        {
+          "item": "cescandorcreations:opalium_ingot"
+        }
+      ],
+      "results": [
+        {
+          "id": "cescandorcreations:polished_vessel_boots"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "cescandorcreations:polished_vessel_boots"
+        }
+      ],
+      "results": [
+        {
+          "id": "cescandorcreations:polished_vessel_boots"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "cescandorcreations:polished_vessel_boots"
+  }
+}
