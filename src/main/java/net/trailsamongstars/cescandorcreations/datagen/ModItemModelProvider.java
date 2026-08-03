@@ -146,7 +146,9 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ModItems.IRON_SCYTHE);
         handheldItem(ModItems.GOLDEN_SCYTHE);
         handheldItem(ModItems.DIAMOND_SCYTHE);
+        handheldItem(ModItems.ELECTRUM_SCYTHE);
         handheldItem(ModItems.NETHERITE_SCYTHE);
+        handheldItem(ModItems.ADAMANTIUM_SCYTHE);
         
         trimmedArmorItem(ModItems.ELECTRUM_HELMET);
         trimmedArmorItem(ModItems.ELECTRUM_CHESTPLATE);

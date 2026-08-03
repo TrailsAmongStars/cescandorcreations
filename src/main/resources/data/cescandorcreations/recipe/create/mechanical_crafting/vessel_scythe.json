@@ -4,7 +4,7 @@
   "category": "misc",
   "key": {
     "N": {
-      "item": "minecraft:netherite_scythe"
+      "item": "cescandorcreations:netherite_scythe"
     },
     "S": {
       "item": "minecraft:nether_star"
@@ -20,13 +20,13 @@
     }
   },
   "pattern": [
-    " EQNQE ",
-    " EQ QE ",
-    " EQ QE ",
-    " EZ ZE ",
-    " EZ ZE ",
-    "ESZ ZSE",
-    "EE   EE"
+    "   QQQ ",
+    " QZSZSE",
+    "QZZNZZE",
+    "Q   EE ",
+    "    EE ",
+    "    EE ",
+    "    EE "
   ],
   "result": {
     "count": 1,

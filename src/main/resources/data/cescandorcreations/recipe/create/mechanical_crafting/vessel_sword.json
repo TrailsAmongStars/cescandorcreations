@@ -20,13 +20,13 @@
     }
   },
   "pattern": [
-    " EQNQE ",
-    " EQ QE ",
-    " EQ QE ",
-    " EZ ZE ",
-    " EZ ZE ",
-    "ESZ ZSE",
-    "EE   EE"
+    "   E   ",
+    "  ESE  ",
+    "  ESE  ",
+    "  EQE  ",
+    "EZQNQZE",
+    "  ZQZ  ",
+    "   Z   "
   ],
   "result": {
     "count": 1,

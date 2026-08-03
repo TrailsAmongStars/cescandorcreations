@@ -1,16 +1,16 @@
 {
   "type": "minecraft:smithing_transform",
-  "template": {
-    "item": "minecraft:netherite_upgrade_smithing_template"
+  "addition": {
+    "item": "minecraft:netherite_ingot"
   },
   "base": {
     "item": "cescandorcreations:diamond_scythe"
   },
-  "addition": {
-    "item": "minecraft:netherite"
-  },
   "result": {
-    "id": "cescandorcreations:netherite_scythe",
-    "count": 1
+    "count": 1,
+    "id": "cescandorcreations:netherite_scythe"
+  },
+  "template": {
+    "item": "minecraft:netherite_upgrade_smithing_template"
   }
 }

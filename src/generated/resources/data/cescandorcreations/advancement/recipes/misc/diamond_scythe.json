@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_electrum": {
+    "has_diamond": {
       "conditions": {
         "items": [
           {
-            "items": "cescandorcreations:electrum_ingot"
+            "items": "minecraft:diamond"
           }
         ]
       },
@@ -21,7 +21,7 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_electrum"
+      "has_diamond"
     ]
   ],
   "rewards": {

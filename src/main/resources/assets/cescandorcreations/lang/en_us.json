@@ -58,6 +58,11 @@
   "item.cescandorcreations.polished_vessel_sword": "Vessel Sword - Polished",
   "item.cescandorcreations.primed_vessel_sword": "Vessel Sword - Primed",
 
+  "item.cescandorcreations.vessel_scythe": "Vessel Scythe",
+  "item.cescandorcreations.cut_vessel_scythe": "Vessel Scythe - Cut",
+  "item.cescandorcreations.polished_vessel_scythe": "Vessel Scythe - Polished",
+  "item.cescandorcreations.primed_vessel_scythe": "Vessel Scythe - Primed",
+
   "item.cescandorcreations.melanthium": "Melanthium",
   "item.cescandorcreations.apollium_ingot": "Apollium Alloy",
   "item.cescandorcreations.hadisium_ingot": "Hadisium Alloy",
@@ -103,6 +108,8 @@
   "item.cescandorcreations.golden_scythe": "Golden Scythe",
   "item.cescandorcreations.diamond_scythe": "Diamond Scythe",
   "item.cescandorcreations.netherite_scythe": "Netherite Scythe",
+  "item.cescandorcreations.electrum_scythe": "Electrum Scythe",
+  "item.cescandorcreations.adamantium_scythe": "Adamantium Scythe",
 
   "item.cescandorcreations.electrum_helmet": "Electrum Helmet",
   "item.cescandorcreations.electrum_chestplate": "Electrum Chestplate",

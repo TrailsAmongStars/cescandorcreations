@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "cescandorcreations:electrum_ingot"
+            "items": "#minecraft:planks"
           }
         ]
       },

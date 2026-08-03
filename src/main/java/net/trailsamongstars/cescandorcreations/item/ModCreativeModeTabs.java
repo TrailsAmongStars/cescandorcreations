@@ -135,7 +135,9 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.IRON_SCYTHE);
                         output.accept(ModItems.GOLDEN_SCYTHE);
                         output.accept(ModItems.DIAMOND_SCYTHE);
+                        output.accept(ModItems.ELECTRUM_SCYTHE);
                         output.accept(ModItems.NETHERITE_SCYTHE);
+                        output.accept(ModItems.ADAMANTIUM_SCYTHE);
                     }).build());
 
     public static final Supplier<CreativeModeTab> CESCANDOR_ARMOR_TAB = CREATIVE_MODE_TAB.register("cescandor_armor_tab",

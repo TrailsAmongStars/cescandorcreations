@@ -218,6 +218,9 @@ public class ModItems {
     public static final DeferredItem<SwordItem> NETHERITE_SCYTHE = ITEMS.register("netherite_scythe",
             () -> new SwordItem(Tiers.NETHERITE, new Item.Properties()
                     .attributes(SwordItem.createAttributes(Tiers.NETHERITE, 7, -3.4f))));
+    public static final DeferredItem<SwordItem> ADAMANTIUM_SCYTHE = ITEMS.register("adamantium_scythe",
+            () -> new SwordItem(ModToolTiers.ADAMANTIUM, new Item.Properties()
+                    .attributes(SwordItem.createAttributes(ModToolTiers.ADAMANTIUM, 7, -3.4f))));
 
     public static final DeferredItem<ArmorItem> ELECTRUM_HELMET = ITEMS.register("electrum_helmet",
             () -> new ArmorItem(ModArmorMaterials.ELECTRUM_ARMOR_MATERIAL, ArmorItem.Type.HELMET,

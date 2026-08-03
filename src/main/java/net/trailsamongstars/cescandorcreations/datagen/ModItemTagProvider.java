@@ -49,7 +49,9 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModItems.GOLDEN_SCYTHE.get())
                 .add(ModItems.NETHERITE_SCYTHE.get())
                 .add(ModItems.WOODEN_SCYTHE.get())
-                .add(ModItems.IRON_SCYTHE.get());
+                .add(ModItems.IRON_SCYTHE.get())
+                .add(ModItems.ELECTRUM_SCYTHE.get())
+                .add(ModItems.ADAMANTIUM_SCYTHE.get());
         tag(ItemTags.AXES)
                 .add(ModItems.ELECTRUM_AXE.get())
                 .add(ModItems.ADAMANTIUM_AXE.get());
