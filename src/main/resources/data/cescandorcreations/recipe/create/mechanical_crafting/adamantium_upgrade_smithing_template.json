@@ -1,0 +1,31 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "category": "misc",
+  "key": {
+    "N": {
+      "item": "minecraft:netherite_upgrade_smithing_template"
+    },
+    "S": {
+      "item": "minecraft:end_stone"
+    },
+    "E": {
+      "item": "cescandorcreations:electrum_ingot"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "pattern": [
+    "DSESD",
+    "SEDES",
+    "EDNDE",
+    "SEDES",
+    "DSESD"
+  ],
+  "result": {
+    "count": 1,
+    "id": "cescandorcreations:adamantium_upgrade_smithing_template"
+  },
+  "show_notification": false
+}
