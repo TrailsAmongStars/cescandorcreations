@@ -122,6 +122,15 @@ public class ModItems {
     public static final DeferredItem<Item> PRIMED_VESSEL_SWORD = ITEMS.register("primed_vessel_sword",
             () -> new Item(new Item.Properties()));
 
+    public static final DeferredItem<Item> VESSEL_SCYTHE = ITEMS.register("vessel_scythe",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> CUT_VESSEL_SCYTHE = ITEMS.register("cut_vessel_scythe",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> POLISHED_VESSEL_SCYTHE = ITEMS.register("polished_vessel_scythe",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> PRIMED_VESSEL_SCYTHE = ITEMS.register("primed_vessel_scythe",
+            () -> new Item(new Item.Properties()));
+
     public static final DeferredItem<Item> MELANTHIUM = ITEMS.register("melanthium",
             () -> new FuelItem(new Item.Properties(), 5000));
     public static final DeferredItem<Item> APOLLIUM_INGOT = ITEMS.register("apollium_ingot",

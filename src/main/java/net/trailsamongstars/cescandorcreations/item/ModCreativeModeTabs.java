@@ -70,6 +70,10 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.CUT_VESSEL_SWORD);
                         output.accept(ModItems.POLISHED_VESSEL_SWORD);
                         output.accept(ModItems.PRIMED_VESSEL_SWORD);
+                        output.accept(ModItems.VESSEL_SCYTHE);
+                        output.accept(ModItems.CUT_VESSEL_SCYTHE);
+                        output.accept(ModItems.POLISHED_VESSEL_SCYTHE);
+                        output.accept(ModItems.PRIMED_VESSEL_SCYTHE);
                         output.accept(ModItems.ADAMANTIUM_UPGRADE_SMITHING_TEMPLATE);
                     }).build());
 

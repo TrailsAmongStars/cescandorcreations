@@ -1,0 +1,13 @@
+{
+  "type": "create:sandpaper_polishing",
+  "ingredients": [
+    {
+      "item": "cescandorcreations:cut_vessel_scythe"
+    }
+  ],
+  "results": [
+    {
+      "id": "cescandorcreations:polished_vessel_scythe"
+    }
+  ]
+}

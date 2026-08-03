@@ -125,6 +125,11 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.POLISHED_VESSEL_SWORD.get());
         basicItem(ModItems.PRIMED_VESSEL_SWORD.get());
 
+        basicItem(ModItems.VESSEL_SCYTHE.get());
+        basicItem(ModItems.CUT_VESSEL_SCYTHE.get());
+        basicItem(ModItems.POLISHED_VESSEL_SCYTHE.get());
+        basicItem(ModItems.PRIMED_VESSEL_SCYTHE.get());
+
         handheldItem(ModItems.ELECTRUM_SWORD);
         handheldItem(ModItems.ELECTRUM_AXE);
         handheldItem(ModItems.ELECTRUM_PICKAXE);

@@ -177,7 +177,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("S  ")
                 .define('P', ItemTags.PLANKS)
                 .define('S', Items.STICK)
-                .unlockedBy("has_electrum", has(ModItems.ELECTRUM_INGOT)).save(recipeOutput);
+                .unlockedBy("has_electrum", has(ItemTags.PLANKS)).save(recipeOutput);
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.STONE_SCYTHE.get())
                 .pattern("MMM")
@@ -185,7 +185,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("S  ")
                 .define('M', ItemTags.STONE_CRAFTING_MATERIALS)
                 .define('S', Items.STICK)
-                .unlockedBy("has_electrum", has(ModItems.ELECTRUM_INGOT)).save(recipeOutput);
+                .unlockedBy("has_stone", has(ItemTags.STONE_CRAFTING_MATERIALS)).save(recipeOutput);
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.IRON_SCYTHE.get())
                 .pattern("III")
@@ -193,7 +193,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("S  ")
                 .define('I', Items.IRON_INGOT)
                 .define('S', Items.STICK)
-                .unlockedBy("has_electrum", has(ModItems.ELECTRUM_INGOT)).save(recipeOutput);
+                .unlockedBy("has_iron", has(Items.IRON_INGOT)).save(recipeOutput);
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.GOLDEN_SCYTHE.get())
                 .pattern("GGG")
@@ -201,13 +201,21 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("S  ")
                 .define('G', Items.GOLD_INGOT)
                 .define('S', Items.STICK)
-                .unlockedBy("has_electrum", has(ModItems.ELECTRUM_INGOT)).save(recipeOutput);
+                .unlockedBy("has_gold", has(Items.GOLD_INGOT)).save(recipeOutput);
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.DIAMOND_SCYTHE.get())
                 .pattern("DDD")
                 .pattern(" S ")
                 .pattern("S  ")
                 .define('D', Items.DIAMOND)
+                .define('S', Items.STICK)
+                .unlockedBy("has_diamond", has(Items.DIAMOND)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ELECTRUM_SCYTHE.get())
+                .pattern("EEE")
+                .pattern(" S ")
+                .pattern("S  ")
+                .define('E', ModItems.ELECTRUM_INGOT.get())
                 .define('S', Items.STICK)
                 .unlockedBy("has_electrum", has(ModItems.ELECTRUM_INGOT)).save(recipeOutput);
 

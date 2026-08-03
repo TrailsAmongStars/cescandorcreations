@@ -1,0 +1,14 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "cescandorcreations:vessel_scythe"
+    }
+  ],
+  "processing_time": 200,
+  "results": [
+    {
+      "id": "cescandorcreations:cut_vessel_scythe"
+    }
+  ]
+}

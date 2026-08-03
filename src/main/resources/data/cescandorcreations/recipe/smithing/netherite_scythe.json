@@ -7,7 +7,7 @@
     "item": "cescandorcreations:diamond_scythe"
   },
   "addition": {
-    "item": "minecraft:netherite_ingot"
+    "item": "minecraft:netherite"
   },
   "result": {
     "id": "cescandorcreations:netherite_scythe",
