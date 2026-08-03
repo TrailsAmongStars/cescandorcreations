@@ -4,16 +4,26 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.data.worldgen.BootstrapContext;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.levelgen.feature.ConfiguredFeature;
 import net.minecraft.world.level.levelgen.feature.Feature;
 import net.minecraft.world.level.levelgen.feature.configurations.FeatureConfiguration;
+import net.minecraft.world.level.levelgen.feature.configurations.OreConfiguration;
+import net.minecraft.world.level.levelgen.structure.templatesystem.BlockMatchTest;
+import net.minecraft.world.level.levelgen.structure.templatesystem.RuleTest;
 import net.trailsamongstars.cescandorcreations.CescandorCreations;
+import net.trailsamongstars.cescandorcreations.block.ModBlocks;
 
 public class ModConfiguredFeatures {
+    public static final ResourceKey<ConfiguredFeature<?, ?>> ELECTRUM_ORE_KEY = registerKey("electrum_ore");
 
     public static void bootstrap(BootstrapContext<ConfiguredFeature<?, ?>> context) {
 
+        RuleTest endReplaceables = new BlockMatchTest(Blocks.END_STONE);
 
+        register(context, ELECTRUM_ORE_KEY, Feature.ORE, new OreConfiguration(endReplaceables,
+                ModBlocks.ELECTRUM_ORE.get().defaultBlockState(), 9));
     }
 
 

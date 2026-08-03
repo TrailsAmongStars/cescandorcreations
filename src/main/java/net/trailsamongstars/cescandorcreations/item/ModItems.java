@@ -41,6 +41,43 @@ public class ModItems {
     public static final DeferredItem<Item> SHULKER_SHARD = ITEMS.register("shulker_shard",
             () -> new Item(new Item.Properties()));
 
+    public static final DeferredItem<Item> VESSEL_HELMET = ITEMS.register("vessel_helmet",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> CUT_VESSEL_HELMET = ITEMS.register("cut_vessel_helmet",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> POLISHED_VESSEL_HELMET = ITEMS.register("polished_vessel_helmet",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> PRIMED_VESSEL_HELMET = ITEMS.register("primed_vessel_helmet",
+            () -> new Item(new Item.Properties()));
+
+    public static final DeferredItem<Item> VESSEL_CHESTPLATE = ITEMS.register("vessel_chestplate",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> CUT_VESSEL_CHESTPLATE = ITEMS.register("cut_vessel_chestplate",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> POLISHED_VESSEL_CHESTPLATE = ITEMS.register("polished_vessel_chestplate",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> PRIMED_VESSEL_CHESTPLATE = ITEMS.register("primed_vessel_chestplate",
+            () -> new Item(new Item.Properties()));
+
+    public static final DeferredItem<Item> VESSEL_LEGGINGS = ITEMS.register("vessel_leggings",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> CUT_VESSEL_LEGGINGS = ITEMS.register("cut_vessel_leggings",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> POLISHED_VESSEL_LEGGINGS = ITEMS.register("polished_vessel_leggings",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> PRIMED_VESSEL_LEGGINGS = ITEMS.register("primed_vessel_leggings",
+            () -> new Item(new Item.Properties()));
+
+    public static final DeferredItem<Item> VESSEL_BOOTS = ITEMS.register("vessel_boots",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> CUT_VESSEL_BOOTS = ITEMS.register("cut_vessel_boots",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> POLISHED_VESSEL_BOOTS = ITEMS.register("polished_vessel_boots",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> PRIMED_VESSEL_BOOTS = ITEMS.register("primed_vessel_boots",
+            () -> new Item(new Item.Properties()));
+
+
 
     public static final DeferredItem<Item> MELANTHIUM = ITEMS.register("melanthium",
             () -> new FuelItem(new Item.Properties(), 5000));

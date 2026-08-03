@@ -59,6 +59,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.POWDERED_END_STONE.get());
         basicItem(ModItems.SHULKER_SLAG.get());
         basicItem(ModItems.SHULKER_SHARD.get());
+
         basicItem(ModItems.BANG_BANG_MUSIC_DISC.get());
         basicItem(ModItems.SNEAKMAN_MUSIC_DISC.get());
         basicItem(ModItems.DAYS_GO_BY_MUSIC_DISC.get());
@@ -77,6 +78,26 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.MITHRAL_INGOT.get());
         basicItem(ModItems.OPALIUM_INGOT.get());
         basicItem(ModItems.ADAMANTIUM.get());
+
+        basicItem(ModItems.VESSEL_HELMET.get());
+        basicItem(ModItems.CUT_VESSEL_HELMET.get());
+        basicItem(ModItems.POLISHED_VESSEL_HELMET.get());
+        basicItem(ModItems.PRIMED_VESSEL_HELMET.get());
+
+        basicItem(ModItems.VESSEL_CHESTPLATE.get());
+        basicItem(ModItems.CUT_VESSEL_CHESTPLATE.get());
+        basicItem(ModItems.POLISHED_VESSEL_CHESTPLATE.get());
+        basicItem(ModItems.PRIMED_VESSEL_CHESTPLATE.get());
+
+        basicItem(ModItems.VESSEL_LEGGINGS.get());
+        basicItem(ModItems.CUT_VESSEL_LEGGINGS.get());
+        basicItem(ModItems.POLISHED_VESSEL_LEGGINGS.get());
+        basicItem(ModItems.PRIMED_VESSEL_LEGGINGS.get());
+
+        basicItem(ModItems.VESSEL_BOOTS.get());
+        basicItem(ModItems.CUT_VESSEL_BOOTS.get());
+        basicItem(ModItems.POLISHED_VESSEL_BOOTS.get());
+        basicItem(ModItems.PRIMED_VESSEL_BOOTS.get());
 
         handheldItem(ModItems.ELECTRUM_SWORD);
         handheldItem(ModItems.ELECTRUM_AXE);

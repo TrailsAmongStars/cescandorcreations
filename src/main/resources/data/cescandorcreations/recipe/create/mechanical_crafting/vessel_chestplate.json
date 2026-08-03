@@ -1,0 +1,36 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "category": "misc",
+  "key": {
+    "N": {
+      "item": "minecraft:netherite_chestplate"
+    },
+    "S": {
+      "item": "minecraft:nether_star"
+    },
+    "E": {
+      "item": "cescandorcreations:electrum_ingot"
+    },
+    "Z": {
+      "item": "create:zinc_ingot"
+    },
+    "Q": {
+      "item": "minecraft:quartz_block"
+    }
+  },
+  "pattern": [
+    "EE   EE",
+    "EEZ ZEE",
+    "ESZQZSE",
+    "EQQNQQE",
+    "EZZQZZE",
+    "EZZQZZE",
+    " EZZZE "
+  ],
+  "result": {
+    "count": 1,
+    "id": "cescandorcreations:vessel_chestplate"
+  },
+  "show_notification": false
+}
