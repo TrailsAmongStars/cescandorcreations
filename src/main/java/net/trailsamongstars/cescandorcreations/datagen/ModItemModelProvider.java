@@ -65,6 +65,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.DAYS_GO_BY_MUSIC_DISC.get());
         basicItem(ModItems.CASIO_MUSIC_DISC.get());
         basicItem(ModItems.TOO_SWEET_MUSIC_DISC.get());
+        basicItem(ModItems.CUTIE_MEW_MEW_MAGIC_MUSIC_DISC.get());
+        basicItem(ModItems.MEW_MEW_MAGIC_MUSIC_DISC.get());
 
         basicItem(ModItems.APOLLIUM_INGOT.get());
         basicItem(ModItems.HADISIUM_INGOT.get());

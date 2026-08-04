@@ -258,6 +258,10 @@ public class ModItems {
             () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.CASIO_KEY).stacksTo(1)));
     public static final DeferredItem<Item> TOO_SWEET_MUSIC_DISC = ITEMS.register("too_sweet_music_disc",
             () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.TOO_SWEET_KEY).stacksTo(1)));
+    public static final DeferredItem<Item> CUTIE_MEW_MEW_MAGIC_MUSIC_DISC = ITEMS.register("cutie_mew_mew_magic_music_disc",
+            () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.CUTIE_MEW_MEW_MAGIC_KEY).stacksTo(1)));
+    public static final DeferredItem<Item> MEW_MEW_MAGIC_MUSIC_DISC = ITEMS.register("mew_mew_magic_music_disc",
+            () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.MEW_MEW_MAGIC_KEY).stacksTo(1)));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);

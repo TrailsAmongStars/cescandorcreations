@@ -38,5 +38,21 @@
         "stream": true
       }
     ]
+  },
+  "cutie_mew_mew_magic": {
+    "sounds": [
+      {
+        "name": "cescandorcreations:cutie_mew_mew_magic",
+        "stream": true
+      }
+    ]
+  },
+  "mew_mew_magic": {
+    "sounds": [
+      {
+        "name": "cescandorcreations:mew_mew_magic",
+        "stream": true
+      }
+    ]
   }
 }

@@ -176,6 +176,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.DAYS_GO_BY_MUSIC_DISC);
                         output.accept(ModItems.CASIO_MUSIC_DISC);
                         output.accept(ModItems.TOO_SWEET_MUSIC_DISC);
+                        output.accept(ModItems.CUTIE_MEW_MEW_MAGIC_MUSIC_DISC);
+                        output.accept(ModItems.MEW_MEW_MAGIC_MUSIC_DISC);
                     }).build());
 
     public static void register(IEventBus eventBus) {

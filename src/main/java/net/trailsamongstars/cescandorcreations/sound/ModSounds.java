@@ -27,6 +27,10 @@ public class ModSounds {
     public static final ResourceKey<JukeboxSong> CASIO_KEY = createSong("casio");
     public static final Supplier<SoundEvent> TOO_SWEET = registerSoundEvent("too_sweet");
     public static final ResourceKey<JukeboxSong> TOO_SWEET_KEY = createSong("too_sweet");
+    public static final Supplier<SoundEvent> CUTIE_MEW_MEW_MAGIC = registerSoundEvent("cutie_mew_mew_magic");
+    public static final ResourceKey<JukeboxSong> CUTIE_MEW_MEW_MAGIC_KEY = createSong("cutie_mew_mew_magic");
+    public static final Supplier<SoundEvent> MEW_MEW_MAGIC = registerSoundEvent("mew_mew_magic");
+    public static final ResourceKey<JukeboxSong> MEW_MEW_MAGIC_KEY = createSong("mew_mew_magic");
 
     private static ResourceKey<JukeboxSong> createSong(String name) {
         return ResourceKey.create(Registries.JUKEBOX_SONG, ResourceLocation.fromNamespaceAndPath(CescandorCreations.MOD_ID, name));
