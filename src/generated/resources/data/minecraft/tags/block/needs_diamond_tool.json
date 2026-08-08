@@ -2,6 +2,8 @@
   "values": [
     "cescandorcreations:electrum_block",
     "cescandorcreations:electrum_ore",
+    "cescandorcreations:resonium_block",
+    "cescandorcreations:resonium_fragment",
     "cescandorcreations:enchanted_semelium_block"
   ]
 }

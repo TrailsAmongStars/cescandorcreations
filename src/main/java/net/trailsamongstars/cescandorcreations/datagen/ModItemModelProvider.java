@@ -46,7 +46,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.ECHO_PLATE.get());
         basicItem(ModItems.RAW_ELECTRUM.get());
         basicItem(ModItems.ELECTRUM_INGOT.get());
-        basicItem(ModItems.ELECTRUM_INGOT.get());
+        basicItem(ModItems.RESONIUM_DUST.get());
         basicItem(ModItems.ELECTRUM_DUST.get());
         basicItem(ModItems.NOTE.get());
         basicItem(ModItems.CHORD.get());

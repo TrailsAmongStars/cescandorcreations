@@ -32,6 +32,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.POWDERED_END_STONE);
                         output.accept(ModItems.SHULKER_SLAG);
                         output.accept(ModItems.SHULKER_SHARD);
+                        output.accept(ModItems.RESONIUM_DUST);
 
                         output.accept(ModItems.VESSEL_HELMET);
                         output.accept(ModItems.CUT_VESSEL_HELMET);
@@ -103,6 +104,8 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModBlocks.ELECTRUM_BLOCK);
                         output.accept(ModBlocks.ELECTRUM_ORE);
+                        output.accept(ModBlocks.RESONIUM_BLOCK);
+                        output.accept(ModBlocks.RESONIUM_FRAGMENT);
                         output.accept(ModBlocks.DEHYDRATED_SCULK);
                         output.accept(ModBlocks.APOLLIUM_BLOCK);
                         output.accept(ModBlocks.HADISIUM_BLOCK);

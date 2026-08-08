@@ -17,13 +17,19 @@ import java.util.List;
 public class ModPlacedFeatures {
 
     public static final ResourceKey<PlacedFeature> ELECTRUM_ORE_PLACED_KEY = registerKey("electrum_ore_placed");
+    public static final ResourceKey<PlacedFeature> RESONIUM_FRAGMENT_PLACED_KEY = registerKey("resonium_fragment_placed");
+
 
     public static void bootstrap(BootstrapContext<PlacedFeature> context) {
         var configuredFeatures = context.lookup(Registries.CONFIGURED_FEATURE);
 
         register(context, ELECTRUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.ELECTRUM_ORE_KEY),
                 ModOrePlacement.commonOrePlacement(6, HeightRangePlacement.uniform
-                        (VerticalAnchor.absolute(16), VerticalAnchor.absolute(62    ))));
+                        (VerticalAnchor.absolute(16), VerticalAnchor.absolute(62))));
+
+        register(context, RESONIUM_FRAGMENT_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.RESONIUM_FRAGMENT_KEY),
+                ModOrePlacement.commonOrePlacement(2, HeightRangePlacement.uniform
+                        (VerticalAnchor.absolute(16), VerticalAnchor.absolute(62))));
 
     }
 

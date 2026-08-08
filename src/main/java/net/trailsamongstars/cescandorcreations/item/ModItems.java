@@ -41,6 +41,9 @@ public class ModItems {
     public static final DeferredItem<Item> SHULKER_SHARD = ITEMS.register("shulker_shard",
             () -> new Item(new Item.Properties()));
 
+    public static final DeferredItem<Item> RESONIUM_DUST = ITEMS.register("resonium_dust",
+            () -> new Item(new Item.Properties()));
+
     public static final DeferredItem<Item> VESSEL_HELMET = ITEMS.register("vessel_helmet",
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> CUT_VESSEL_HELMET = ITEMS.register("cut_vessel_helmet",

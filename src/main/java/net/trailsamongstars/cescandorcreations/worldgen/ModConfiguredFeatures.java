@@ -17,6 +17,7 @@ import net.trailsamongstars.cescandorcreations.block.ModBlocks;
 
 public class ModConfiguredFeatures {
     public static final ResourceKey<ConfiguredFeature<?, ?>> ELECTRUM_ORE_KEY = registerKey("electrum_ore");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> RESONIUM_FRAGMENT_KEY = registerKey("resonium_fragment");
 
     public static void bootstrap(BootstrapContext<ConfiguredFeature<?, ?>> context) {
 
@@ -24,6 +25,8 @@ public class ModConfiguredFeatures {
 
         register(context, ELECTRUM_ORE_KEY, Feature.ORE, new OreConfiguration(endReplaceables,
                 ModBlocks.ELECTRUM_ORE.get().defaultBlockState(), 9));
+        register(context, RESONIUM_FRAGMENT_KEY, Feature.ORE, new OreConfiguration(endReplaceables,
+                ModBlocks.RESONIUM_FRAGMENT.get().defaultBlockState(), 9));
     }
 
 

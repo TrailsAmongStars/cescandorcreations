@@ -1,8 +1,9 @@
 {
   "values": [
     "cescandorcreations:electrum_block",
-    "cescandorcreations:electrum_block",
     "cescandorcreations:electrum_ore",
+    "cescandorcreations:resonium_block",
+    "cescandorcreations:resonium_fragment",
     "cescandorcreations:apollium_block",
     "cescandorcreations:hadisium_block",
     "cescandorcreations:hephasteum_block",

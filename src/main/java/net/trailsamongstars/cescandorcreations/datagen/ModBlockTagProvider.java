@@ -23,8 +23,9 @@ public class ModBlockTagProvider extends BlockTagsProvider {
     protected void addTags(HolderLookup.Provider provider) {
         tag(BlockTags.MINEABLE_WITH_PICKAXE)
                 .add(ModBlocks.ELECTRUM_BLOCK.get())
-                .add(ModBlocks.ELECTRUM_BLOCK.get())
                 .add(ModBlocks.ELECTRUM_ORE.get())
+                .add(ModBlocks.RESONIUM_BLOCK.get())
+                .add(ModBlocks.RESONIUM_FRAGMENT.get())
                 .add(ModBlocks.APOLLIUM_BLOCK.get())
                 .add(ModBlocks.HADISIUM_BLOCK.get())
                 .add(ModBlocks.HEPHASTEUM_BLOCK.get())
@@ -36,6 +37,8 @@ public class ModBlockTagProvider extends BlockTagsProvider {
         tag(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.ELECTRUM_BLOCK.get())
                 .add(ModBlocks.ELECTRUM_ORE.get())
+                .add(ModBlocks.RESONIUM_BLOCK.get())
+                .add(ModBlocks.RESONIUM_FRAGMENT.get())
                 .add(ModBlocks.ENCHANTED_SEMELIUM_BLOCK.get());
 
         tag(ModTags.Blocks.NEEDS_NETHERITE_TOOL)

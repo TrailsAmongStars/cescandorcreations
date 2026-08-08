@@ -17,6 +17,7 @@ import net.trailsamongstars.cescandorcreations.CescandorCreations;
 
 public class ModBiomeModifiers {
     public static final ResourceKey<BiomeModifier> ADD_ELECTRUM_ORE = registerKey("add_electrum_ore");
+    public static final ResourceKey<BiomeModifier> ADD_RESONIUM_FRAGMENT = registerKey("add_resonium_fragment");
 
     public static void bootstrap(BootstrapContext<BiomeModifier> context) {
         // CF -> PF -> BM
@@ -26,6 +27,10 @@ public class ModBiomeModifiers {
         context.register(ADD_ELECTRUM_ORE, new BiomeModifiers.AddFeaturesBiomeModifier(
                 biomes.getOrThrow(BiomeTags.IS_END),
                 HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.ELECTRUM_ORE_PLACED_KEY)),
+                GenerationStep.Decoration.UNDERGROUND_ORES));
+        context.register(ADD_RESONIUM_FRAGMENT, new BiomeModifiers.AddFeaturesBiomeModifier(
+                biomes.getOrThrow(BiomeTags.IS_END),
+                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.RESONIUM_FRAGMENT_PLACED_KEY)),
                 GenerationStep.Decoration.UNDERGROUND_ORES));
     }
 
