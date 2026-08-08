@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:blackstone"
+    },
+    "R": {
+      "item": "cescandorcreations:resonium_dust"
+    }
+  },
+  "pattern": [
+    "RBR",
+    "B B",
+    "RBR"
+  ],
+  "result": {
+    "count": 1,
+    "id": "cescandorcreations:uncarved_music_disc_base"
+  }
+}

@@ -210,6 +210,33 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.MUSIC_DISC_TRACK_DAYS_GO_BY);
                         output.accept(ModItems.MUSIC_DISC_TRACK_SNEAKMAN);
                         output.accept(ModItems.MUSIC_DISC_TRACK_TOO_SWEET);
+
+                        output.accept(ModItems.MONOCHROME_1);
+                        output.accept(ModItems.MONOCHROME_2);
+                        output.accept(ModItems.MONOCHROME_3);
+                        output.accept(ModItems.MONOCHROME_4);
+                        output.accept(ModItems.MONOCHROME_5);
+                        output.accept(ModItems.MONOCHROME_6);
+                        output.accept(ModItems.MONOCHROME_7);
+                        output.accept(ModItems.MONOCHROME_8);
+                        output.accept(ModItems.MONOCHROME_9);
+                        output.accept(ModItems.MONOCHROME_10);
+                        output.accept(ModItems.MONOCHROME_11);
+                        output.accept(ModItems.MONOCHROME_12);
+                        output.accept(ModItems.MONOCHROME_13);
+                        output.accept(ModItems.MONOCHROME_14);
+                        output.accept(ModItems.MONOCHROME_15);
+                        output.accept(ModItems.MONOCHROME_16);
+                        output.accept(ModItems.MONOCHROME_17);
+                        output.accept(ModItems.MONOCHROME_18);
+                        output.accept(ModItems.MONOCHROME_19);
+                        output.accept(ModItems.MONOCHROME_20);
+                        output.accept(ModItems.MONOCHROME_21);
+                        output.accept(ModItems.MONOCHROME_22);
+                        output.accept(ModItems.MONOCHROME_23);
+                        output.accept(ModItems.MONOCHROME_24);
+                        output.accept(ModItems.MONOCHROME_25);
+                        output.accept(ModItems.MONOCHROME_26);
                     }).build());
 
     public static void register(IEventBus eventBus) {

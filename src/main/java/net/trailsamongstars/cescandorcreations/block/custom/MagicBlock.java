@@ -18,7 +18,7 @@ import net.trailsamongstars.cescandorcreations.util.ModTags;
 import java.util.List;
 
 
-public class MagicBlock extends Block {
+public class    MagicBlock extends Block {
     public MagicBlock(Properties properties) {
         super(properties);
     }

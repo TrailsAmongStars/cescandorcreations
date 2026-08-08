@@ -1,0 +1,13 @@
+{
+  "type": "create:sandpaper_polishing",
+  "ingredients": [
+    {
+      "item": "cescandorcreations:uncarved_music_disc_base"
+    }
+  ],
+  "results": [
+    {
+      "id": "cescandorcreations:music_disc_base"
+    }
+  ]
+}

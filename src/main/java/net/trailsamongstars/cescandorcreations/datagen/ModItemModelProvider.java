@@ -88,6 +88,33 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.MUSIC_DISC_TRACK_SNEAKMAN.get());
         basicItem(ModItems.MUSIC_DISC_TRACK_TOO_SWEET.get());
 
+        basicItem(ModItems.MONOCHROME_1.get());
+        basicItem(ModItems.MONOCHROME_2.get());
+        basicItem(ModItems.MONOCHROME_3.get());
+        basicItem(ModItems.MONOCHROME_4.get());
+        basicItem(ModItems.MONOCHROME_5.get());
+        basicItem(ModItems.MONOCHROME_6.get());
+        basicItem(ModItems.MONOCHROME_7.get());
+        basicItem(ModItems.MONOCHROME_8.get());
+        basicItem(ModItems.MONOCHROME_9.get());
+        basicItem(ModItems.MONOCHROME_10.get());
+        basicItem(ModItems.MONOCHROME_11.get());
+        basicItem(ModItems.MONOCHROME_12.get());
+        basicItem(ModItems.MONOCHROME_13.get());
+        basicItem(ModItems.MONOCHROME_14.get());
+        basicItem(ModItems.MONOCHROME_15.get());
+        basicItem(ModItems.MONOCHROME_16.get());
+        basicItem(ModItems.MONOCHROME_17.get());
+        basicItem(ModItems.MONOCHROME_18.get());
+        basicItem(ModItems.MONOCHROME_19.get());
+        basicItem(ModItems.MONOCHROME_20.get());
+        basicItem(ModItems.MONOCHROME_21.get());
+        basicItem(ModItems.MONOCHROME_22.get());
+        basicItem(ModItems.MONOCHROME_23.get());
+        basicItem(ModItems.MONOCHROME_24.get());
+        basicItem(ModItems.MONOCHROME_25.get());
+        basicItem(ModItems.MONOCHROME_26.get());
+
         basicItem(ModItems.BANG_BANG_MUSIC_DISC.get());
         basicItem(ModItems.SNEAKMAN_MUSIC_DISC.get());
         basicItem(ModItems.DAYS_GO_BY_MUSIC_DISC.get());

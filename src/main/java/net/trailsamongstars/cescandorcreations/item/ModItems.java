@@ -306,6 +306,59 @@ public class ModItems {
     public static final DeferredItem<Item> MUSIC_DISC_TRACK_TOO_SWEET = ITEMS.register("music_disc_track_too_sweet",
             () -> new Item(new Item.Properties()));
 
+    public static final DeferredItem<Item> MONOCHROME_1 = ITEMS.register("monochrome_1",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> MONOCHROME_2 = ITEMS.register("monochrome_2",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> MONOCHROME_3 = ITEMS.register("monochrome_3",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> MONOCHROME_4 = ITEMS.register("monochrome_4",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> MONOCHROME_5 = ITEMS.register("monochrome_5",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> MONOCHROME_6 = ITEMS.register("monochrome_6",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> MONOCHROME_7 = ITEMS.register("monochrome_7",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> MONOCHROME_8 = ITEMS.register("monochrome_8",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> MONOCHROME_9 = ITEMS.register("monochrome_9",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> MONOCHROME_10 = ITEMS.register("monochrome_10",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> MONOCHROME_11 = ITEMS.register("monochrome_11",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> MONOCHROME_12 = ITEMS.register("monochrome_12",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> MONOCHROME_13 = ITEMS.register("monochrome_13",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> MONOCHROME_14 = ITEMS.register("monochrome_14",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> MONOCHROME_15 = ITEMS.register("monochrome_15",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> MONOCHROME_16 = ITEMS.register("monochrome_16",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> MONOCHROME_17 = ITEMS.register("monochrome_17",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> MONOCHROME_18 = ITEMS.register("monochrome_18",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> MONOCHROME_19 = ITEMS.register("monochrome_19",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> MONOCHROME_20 = ITEMS.register("monochrome_20",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> MONOCHROME_21 = ITEMS.register("monochrome_21",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> MONOCHROME_22 = ITEMS.register("monochrome_22",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> MONOCHROME_23 = ITEMS.register("monochrome_23",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> MONOCHROME_24 = ITEMS.register("monochrome_24",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> MONOCHROME_25 = ITEMS.register("monochrome_25",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> MONOCHROME_26 = ITEMS.register("monochrome_26",
+            () -> new Item(new Item.Properties()));
+
     public static final DeferredItem<Item> BANG_BANG_MUSIC_DISC = ITEMS.register("bang_bang_music_disc",
             () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.BANG_BANG_KEY).stacksTo(1)));
     public static final DeferredItem<Item> SNEAKMAN_MUSIC_DISC = ITEMS.register("sneakman_music_disc",
