@@ -16,6 +16,7 @@ public class ModTags {
         public static final TagKey<Block> NEEDS_ELECTRUM_TOOL = createTag("needs_electrum_tool");
         public static final TagKey<Block> INCORRECT_FOR_ELECTRUM_TOOL =
                 createTag("incorrect_for_electrum_tool");
+        public static final TagKey<Block> NEEDS_NETHERITE_TOOL = createTag("needs_netherite_tool");
 
         private static TagKey<Block> createTag(String name) {
             return BlockTags.create(ResourceLocation.fromNamespaceAndPath(CescandorCreations.MOD_ID, name));

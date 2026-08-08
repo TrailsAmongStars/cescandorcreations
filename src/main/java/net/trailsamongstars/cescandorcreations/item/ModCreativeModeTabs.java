@@ -178,6 +178,35 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.TOO_SWEET_MUSIC_DISC);
                         output.accept(ModItems.CUTIE_MEW_MEW_MAGIC_MUSIC_DISC);
                         output.accept(ModItems.MEW_MEW_MAGIC_MUSIC_DISC);
+
+                        output.accept(ModBlocks.UNCARVED_MUSIC_DISC_BASE);
+                        output.accept(ModItems.MUSIC_DISC_BASE);
+                        output.accept(ModItems.MUSIC_DISC_TRACK_CAT);
+                        output.accept(ModItems.MUSIC_DISC_TRACK_BLOCKS);
+                        output.accept(ModItems.MUSIC_DISC_TRACK_CHIRP);
+                        output.accept(ModItems.MUSIC_DISC_TRACK_FAR);
+                        output.accept(ModItems.MUSIC_DISC_TRACK_MALL);
+                        output.accept(ModItems.MUSIC_DISC_TRACK_MELLOHI);
+                        output.accept(ModItems.MUSIC_DISC_TRACK_STAL);
+                        output.accept(ModItems.MUSIC_DISC_TRACK_STRAD);
+                        output.accept(ModItems.MUSIC_DISC_TRACK_WARD);
+                        output.accept(ModItems.MUSIC_DISC_TRACK_WAIT);
+                        output.accept(ModItems.MUSIC_DISC_TRACK_PIGSTEP);
+                        output.accept(ModItems.MUSIC_DISC_TRACK_OTHERSIDE);
+                        output.accept(ModItems.MUSIC_DISC_TRACK_CREATOR);
+                        output.accept(ModItems.MUSIC_DISC_TRACK_CREATOR_BOX);
+                        output.accept(ModItems.MUSIC_DISC_TRACK_RELIC);
+                        output.accept(ModItems.MUSIC_DISC_TRACK_PRECIPICE);
+                        output.accept(ModItems.MUSIC_DISC_TRACK_TEARS);
+                        output.accept(ModItems.MUSIC_DISC_TRACK_LAVA_CHICKEN);
+                        output.accept(ModItems.MUSIC_DISC_TRACK_BOUNCE);
+                        output.accept(ModItems.MUSIC_DISC_TRACK_BANG_BANG);
+                        output.accept(ModItems.MUSIC_DISC_TRACK_CASIO);
+                        output.accept(ModItems.MUSIC_DISC_TRACK_CUTIE_MEW_MEW_MAGIC);
+                        output.accept(ModItems.MUSIC_DISC_TRACK_MEW_MEW_MAGIC);
+                        output.accept(ModItems.MUSIC_DISC_TRACK_DAYS_GO_BY);
+                        output.accept(ModItems.MUSIC_DISC_TRACK_SNEAKMAN);
+                        output.accept(ModItems.MUSIC_DISC_TRACK_TOO_SWEET);
                     }).build());
 
     public static void register(IEventBus eventBus) {

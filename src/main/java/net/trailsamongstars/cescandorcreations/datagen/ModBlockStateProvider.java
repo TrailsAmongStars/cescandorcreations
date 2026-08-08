@@ -25,6 +25,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.SEMELIUM_BLOCK);
         blockWithItem(ModBlocks.TALIUM_BLOCK);
         blockWithItem(ModBlocks.ENCHANTED_SEMELIUM_BLOCK);
+        blockWithItem(ModBlocks.UNCARVED_MUSIC_DISC_BASE);
     }
 
     private void blockWithItem(DeferredBlock<?> deferredBlock) {

@@ -60,6 +60,34 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.SHULKER_SLAG.get());
         basicItem(ModItems.SHULKER_SHARD.get());
 
+        basicItem(ModItems.MUSIC_DISC_BASE.get());
+        basicItem(ModItems.MUSIC_DISC_TRACK_CAT.get());
+        basicItem(ModItems.MUSIC_DISC_TRACK_BLOCKS.get());
+        basicItem(ModItems.MUSIC_DISC_TRACK_CHIRP.get());
+        basicItem(ModItems.MUSIC_DISC_TRACK_FAR.get());
+        basicItem(ModItems.MUSIC_DISC_TRACK_MALL.get());
+        basicItem(ModItems.MUSIC_DISC_TRACK_MELLOHI.get());
+        basicItem(ModItems.MUSIC_DISC_TRACK_STAL.get());
+        basicItem(ModItems.MUSIC_DISC_TRACK_STRAD.get());
+        basicItem(ModItems.MUSIC_DISC_TRACK_WARD.get());
+        basicItem(ModItems.MUSIC_DISC_TRACK_WAIT.get());
+        basicItem(ModItems.MUSIC_DISC_TRACK_PIGSTEP.get());
+        basicItem(ModItems.MUSIC_DISC_TRACK_OTHERSIDE.get());
+        basicItem(ModItems.MUSIC_DISC_TRACK_CREATOR.get());
+        basicItem(ModItems.MUSIC_DISC_TRACK_CREATOR_BOX.get());
+        basicItem(ModItems.MUSIC_DISC_TRACK_RELIC.get());
+        basicItem(ModItems.MUSIC_DISC_TRACK_PRECIPICE.get());
+        basicItem(ModItems.MUSIC_DISC_TRACK_TEARS.get());
+        basicItem(ModItems.MUSIC_DISC_TRACK_LAVA_CHICKEN.get());
+        basicItem(ModItems.MUSIC_DISC_TRACK_BOUNCE.get());
+        basicItem(ModItems.MUSIC_DISC_TRACK_BANG_BANG.get());
+        basicItem(ModItems.MUSIC_DISC_TRACK_CASIO.get());
+        basicItem(ModItems.MUSIC_DISC_TRACK_CUTIE_MEW_MEW_MAGIC.get());
+        basicItem(ModItems.MUSIC_DISC_TRACK_MEW_MEW_MAGIC.get());
+        basicItem(ModItems.MUSIC_DISC_TRACK_DAYS_GO_BY.get());
+        basicItem(ModItems.MUSIC_DISC_TRACK_SNEAKMAN.get());
+        basicItem(ModItems.MUSIC_DISC_TRACK_TOO_SWEET.get());
+
         basicItem(ModItems.BANG_BANG_MUSIC_DISC.get());
         basicItem(ModItems.SNEAKMAN_MUSIC_DISC.get());
         basicItem(ModItems.DAYS_GO_BY_MUSIC_DISC.get());

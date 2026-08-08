@@ -248,6 +248,61 @@ public class ModItems {
             () -> new ArmorItem(ModArmorMaterials.ADAMANTIUM_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
                     new Item.Properties().fireResistant().durability(ArmorItem.Type.BOOTS.getDurability(40))));
 
+    public static final DeferredItem<Item> MUSIC_DISC_BASE = ITEMS.register("music_disc_base",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> MUSIC_DISC_TRACK_CAT = ITEMS.register("music_disc_track_cat",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> MUSIC_DISC_TRACK_BLOCKS = ITEMS.register("music_disc_track_blocks",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> MUSIC_DISC_TRACK_CHIRP = ITEMS.register("music_disc_track_chirp",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> MUSIC_DISC_TRACK_FAR = ITEMS.register("music_disc_track_far",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> MUSIC_DISC_TRACK_MALL = ITEMS.register("music_disc_track_mall",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> MUSIC_DISC_TRACK_MELLOHI = ITEMS.register("music_disc_track_mellohi",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> MUSIC_DISC_TRACK_STAL = ITEMS.register("music_disc_track_stal",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> MUSIC_DISC_TRACK_STRAD = ITEMS.register("music_disc_track_strad",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> MUSIC_DISC_TRACK_WARD = ITEMS.register("music_disc_track_ward",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> MUSIC_DISC_TRACK_WAIT = ITEMS.register("music_disc_track_wait",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> MUSIC_DISC_TRACK_PIGSTEP = ITEMS.register("music_disc_track_pigstep",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> MUSIC_DISC_TRACK_OTHERSIDE = ITEMS.register("music_disc_track_otherside",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> MUSIC_DISC_TRACK_CREATOR = ITEMS.register("music_disc_track_creator",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> MUSIC_DISC_TRACK_CREATOR_BOX = ITEMS.register("music_disc_track_creator_box",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> MUSIC_DISC_TRACK_RELIC = ITEMS.register("music_disc_track_relic",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> MUSIC_DISC_TRACK_PRECIPICE = ITEMS.register("music_disc_track_precipice",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> MUSIC_DISC_TRACK_TEARS = ITEMS.register("music_disc_track_tears",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> MUSIC_DISC_TRACK_LAVA_CHICKEN = ITEMS.register("music_disc_track_lava_chicken",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> MUSIC_DISC_TRACK_BOUNCE = ITEMS.register("music_disc_track_bounce",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> MUSIC_DISC_TRACK_BANG_BANG = ITEMS.register("music_disc_track_bang_bang",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> MUSIC_DISC_TRACK_CASIO = ITEMS.register("music_disc_track_casio",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> MUSIC_DISC_TRACK_CUTIE_MEW_MEW_MAGIC = ITEMS.register("music_disc_track_cutie_mew_mew_magic",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> MUSIC_DISC_TRACK_MEW_MEW_MAGIC = ITEMS.register("music_disc_track_mew_mew_magic",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> MUSIC_DISC_TRACK_DAYS_GO_BY = ITEMS.register("music_disc_track_days_go_by",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> MUSIC_DISC_TRACK_SNEAKMAN = ITEMS.register("music_disc_track_sneakman",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> MUSIC_DISC_TRACK_TOO_SWEET = ITEMS.register("music_disc_track_too_sweet",
+            () -> new Item(new Item.Properties()));
+
     public static final DeferredItem<Item> BANG_BANG_MUSIC_DISC = ITEMS.register("bang_bang_music_disc",
             () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.BANG_BANG_KEY).stacksTo(1)));
     public static final DeferredItem<Item> SNEAKMAN_MUSIC_DISC = ITEMS.register("sneakman_music_disc",
