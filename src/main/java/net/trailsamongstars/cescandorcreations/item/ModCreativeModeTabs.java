@@ -174,6 +174,11 @@ public class ModCreativeModeTabs {
                     .withTabsBefore(ResourceLocation.fromNamespaceAndPath(CescandorCreations.MOD_ID, "cescandor_money_tab"))
                     .title(Component.translatable("creativetab.cescandorcreations.cescandor_music_discs"))
                     .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(ModItems.MUSIC_DISC_BOUNCE);
+                        output.accept(ModItems.MUSIC_DISC_LAVA_CHICKEN);
+                        output.accept(ModItems.MUSIC_DISC_TEARS);
+                        output.accept(ModItems.MUSIC_DISC_ELEVATOR);
+                        output.accept(ModItems.MUSIC_DISC_INTERLUDE);
                         output.accept(ModItems.BANG_BANG_MUSIC_DISC);
                         output.accept(ModItems.SNEAKMAN_MUSIC_DISC);
                         output.accept(ModItems.DAYS_GO_BY_MUSIC_DISC);
@@ -210,6 +215,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.MUSIC_DISC_TRACK_DAYS_GO_BY);
                         output.accept(ModItems.MUSIC_DISC_TRACK_SNEAKMAN);
                         output.accept(ModItems.MUSIC_DISC_TRACK_TOO_SWEET);
+                        output.accept(ModItems.MUSIC_DISC_TRACK_ELEVATOR);
+                        output.accept(ModItems.MUSIC_DISC_TRACK_INTERLUDE);
 
                         output.accept(ModItems.MONOCHROME_1);
                         output.accept(ModItems.MONOCHROME_2);
@@ -237,6 +244,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.MONOCHROME_24);
                         output.accept(ModItems.MONOCHROME_25);
                         output.accept(ModItems.MONOCHROME_26);
+                        output.accept(ModItems.MONOCHROME_27);
+                        output.accept(ModItems.MONOCHROME_28);
                     }).build());
 
     public static void register(IEventBus eventBus) {

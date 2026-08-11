@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "cescandorcreations:music_disc_base"
+    },
+    {
+      "item": "cescandorcreations:music_disc_track_cutie_mew_mew_magic"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "cescandorcreations:cutie_mew_mew_magic_music_disc"
+  }
+}

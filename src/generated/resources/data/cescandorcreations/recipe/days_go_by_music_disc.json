@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "cescandorcreations:music_disc_base"
+    },
+    {
+      "item": "cescandorcreations:music_disc_track_days_go_by"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "cescandorcreations:days_go_by_music_disc"
+  }
+}

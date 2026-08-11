@@ -87,6 +87,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.MUSIC_DISC_TRACK_DAYS_GO_BY.get());
         basicItem(ModItems.MUSIC_DISC_TRACK_SNEAKMAN.get());
         basicItem(ModItems.MUSIC_DISC_TRACK_TOO_SWEET.get());
+        basicItem(ModItems.MUSIC_DISC_TRACK_ELEVATOR.get());
+        basicItem(ModItems.MUSIC_DISC_TRACK_INTERLUDE.get());
 
         basicItem(ModItems.MONOCHROME_1.get());
         basicItem(ModItems.MONOCHROME_2.get());
@@ -114,6 +116,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.MONOCHROME_24.get());
         basicItem(ModItems.MONOCHROME_25.get());
         basicItem(ModItems.MONOCHROME_26.get());
+        basicItem(ModItems.MONOCHROME_27.get());
+        basicItem(ModItems.MONOCHROME_28.get());
 
         basicItem(ModItems.BANG_BANG_MUSIC_DISC.get());
         basicItem(ModItems.SNEAKMAN_MUSIC_DISC.get());
@@ -122,6 +126,11 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.TOO_SWEET_MUSIC_DISC.get());
         basicItem(ModItems.CUTIE_MEW_MEW_MAGIC_MUSIC_DISC.get());
         basicItem(ModItems.MEW_MEW_MAGIC_MUSIC_DISC.get());
+        basicItem(ModItems.MUSIC_DISC_BOUNCE.get());
+        basicItem(ModItems.MUSIC_DISC_LAVA_CHICKEN.get());
+        basicItem(ModItems.MUSIC_DISC_TEARS.get());
+        basicItem(ModItems.MUSIC_DISC_ELEVATOR.get());
+        basicItem(ModItems.MUSIC_DISC_INTERLUDE.get());
 
         basicItem(ModItems.APOLLIUM_INGOT.get());
         basicItem(ModItems.HADISIUM_INGOT.get());

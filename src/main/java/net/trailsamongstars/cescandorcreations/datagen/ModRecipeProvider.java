@@ -449,6 +449,20 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .requires(Items.CYAN_DYE)
                 .unlockedBy("has_resonium_dust", has(ModItems.RESONIUM_DUST)).save(recipeOutput);
 
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.MONOCHROME_27)
+                .requires(ModItems.MAGIC_PASTE.get())
+                .requires(Items.ORANGE_DYE)
+                .requires(Items.YELLOW_DYE)
+                .requires(Items.PINK_DYE)
+                .unlockedBy("has_resonium_dust", has(ModItems.RESONIUM_DUST)).save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.MONOCHROME_28)
+                .requires(ModItems.MAGIC_PASTE.get())
+                .requires(Items.BROWN_DYE)
+                .requires(Items.YELLOW_DYE)
+                .requires(Items.LIGHT_GRAY_DYE)
+                .unlockedBy("has_resonium_dust", has(ModItems.RESONIUM_DUST)).save(recipeOutput);
+
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.MUSIC_DISC_TRACK_BANG_BANG)
                 .pattern("RQR")
                 .pattern("QMQ")
@@ -683,7 +697,163 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('M', ModItems.MONOCHROME_26)
                 .unlockedBy("has_resonium", has(ModItems.RESONIUM_DUST)).save(recipeOutput);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.MUSIC_DISC_TRACK_ELEVATOR)
+                .pattern("RQR")
+                .pattern("QMQ")
+                .pattern("RQR")
+                .define('R', ModItems.RESONIUM_DUST.get())
+                .define('Q', Items.QUARTZ)
+                .define('M', ModItems.MONOCHROME_27)
+                .unlockedBy("has_resonium", has(ModItems.RESONIUM_DUST)).save(recipeOutput);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.MUSIC_DISC_TRACK_INTERLUDE)
+                .pattern("RQR")
+                .pattern("QMQ")
+                .pattern("RQR")
+                .define('R', ModItems.RESONIUM_DUST.get())
+                .define('Q', Items.QUARTZ)
+                .define('M', ModItems.MONOCHROME_28)
+                .unlockedBy("has_resonium", has(ModItems.RESONIUM_DUST)).save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.BANG_BANG_MUSIC_DISC)
+                .requires(ModItems.MUSIC_DISC_BASE.get())
+                .requires(ModItems.MUSIC_DISC_TRACK_BANG_BANG)
+                .unlockedBy("has_resonium_dust", has(ModItems.RESONIUM_DUST)).save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, Items.MUSIC_DISC_BLOCKS)
+                .requires(ModItems.MUSIC_DISC_BASE.get())
+                .requires(ModItems.MUSIC_DISC_TRACK_BLOCKS)
+                .unlockedBy("has_resonium_dust", has(ModItems.RESONIUM_DUST)).save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.MUSIC_DISC_BOUNCE)
+                .requires(ModItems.MUSIC_DISC_BASE.get())
+                .requires(ModItems.MUSIC_DISC_TRACK_BOUNCE)
+                .unlockedBy("has_resonium_dust", has(ModItems.RESONIUM_DUST)).save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.CASIO_MUSIC_DISC)
+                .requires(ModItems.MUSIC_DISC_BASE.get())
+                .requires(ModItems.MUSIC_DISC_TRACK_CASIO)
+                .unlockedBy("has_resonium_dust", has(ModItems.RESONIUM_DUST)).save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, Items.MUSIC_DISC_CAT)
+                .requires(ModItems.MUSIC_DISC_BASE.get())
+                .requires(ModItems.MUSIC_DISC_TRACK_CAT)
+                .unlockedBy("has_resonium_dust", has(ModItems.RESONIUM_DUST)).save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, Items.MUSIC_DISC_CHIRP)
+                .requires(ModItems.MUSIC_DISC_BASE.get())
+                .requires(ModItems.MUSIC_DISC_TRACK_CHIRP)
+                .unlockedBy("has_resonium_dust", has(ModItems.RESONIUM_DUST)).save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.CUTIE_MEW_MEW_MAGIC_MUSIC_DISC)
+                .requires(ModItems.MUSIC_DISC_BASE.get())
+                .requires(ModItems.MUSIC_DISC_TRACK_CUTIE_MEW_MEW_MAGIC)
+                .unlockedBy("has_resonium_dust", has(ModItems.RESONIUM_DUST)).save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, Items.MUSIC_DISC_CREATOR)
+                .requires(ModItems.MUSIC_DISC_BASE.get())
+                .requires(ModItems.MUSIC_DISC_TRACK_CREATOR)
+                .unlockedBy("has_resonium_dust", has(ModItems.RESONIUM_DUST)).save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, Items.MUSIC_DISC_CREATOR_MUSIC_BOX)
+                .requires(ModItems.MUSIC_DISC_BASE.get())
+                .requires(ModItems.MUSIC_DISC_TRACK_CREATOR_BOX)
+                .unlockedBy("has_resonium_dust", has(ModItems.RESONIUM_DUST)).save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.DAYS_GO_BY_MUSIC_DISC)
+                .requires(ModItems.MUSIC_DISC_BASE.get())
+                .requires(ModItems.MUSIC_DISC_TRACK_DAYS_GO_BY)
+                .unlockedBy("has_resonium_dust", has(ModItems.RESONIUM_DUST)).save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, Items.MUSIC_DISC_FAR)
+                .requires(ModItems.MUSIC_DISC_BASE.get())
+                .requires(ModItems.MUSIC_DISC_TRACK_FAR)
+                .unlockedBy("has_resonium_dust", has(ModItems.RESONIUM_DUST)).save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.MUSIC_DISC_LAVA_CHICKEN)
+                .requires(ModItems.MUSIC_DISC_BASE.get())
+                .requires(ModItems.MUSIC_DISC_TRACK_LAVA_CHICKEN)
+                .unlockedBy("has_resonium_dust", has(ModItems.RESONIUM_DUST)).save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, Items.MUSIC_DISC_MALL)
+                .requires(ModItems.MUSIC_DISC_BASE.get())
+                .requires(ModItems.MUSIC_DISC_TRACK_MALL)
+                .unlockedBy("has_resonium_dust", has(ModItems.RESONIUM_DUST)).save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, Items.MUSIC_DISC_MELLOHI)
+                .requires(ModItems.MUSIC_DISC_BASE.get())
+                .requires(ModItems.MUSIC_DISC_TRACK_MELLOHI)
+                .unlockedBy("has_resonium_dust", has(ModItems.RESONIUM_DUST)).save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.MEW_MEW_MAGIC_MUSIC_DISC)
+                .requires(ModItems.MUSIC_DISC_BASE.get())
+                .requires(ModItems.MUSIC_DISC_TRACK_MEW_MEW_MAGIC)
+                .unlockedBy("has_resonium_dust", has(ModItems.RESONIUM_DUST)).save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, Items.MUSIC_DISC_OTHERSIDE)
+                .requires(ModItems.MUSIC_DISC_BASE.get())
+                .requires(ModItems.MUSIC_DISC_TRACK_OTHERSIDE)
+                .unlockedBy("has_resonium_dust", has(ModItems.RESONIUM_DUST)).save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, Items.MUSIC_DISC_PIGSTEP)
+                .requires(ModItems.MUSIC_DISC_BASE.get())
+                .requires(ModItems.MUSIC_DISC_TRACK_PIGSTEP)
+                .unlockedBy("has_resonium_dust", has(ModItems.RESONIUM_DUST)).save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, Items.MUSIC_DISC_PRECIPICE)
+                .requires(ModItems.MUSIC_DISC_BASE.get())
+                .requires(ModItems.MUSIC_DISC_TRACK_PRECIPICE)
+                .unlockedBy("has_resonium_dust", has(ModItems.RESONIUM_DUST)).save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, Items.MUSIC_DISC_RELIC)
+                .requires(ModItems.MUSIC_DISC_BASE.get())
+                .requires(ModItems.MUSIC_DISC_TRACK_RELIC)
+                .unlockedBy("has_resonium_dust", has(ModItems.RESONIUM_DUST)).save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.SNEAKMAN_MUSIC_DISC)
+                .requires(ModItems.MUSIC_DISC_BASE.get())
+                .requires(ModItems.MUSIC_DISC_TRACK_SNEAKMAN)
+                .unlockedBy("has_resonium_dust", has(ModItems.RESONIUM_DUST)).save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, Items.MUSIC_DISC_STAL)
+                .requires(ModItems.MUSIC_DISC_BASE.get())
+                .requires(ModItems.MUSIC_DISC_TRACK_STAL)
+                .unlockedBy("has_resonium_dust", has(ModItems.RESONIUM_DUST)).save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, Items.MUSIC_DISC_STRAD)
+                .requires(ModItems.MUSIC_DISC_BASE.get())
+                .requires(ModItems.MUSIC_DISC_TRACK_STRAD)
+                .unlockedBy("has_resonium_dust", has(ModItems.RESONIUM_DUST)).save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.MUSIC_DISC_TEARS)
+                .requires(ModItems.MUSIC_DISC_BASE.get())
+                .requires(ModItems.MUSIC_DISC_TRACK_TEARS)
+                .unlockedBy("has_resonium_dust", has(ModItems.RESONIUM_DUST)).save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.TOO_SWEET_MUSIC_DISC)
+                .requires(ModItems.MUSIC_DISC_BASE.get())
+                .requires(ModItems.MUSIC_DISC_TRACK_TOO_SWEET)
+                .unlockedBy("has_resonium_dust", has(ModItems.RESONIUM_DUST)).save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, Items.MUSIC_DISC_WAIT)
+                .requires(ModItems.MUSIC_DISC_BASE.get())
+                .requires(ModItems.MUSIC_DISC_TRACK_WAIT)
+                .unlockedBy("has_resonium_dust", has(ModItems.RESONIUM_DUST)).save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, Items.MUSIC_DISC_WARD)
+                .requires(ModItems.MUSIC_DISC_BASE.get())
+                .requires(ModItems.MUSIC_DISC_TRACK_WARD)
+                .unlockedBy("has_resonium_dust", has(ModItems.RESONIUM_DUST)).save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.MUSIC_DISC_ELEVATOR)
+                .requires(ModItems.MUSIC_DISC_BASE.get())
+                .requires(ModItems.MUSIC_DISC_TRACK_ELEVATOR)
+                .unlockedBy("has_resonium_dust", has(ModItems.RESONIUM_DUST)).save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.MUSIC_DISC_INTERLUDE)
+                .requires(ModItems.MUSIC_DISC_BASE.get())
+                .requires(ModItems.MUSIC_DISC_TRACK_INTERLUDE)
+                .unlockedBy("has_resonium_dust", has(ModItems.RESONIUM_DUST)).save(recipeOutput);
 
     }
 

@@ -305,6 +305,10 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> MUSIC_DISC_TRACK_TOO_SWEET = ITEMS.register("music_disc_track_too_sweet",
             () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> MUSIC_DISC_TRACK_ELEVATOR = ITEMS.register("music_disc_track_elevator",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> MUSIC_DISC_TRACK_INTERLUDE = ITEMS.register("music_disc_track_interlude",
+            () -> new Item(new Item.Properties()));
 
     public static final DeferredItem<Item> MONOCHROME_1 = ITEMS.register("monochrome_1",
             () -> new Item(new Item.Properties()));
@@ -358,6 +362,10 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> MONOCHROME_26 = ITEMS.register("monochrome_26",
             () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> MONOCHROME_27 = ITEMS.register("monochrome_27",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> MONOCHROME_28 = ITEMS.register("monochrome_28",
+            () -> new Item(new Item.Properties()));
 
     public static final DeferredItem<Item> BANG_BANG_MUSIC_DISC = ITEMS.register("bang_bang_music_disc",
             () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.BANG_BANG_KEY).stacksTo(1)));
@@ -373,6 +381,16 @@ public class ModItems {
             () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.CUTIE_MEW_MEW_MAGIC_KEY).stacksTo(1)));
     public static final DeferredItem<Item> MEW_MEW_MAGIC_MUSIC_DISC = ITEMS.register("mew_mew_magic_music_disc",
             () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.MEW_MEW_MAGIC_KEY).stacksTo(1)));
+    public static final DeferredItem<Item> MUSIC_DISC_BOUNCE = ITEMS.register("music_disc_bounce",
+            () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.BOUNCE_KEY).stacksTo(1)));
+    public static final DeferredItem<Item> MUSIC_DISC_TEARS = ITEMS.register("music_disc_tears",
+            () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.TEARS_KEY).stacksTo(1)));
+    public static final DeferredItem<Item> MUSIC_DISC_LAVA_CHICKEN = ITEMS.register("music_disc_lava_chicken",
+            () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.LAVA_CHICKEN_KEY).stacksTo(1)));
+    public static final DeferredItem<Item> MUSIC_DISC_ELEVATOR = ITEMS.register("music_disc_elevator",
+            () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.ELEVATOR_KEY).stacksTo(1)));
+    public static final DeferredItem<Item> MUSIC_DISC_INTERLUDE = ITEMS.register("music_disc_interlude",
+            () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.INTERLUDE_KEY).stacksTo(1)));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
