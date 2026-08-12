@@ -589,7 +589,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('M', ModItems.MONOCHROME_14)
                 .unlockedBy("has_resonium", has(ModItems.RESONIUM_DUST)).save(recipeOutput);
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.MUSIC_DISC_TRACK_MEW_MEW_MAGIC)
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.MUSIC_DISC_TRACK_CUTIE_MEW_MEW_MAGRIC)
                 .pattern("RQR")
                 .pattern("QMQ")
                 .pattern("RQR")
@@ -785,9 +785,9 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .requires(ModItems.MUSIC_DISC_TRACK_MELLOHI)
                 .unlockedBy("has_resonium_dust", has(ModItems.RESONIUM_DUST)).save(recipeOutput);
 
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.MEW_MEW_MAGIC_MUSIC_DISC)
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.CUTIE_MEW_MEW_MAGRIC_MUSIC_DISC)
                 .requires(ModItems.MUSIC_DISC_BASE.get())
-                .requires(ModItems.MUSIC_DISC_TRACK_MEW_MEW_MAGIC)
+                .requires(ModItems.MUSIC_DISC_TRACK_CUTIE_MEW_MEW_MAGRIC)
                 .unlockedBy("has_resonium_dust", has(ModItems.RESONIUM_DUST)).save(recipeOutput);
 
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, Items.MUSIC_DISC_OTHERSIDE)

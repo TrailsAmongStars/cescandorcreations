@@ -47,10 +47,50 @@
       }
     ]
   },
-  "mew_mew_magic": {
+  "cutie_mew_mew_magric": {
     "sounds": [
       {
-        "name": "cescandorcreations:mew_mew_magic",
+        "name": "cescandorcreations:cutie_mew_mew_magric",
+        "stream": true
+      }
+    ]
+  },
+  "bounce": {
+    "sounds": [
+      {
+        "name": "cescandorcreations:bounce",
+        "stream": true
+      }
+    ]
+  },
+  "lava_chicken": {
+    "sounds": [
+      {
+        "name": "cescandorcreations:lava_chicken",
+        "stream": true
+      }
+    ]
+  },
+  "tears": {
+    "sounds": [
+      {
+        "name": "cescandorcreations:tears",
+        "stream": true
+      }
+    ]
+  },
+  "elevator": {
+    "sounds": [
+      {
+        "name": "cescandorcreations:elevator",
+        "stream": true
+      }
+    ]
+  },
+  "interlude": {
+    "sounds": [
+      {
+        "name": "cescandorcreations:interlude",
         "stream": true
       }
     ]

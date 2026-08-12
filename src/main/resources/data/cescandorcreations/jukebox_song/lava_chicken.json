@@ -1,0 +1,8 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate": "item.cescandorcreations.music_disc_lava_chicken.desc"
+  },
+  "length_in_seconds": 134.0,
+  "sound_event": "cescandorcreations:lava_chicken"
+}

@@ -297,7 +297,7 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> MUSIC_DISC_TRACK_CUTIE_MEW_MEW_MAGIC = ITEMS.register("music_disc_track_cutie_mew_mew_magic",
             () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> MUSIC_DISC_TRACK_MEW_MEW_MAGIC = ITEMS.register("music_disc_track_mew_mew_magic",
+    public static final DeferredItem<Item> MUSIC_DISC_TRACK_CUTIE_MEW_MEW_MAGRIC = ITEMS.register("music_disc_track_cutie_mew_mew_magric",
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> MUSIC_DISC_TRACK_DAYS_GO_BY = ITEMS.register("music_disc_track_days_go_by",
             () -> new Item(new Item.Properties()));
@@ -379,8 +379,9 @@ public class ModItems {
             () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.TOO_SWEET_KEY).stacksTo(1)));
     public static final DeferredItem<Item> CUTIE_MEW_MEW_MAGIC_MUSIC_DISC = ITEMS.register("cutie_mew_mew_magic_music_disc",
             () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.CUTIE_MEW_MEW_MAGIC_KEY).stacksTo(1)));
-    public static final DeferredItem<Item> MEW_MEW_MAGIC_MUSIC_DISC = ITEMS.register("mew_mew_magic_music_disc",
-            () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.MEW_MEW_MAGIC_KEY).stacksTo(1)));
+    public static final DeferredItem<Item> CUTIE_MEW_MEW_MAGRIC_MUSIC_DISC = ITEMS.register("cutie_mew_mew_magric_music_disc",
+            () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.CUTIE_MEW_MEW_MAGRIC_KEY).stacksTo(1)));
+
     public static final DeferredItem<Item> MUSIC_DISC_BOUNCE = ITEMS.register("music_disc_bounce",
             () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.BOUNCE_KEY).stacksTo(1)));
     public static final DeferredItem<Item> MUSIC_DISC_TEARS = ITEMS.register("music_disc_tears",

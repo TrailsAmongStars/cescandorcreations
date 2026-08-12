@@ -8,7 +8,6 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.world.item.JukeboxSong;
 import net.neoforged.bus.api.IEventBus;
-import net.neoforged.neoforge.common.util.DeferredSoundType;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
 import java.util.function.Supplier;
@@ -29,13 +28,14 @@ public class ModSounds {
     public static final ResourceKey<JukeboxSong> TOO_SWEET_KEY = createSong("too_sweet");
     public static final Supplier<SoundEvent> CUTIE_MEW_MEW_MAGIC = registerSoundEvent("cutie_mew_mew_magic");
     public static final ResourceKey<JukeboxSong> CUTIE_MEW_MEW_MAGIC_KEY = createSong("cutie_mew_mew_magic");
-    public static final Supplier<SoundEvent> MEW_MEW_MAGIC = registerSoundEvent("mew_mew_magic");
-    public static final ResourceKey<JukeboxSong> MEW_MEW_MAGIC_KEY = createSong("mew_mew_magic");
+    public static final Supplier<SoundEvent> CUTIE_MEW_MEW_MAGRIC = registerSoundEvent("cutie_mew_mew_magric");
+    public static final ResourceKey<JukeboxSong> CUTIE_MEW_MEW_MAGRIC_KEY = createSong("cutie_mew_mew_magric");
+
     public static final Supplier<SoundEvent> BOUNCE = registerSoundEvent("bounce");
     public static final ResourceKey<JukeboxSong> BOUNCE_KEY = createSong("bounce");
     public static final Supplier<SoundEvent> LAVA_CHICKEN = registerSoundEvent("lava_chicken");
     public static final ResourceKey<JukeboxSong> LAVA_CHICKEN_KEY = createSong("lava_chicken");
-    public static final Supplier<SoundEvent> TEARS_SWEET = registerSoundEvent("tears");
+    public static final Supplier<SoundEvent> TEARS = registerSoundEvent("tears");
     public static final ResourceKey<JukeboxSong> TEARS_KEY = createSong("tears");
     public static final Supplier<SoundEvent> ELEVATOR = registerSoundEvent("elevator");
     public static final ResourceKey<JukeboxSong> ELEVATOR_KEY = createSong("elevator");
