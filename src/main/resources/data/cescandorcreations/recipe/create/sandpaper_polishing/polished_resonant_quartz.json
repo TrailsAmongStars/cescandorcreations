@@ -1,0 +1,13 @@
+{
+  "type": "create:sandpaper_polishing",
+  "ingredients": [
+    {
+      "item": "cescandorcreations:resonant_quartz"
+    }
+  ],
+  "results": [
+    {
+      "id": "cescandorcreations:polished_resonant_quartz"
+    }
+  ]
+}

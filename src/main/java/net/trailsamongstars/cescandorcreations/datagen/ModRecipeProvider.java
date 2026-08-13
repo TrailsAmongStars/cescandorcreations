@@ -265,6 +265,40 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('B', Items.BLACKSTONE)
                 .unlockedBy("has_resonium", has(ModItems.RESONIUM_DUST)).save(recipeOutput);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.RESONIUM_BLOCK)
+                .pattern("RRR")
+                .pattern("RRR")
+                .pattern("RRR")
+                .define('R', ModItems.RESONIUM_DUST.get())
+                .unlockedBy("has_resonium", has(ModItems.RESONIUM_DUST)).save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.RESONIUM_DUST, 9)
+                .requires(ModBlocks.RESONIUM_BLOCK)
+                .unlockedBy("has_resonium_block", has(ModBlocks.RESONIUM_BLOCK)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.RESONANT_QUARTZ_BLOCK)
+                .pattern("RRR")
+                .pattern("RRR")
+                .pattern("RRR")
+                .define('R', ModItems.POLISHED_RESONANT_QUARTZ.get())
+                .unlockedBy("has_polished_resonant_quartz", has(ModItems.POLISHED_RESONANT_QUARTZ)).save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.POLISHED_RESONANT_QUARTZ, 9)
+                .requires(ModBlocks.RESONANT_QUARTZ_BLOCK)
+                .unlockedBy("has_resonant_quartz_block", has(ModBlocks.RESONANT_QUARTZ_BLOCK)).save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.RESONANT_QUARTZ)
+                .requires(Items.QUARTZ)
+                .requires(ModItems.RESONIUM_DUST.get())
+                .requires(ModItems.RESONIUM_DUST.get())
+                .requires(ModItems.RESONIUM_DUST.get())
+                .requires(ModItems.RESONIUM_DUST.get())
+                .requires(ModItems.RESONIUM_DUST.get())
+                .requires(ModItems.RESONIUM_DUST.get())
+                .requires(ModItems.RESONIUM_DUST.get())
+                .requires(ModItems.RESONIUM_DUST.get())
+                .unlockedBy("has_resonium_dust", has(ModItems.RESONIUM_DUST)).save(recipeOutput);
+
         //Music Disc Track Stuff
 
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.MONOCHROME_1)

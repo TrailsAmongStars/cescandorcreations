@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "cescandorcreations:resonant_quartz_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "cescandorcreations:polished_resonant_quartz"
+  }
+}

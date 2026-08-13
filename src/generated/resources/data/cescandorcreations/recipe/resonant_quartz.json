@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:quartz"
+    },
+    {
+      "item": "cescandorcreations:resonium_dust"
+    },
+    {
+      "item": "cescandorcreations:resonium_dust"
+    },
+    {
+      "item": "cescandorcreations:resonium_dust"
+    },
+    {
+      "item": "cescandorcreations:resonium_dust"
+    },
+    {
+      "item": "cescandorcreations:resonium_dust"
+    },
+    {
+      "item": "cescandorcreations:resonium_dust"
+    },
+    {
+      "item": "cescandorcreations:resonium_dust"
+    },
+    {
+      "item": "cescandorcreations:resonium_dust"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "cescandorcreations:resonant_quartz"
+  }
+}
