@@ -39,6 +39,7 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.ELECTRUM_ORE.get())
                 .add(ModBlocks.RESONIUM_BLOCK.get())
                 .add(ModBlocks.RESONIUM_FRAGMENT.get())
+                .add(ModBlocks.RESONANT_QUARTZ_BLOCK.get())
                 .add(ModBlocks.ENCHANTED_SEMELIUM_BLOCK.get());
 
         tag(ModTags.Blocks.NEEDS_NETHERITE_TOOL)

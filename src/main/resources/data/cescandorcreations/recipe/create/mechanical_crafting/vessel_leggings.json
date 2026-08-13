@@ -16,7 +16,7 @@
       "item": "create:zinc_ingot"
     },
     "Q": {
-      "item": "minecraft:quartz_block"
+      "item": "cescandorcreations:resonant_quartz_block"
     }
   },
   "pattern": [

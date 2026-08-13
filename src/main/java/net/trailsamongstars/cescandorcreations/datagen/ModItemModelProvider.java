@@ -59,7 +59,10 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.POWDERED_END_STONE.get());
         basicItem(ModItems.SHULKER_SLAG.get());
         basicItem(ModItems.SHULKER_SHARD.get());
+        basicItem(ModItems.RESONANT_QUARTZ.get());
+        basicItem(ModItems.POLISHED_RESONANT_QUARTZ.get());
 
+        basicItem(ModItems.CRUSHED_MUSIC_DISC_BASE.get());
         basicItem(ModItems.MUSIC_DISC_BASE.get());
         basicItem(ModItems.MUSIC_DISC_TRACK_CAT.get());
         basicItem(ModItems.MUSIC_DISC_TRACK_BLOCKS.get());

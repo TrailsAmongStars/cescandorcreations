@@ -65,6 +65,9 @@ public class ModBlocks {
 
     public static final DeferredBlock<Block> UNCARVED_MUSIC_DISC_BASE = registerBlock("uncarved_music_disc_base",
             () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.LODESTONE)));
+    public static final DeferredBlock<Block> RESONANT_QUARTZ_BLOCK = registerBlock("resonant_quartz_block",
+            () -> new Block(BlockBehaviour.Properties.of()
                     .strength(4f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
 
 

@@ -2,7 +2,7 @@
   "type": "create:sandpaper_polishing",
   "ingredients": [
     {
-      "item": "cescandorcreations:uncarved_music_disc_base"
+      "item": "cescandorcreations:crushed_music_disc_base"
     }
   ],
   "results": [

@@ -167,6 +167,10 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> ADAMANTIUM_UPGRADE_SMITHING_TEMPLATE = ITEMS.register("adamantium_upgrade_smithing_template",
             () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> POLISHED_RESONANT_QUARTZ = ITEMS.register("polished_resonant_quartz",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> RESONANT_QUARTZ = ITEMS.register("resonant_quartz",
+            () -> new Item(new Item.Properties()));
 
     public static final DeferredItem<SwordItem> ELECTRUM_SWORD = ITEMS.register("electrum_sword",
             () -> new SwordItem(ModToolTiers.ELECTRUM, new Item.Properties()
@@ -251,6 +255,8 @@ public class ModItems {
             () -> new ArmorItem(ModArmorMaterials.ADAMANTIUM_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
                     new Item.Properties().fireResistant().durability(ArmorItem.Type.BOOTS.getDurability(40))));
 
+    public static final DeferredItem<Item> CRUSHED_MUSIC_DISC_BASE = ITEMS.register("crushed_music_disc_base",
+            () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> MUSIC_DISC_BASE = ITEMS.register("music_disc_base",
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> MUSIC_DISC_TRACK_CAT = ITEMS.register("music_disc_track_cat",

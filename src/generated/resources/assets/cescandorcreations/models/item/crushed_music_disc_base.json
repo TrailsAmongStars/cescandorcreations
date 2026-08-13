@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "cescandorcreations:item/crushed_music_disc_base"
+  }
+}

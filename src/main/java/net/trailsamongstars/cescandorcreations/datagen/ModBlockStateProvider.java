@@ -28,6 +28,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.UNCARVED_MUSIC_DISC_BASE);
         blockWithItem(ModBlocks.RESONIUM_BLOCK);
         blockWithItem(ModBlocks.RESONIUM_FRAGMENT);
+        blockWithItem(ModBlocks.RESONANT_QUARTZ_BLOCK);
     }
 
     private void blockWithItem(DeferredBlock<?> deferredBlock) {

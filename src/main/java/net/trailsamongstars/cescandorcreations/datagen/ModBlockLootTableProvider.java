@@ -40,6 +40,7 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         dropSelf(ModBlocks.ENCHANTED_SEMELIUM_BLOCK.get());
         dropSelf(ModBlocks.UNCARVED_MUSIC_DISC_BASE.get());
         dropSelf(ModBlocks.RESONIUM_BLOCK.get());
+        dropSelf(ModBlocks.RESONANT_QUARTZ_BLOCK.get());
 
         add(ModBlocks.ELECTRUM_ORE.get(),
                 block -> createOreDrop(ModBlocks.ELECTRUM_ORE.get(), ModItems.RAW_ELECTRUM.get()));

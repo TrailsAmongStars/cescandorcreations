@@ -82,6 +82,7 @@
 
   "item.cescandorcreations.resonium_dust": "Resonium Dust",
   "item.cescandorcreations.uncarved_music_disc_base":  "Uncarved Music Disc Base",
+  "item.cescandorcreations.crushed_music_disc_base":  "Crushed Music Disc Base",
   "item.cescandorcreations.music_disc_base":  "Music Disc Base",
   "item.cescandorcreations.music_disc_track_cat":  "Music Track - Cat",
   "item.cescandorcreations.music_disc_track_blocks":  "Music Track - Blocks",
@@ -198,6 +199,7 @@
   "block.cescandorcreations.electrum_block": "Block of Electrum",
   "block.cescandorcreations.electrum_ore": "Electrum Ore",
   "block.cescandorcreations.resonium_block": "Block of Resonium",
+  "block.cescandorcreations.resonant_quartz_block": "Block of Resonant Quartz",
   "block.cescandorcreations.resonium_fragment": "Resonium Fragment",
   "block.cescandorcreations.dehydrated_sculk": "Dehydrated Sculk",
   "block.cescandorcreations.uncarved_music_disc_base": "Uncarved Music Disc Base",
