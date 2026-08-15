@@ -115,6 +115,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.SEMELIUM_BLOCK);
                         output.accept(ModBlocks.TALIUM_BLOCK);
                         output.accept(ModBlocks.ENCHANTED_SEMELIUM_BLOCK);
+                        output.accept(ModBlocks.PEDESTAL);
                     }).build());
 
     public static final Supplier<CreativeModeTab> CESCANDOR_TOOLS_TAB = CREATIVE_MODE_TAB.register("cescandor_tools_tab",

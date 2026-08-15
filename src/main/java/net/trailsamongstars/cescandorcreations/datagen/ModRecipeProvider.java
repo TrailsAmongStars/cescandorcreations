@@ -889,6 +889,15 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .requires(ModItems.MUSIC_DISC_TRACK_INTERLUDE)
                 .unlockedBy("has_resonium_dust", has(ModItems.RESONIUM_DUST)).save(recipeOutput);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.PEDESTAL)
+                .pattern(" $ ")
+                .pattern(" @ ")
+                .pattern("###")
+                .define('#', Items.SMOOTH_STONE)
+                .define('$', Items.SMOOTH_STONE_SLAB)
+                .define('@', ItemTags.WALLS)
+                .unlockedBy("has_smooth_stone", has(Items.SMOOTH_STONE)).save(recipeOutput);
+
     }
 
     protected static void oreSmelting(RecipeOutput recipeOutput, List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult,

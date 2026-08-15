@@ -2,6 +2,7 @@ package net.trailsamongstars.cescandorcreations;
 
 import net.minecraft.world.item.CreativeModeTabs;
 import net.trailsamongstars.cescandorcreations.block.ModBlocks;
+import net.trailsamongstars.cescandorcreations.block.entity.ModBlockEntities;
 import net.trailsamongstars.cescandorcreations.item.ModCreativeModeTabs;
 import net.trailsamongstars.cescandorcreations.item.ModItems;
 import net.trailsamongstars.cescandorcreations.sound.ModSounds;
@@ -44,6 +45,8 @@ public class CescandorCreations {
         ModBlocks.register(modEventBus);
 
         ModSounds.register(modEventBus);
+
+        ModBlockEntities.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);

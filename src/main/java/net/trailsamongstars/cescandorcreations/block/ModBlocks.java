@@ -12,6 +12,7 @@ import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.trailsamongstars.cescandorcreations.CescandorCreations;
 import net.trailsamongstars.cescandorcreations.block.custom.MagicBlock;
+import net.trailsamongstars.cescandorcreations.block.custom.PedestalBlock;
 import net.trailsamongstars.cescandorcreations.item.ModItems;
 
 import java.util.function.Supplier;
@@ -69,6 +70,9 @@ public class ModBlocks {
     public static final DeferredBlock<Block> RESONANT_QUARTZ_BLOCK = registerBlock("resonant_quartz_block",
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(4f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
+
+    public static final DeferredBlock<Block> PEDESTAL = registerBlock("pedestal",
+            () -> new PedestalBlock(BlockBehaviour.Properties.of().noOcclusion()));
 
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
