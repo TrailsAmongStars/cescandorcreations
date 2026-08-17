@@ -65,6 +65,20 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModItems.ELECTRUM_HOE.get())
                 .add(ModItems.ADAMANTIUM_HOE.get());
 
+        tag(ItemTags.CREEPER_DROP_MUSIC_DISCS)
+                .add(ModItems.MUSIC_DISC_BOUNCE.get())
+                .add(ModItems.MUSIC_DISC_LAVA_CHICKEN.get())
+                .add(ModItems.MUSIC_DISC_TEARS.get())
+                .add(ModItems.MUSIC_DISC_ELEVATOR.get())
+                .add(ModItems.MUSIC_DISC_INTERLUDE.get())
+                .add(ModItems.BANG_BANG_MUSIC_DISC.get())
+                .add(ModItems.SNEAKMAN_MUSIC_DISC.get())
+                .add(ModItems.DAYS_GO_BY_MUSIC_DISC.get())
+                .add(ModItems.CASIO_MUSIC_DISC.get())
+                .add(ModItems.TOO_SWEET_MUSIC_DISC.get())
+                .add(ModItems.CUTIE_MEW_MEW_MAGIC_MUSIC_DISC.get())
+                .add(ModItems.CUTIE_MEW_MEW_MAGRIC_MUSIC_DISC.get());
+
         this.tag(ItemTags.TRIMMABLE_ARMOR)
                 .add(ModItems.ELECTRUM_HELMET.get())
                 .add(ModItems.ELECTRUM_CHESTPLATE.get())
