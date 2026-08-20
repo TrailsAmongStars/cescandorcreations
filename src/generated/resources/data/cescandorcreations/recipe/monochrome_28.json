@@ -6,17 +6,17 @@
       "item": "cescandorcreations:magic_paste"
     },
     {
-      "item": "minecraft:purple_dye"
+      "item": "minecraft:brown_dye"
     },
     {
-      "item": "minecraft:pink_dye"
+      "item": "minecraft:yellow_dye"
     },
     {
-      "item": "minecraft:light_blue_dye"
+      "item": "minecraft:light_gray_dye"
     }
   ],
   "result": {
     "count": 1,
-    "id": "cescandorcreations:monochrome_25"
+    "id": "cescandorcreations:monochrome_28"
   }
 }

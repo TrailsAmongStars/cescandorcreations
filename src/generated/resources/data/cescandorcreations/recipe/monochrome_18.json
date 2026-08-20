@@ -6,13 +6,13 @@
       "item": "cescandorcreations:magic_paste"
     },
     {
-      "item": "minecraft:cyan_dye"
+      "item": "minecraft:orange_dye"
+    },
+    {
+      "item": "minecraft:green_dye"
     },
     {
       "item": "minecraft:light_blue_dye"
-    },
-    {
-      "item": "minecraft:white_dye"
     }
   ],
   "result": {

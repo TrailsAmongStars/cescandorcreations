@@ -76,7 +76,8 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModItems.DAYS_GO_BY_MUSIC_DISC.get())
                 .add(ModItems.CASIO_MUSIC_DISC.get())
                 .add(ModItems.TOO_SWEET_MUSIC_DISC.get())
-                .add(ModItems.CUTIE_MEW_MEW_MAGIC_MUSIC_DISC.get());
+                .add(ModItems.CUTIE_MEW_MEW_MAGIC_MUSIC_DISC.get())
+                .add(ModItems.CUTIE_MEW_MEW_MAGRIC_MUSIC_DISC.get());
 
         this.tag(ItemTags.TRIMMABLE_ARMOR)
                 .add(ModItems.ELECTRUM_HELMET.get())
