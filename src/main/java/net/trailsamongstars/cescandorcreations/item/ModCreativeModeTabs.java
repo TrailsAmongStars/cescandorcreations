@@ -196,7 +196,6 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.CASIO_MUSIC_DISC);
                         output.accept(ModItems.TOO_SWEET_MUSIC_DISC);
                         output.accept(ModItems.CUTIE_MEW_MEW_MAGIC_MUSIC_DISC);
-                        output.accept(ModItems.CUTIE_MEW_MEW_MAGRIC_MUSIC_DISC);
 
                         output.accept(ModBlocks.UNCARVED_MUSIC_DISC_BASE);
                         output.accept(ModItems.MUSIC_DISC_BASE);
@@ -222,7 +221,6 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.MUSIC_DISC_TRACK_BANG_BANG);
                         output.accept(ModItems.MUSIC_DISC_TRACK_CASIO);
                         output.accept(ModItems.MUSIC_DISC_TRACK_CUTIE_MEW_MEW_MAGIC);
-                        output.accept(ModItems.MUSIC_DISC_TRACK_CUTIE_MEW_MEW_MAGRIC);
                         output.accept(ModItems.MUSIC_DISC_TRACK_DAYS_GO_BY);
                         output.accept(ModItems.MUSIC_DISC_TRACK_SNEAKMAN);
                         output.accept(ModItems.MUSIC_DISC_TRACK_TOO_SWEET);
@@ -256,7 +254,6 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.MONOCHROME_25);
                         output.accept(ModItems.MONOCHROME_26);
                         output.accept(ModItems.MONOCHROME_27);
-                        output.accept(ModItems.MONOCHROME_28);
                     }).build());
 
     public static void register(IEventBus eventBus) {

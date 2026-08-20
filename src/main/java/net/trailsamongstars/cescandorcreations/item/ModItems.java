@@ -321,8 +321,6 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> MUSIC_DISC_TRACK_CUTIE_MEW_MEW_MAGIC = ITEMS.register("music_disc_track_cutie_mew_mew_magic",
             () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> MUSIC_DISC_TRACK_CUTIE_MEW_MEW_MAGRIC = ITEMS.register("music_disc_track_cutie_mew_mew_magric",
-            () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> MUSIC_DISC_TRACK_DAYS_GO_BY = ITEMS.register("music_disc_track_days_go_by",
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> MUSIC_DISC_TRACK_SNEAKMAN = ITEMS.register("music_disc_track_sneakman",
@@ -388,8 +386,6 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> MONOCHROME_27 = ITEMS.register("monochrome_27",
             () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> MONOCHROME_28 = ITEMS.register("monochrome_28",
-            () -> new Item(new Item.Properties()));
 
     public static final DeferredItem<Item> BANG_BANG_MUSIC_DISC = ITEMS.register("bang_bang_music_disc",
             () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.BANG_BANG_KEY).stacksTo(1)));
@@ -403,8 +399,6 @@ public class ModItems {
             () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.TOO_SWEET_KEY).stacksTo(1)));
     public static final DeferredItem<Item> CUTIE_MEW_MEW_MAGIC_MUSIC_DISC = ITEMS.register("cutie_mew_mew_magic_music_disc",
             () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.CUTIE_MEW_MEW_MAGIC_KEY).stacksTo(1)));
-    public static final DeferredItem<Item> CUTIE_MEW_MEW_MAGRIC_MUSIC_DISC = ITEMS.register("cutie_mew_mew_magric_music_disc",
-            () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.CUTIE_MEW_MEW_MAGRIC_KEY).stacksTo(1)));
 
     public static final DeferredItem<Item> MUSIC_DISC_BOUNCE = ITEMS.register("music_disc_bounce",
             () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.BOUNCE_KEY).stacksTo(1)));
