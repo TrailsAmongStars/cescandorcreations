@@ -6,13 +6,13 @@
       "item": "cescandorcreations:magic_paste"
     },
     {
+      "item": "minecraft:lime_dye"
+    },
+    {
       "item": "minecraft:cyan_dye"
     },
     {
-      "item": "minecraft:light_blue_dye"
-    },
-    {
-      "item": "minecraft:white_dye"
+      "item": "minecraft:magenta_dye"
     }
   ],
   "result": {

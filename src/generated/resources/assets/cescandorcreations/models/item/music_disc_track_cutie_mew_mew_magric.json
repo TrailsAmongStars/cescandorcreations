@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "cescandorcreations:item/music_disc_track_cutie_mew_mew_magric"
-  }
-}
