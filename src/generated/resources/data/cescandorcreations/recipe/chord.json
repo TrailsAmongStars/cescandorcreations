@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "$": {
+      "item": "cescandorcreations:chord_fragment"
+    },
+    "@": {
+      "item": "cescandorcreations:chord_core"
+    }
+  },
+  "pattern": [
+    "$$$",
+    "$@$",
+    "$$$"
+  ],
+  "result": {
+    "count": 1,
+    "id": "cescandorcreations:chord"
+  }
+}

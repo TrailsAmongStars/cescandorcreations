@@ -1,0 +1,9 @@
+{
+  "type": "cescandorcreations:alchemy_table",
+  "ingredient": {
+    "item": "cescandorcreations:chord_fragment"
+  },
+  "result": {
+    "id": "cescandorcreations:chord_core_fragment"
+  }
+}

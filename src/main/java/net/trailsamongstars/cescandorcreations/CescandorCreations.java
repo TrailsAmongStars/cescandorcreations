@@ -10,7 +10,10 @@ import net.trailsamongstars.cescandorcreations.block.entity.ModBlockEntities;
 import net.trailsamongstars.cescandorcreations.block.entity.renderer.PedestalBlockEntityRenderer;
 import net.trailsamongstars.cescandorcreations.item.ModCreativeModeTabs;
 import net.trailsamongstars.cescandorcreations.item.ModItems;
+import net.trailsamongstars.cescandorcreations.recipe.ModRecipes;
 import net.trailsamongstars.cescandorcreations.screen.ModMenuTypes;
+import net.trailsamongstars.cescandorcreations.screen.custom.AlchemyTableMenu;
+import net.trailsamongstars.cescandorcreations.screen.custom.AlchemyTableScreen;
 import net.trailsamongstars.cescandorcreations.screen.custom.PedestalScreen;
 import net.trailsamongstars.cescandorcreations.sound.ModSounds;
 import org.slf4j.Logger;
@@ -56,6 +59,7 @@ public class CescandorCreations {
         ModBlockEntities.register(modEventBus);
 
         ModMenuTypes.register(modEventBus);
+        ModRecipes.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -86,6 +90,7 @@ public class CescandorCreations {
         @SubscribeEvent
         public static void registerScreens(RegisterMenuScreensEvent event) {
             event.register(ModMenuTypes.PEDESTAL_MENU.get(), PedestalScreen::new);
+            event.register(ModMenuTypes.ALCHEMY_TABLE_MENU.get(), AlchemyTableScreen::new);
         }
     }
 }

@@ -9,6 +9,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.*;
 import net.minecraft.world.level.ItemLike;
+import net.minecraft.world.level.block.Blocks;
 import net.neoforged.neoforge.common.conditions.IConditionBuilder;
 import net.trailsamongstars.cescandorcreations.CescandorCreations;
 import net.trailsamongstars.cescandorcreations.block.ModBlocks;
@@ -897,6 +898,54 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('$', Items.SMOOTH_STONE_SLAB)
                 .define('@', ItemTags.WALLS)
                 .unlockedBy("has_smooth_stone", has(Items.SMOOTH_STONE)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.ALCHEMY_TABLE)
+                .pattern("$$$")
+                .pattern("$@$")
+                .pattern("###")
+                .define('#', Blocks.AMETHYST_BLOCK)
+                .define('$', Items.SMOOTH_STONE)
+                .define('@', ModItems.ENCHANTED_SEMELIUM_INGOT)
+                .unlockedBy("has_enchanted_semelium", has(ModItems.ENCHANTED_SEMELIUM_INGOT)).save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.CHORD_CORE)
+                .requires(ModItems.CHORD_CORE_FRAGMENT)
+                .requires(ModItems.CHORD_CORE_FRAGMENT)
+                .unlockedBy("has_chord_core_fragment", has(ModItems.CHORD_CORE_FRAGMENT)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.CHORD)
+                .pattern("$$$")
+                .pattern("$@$")
+                .pattern("$$$")
+                .define('$', ModItems.CHORD_FRAGMENT)
+                .define('@', ModItems.CHORD_CORE)
+                .unlockedBy("has_chord_core", has(ModItems.CHORD_CORE)).save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.VERSE_CORE)
+                .requires(ModItems.VERSE_CORE_FRAGMENT)
+                .requires(ModItems.VERSE_CORE_FRAGMENT)
+                .unlockedBy("has_verse_core_fragment", has(ModItems.VERSE_CORE_FRAGMENT)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.VERSE)
+                .pattern("$$$")
+                .pattern("$@$")
+                .pattern("$$$")
+                .define('$', ModItems.VERSE_FRAGMENT)
+                .define('@', ModItems.VERSE_CORE)
+                .unlockedBy("has_verse_core", has(ModItems.VERSE_CORE)).save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.STANZA_CORE)
+                .requires(ModItems.STANZA_CORE_FRAGMENT)
+                .requires(ModItems.STANZA_CORE_FRAGMENT)
+                .unlockedBy("has_stanza_core_fragment", has(ModItems.STANZA_CORE_FRAGMENT)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.STANZA)
+                .pattern("$$$")
+                .pattern("$@$")
+                .pattern("$$$")
+                .define('$', ModItems.STANZA_FRAGMENT)
+                .define('@', ModItems.STANZA_CORE)
+                .unlockedBy("has_stanza_core", has(ModItems.STANZA_CORE)).save(recipeOutput);
 
     }
 

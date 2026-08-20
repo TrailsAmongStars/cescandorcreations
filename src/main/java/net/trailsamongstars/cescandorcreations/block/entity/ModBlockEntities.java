@@ -17,6 +17,10 @@ public class ModBlockEntities {
             BLOCK_ENTITIES.register("pedestal_be", () -> BlockEntityType.Builder.of(
                     PedestalBlockEntity::new, ModBlocks.PEDESTAL.get()).build(null));
 
+    public static final Supplier<BlockEntityType<AlchemyTableBlockEntity>> ALCHEMY_TABLE_BE =
+            BLOCK_ENTITIES.register("alchemy_table_be", () -> BlockEntityType.Builder.of(
+                    AlchemyTableBlockEntity::new, ModBlocks.ALCHEMY_TABLE.get()).build(null));
+
     public static void register (IEventBus eventBus) {
         BLOCK_ENTITIES.register(eventBus);
     }

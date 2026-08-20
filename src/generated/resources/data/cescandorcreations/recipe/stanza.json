@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "$": {
+      "item": "cescandorcreations:stanza_fragment"
+    },
+    "@": {
+      "item": "cescandorcreations:stanza_core"
+    }
+  },
+  "pattern": [
+    "$$$",
+    "$@$",
+    "$$$"
+  ],
+  "result": {
+    "count": 1,
+    "id": "cescandorcreations:stanza"
+  }
+}

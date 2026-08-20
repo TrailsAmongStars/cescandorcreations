@@ -29,6 +29,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.RESONIUM_BLOCK);
         blockWithItem(ModBlocks.RESONIUM_FRAGMENT);
         blockWithItem(ModBlocks.RESONANT_QUARTZ_BLOCK);
+        blockWithItem(ModBlocks.ALCHEMY_TABLE);
     }
 
     private void blockWithItem(DeferredBlock<?> deferredBlock) {

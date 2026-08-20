@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "cescandorcreations:verse_core"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_verse_core_fragment": {
+      "conditions": {
+        "items": [
+          {
+            "items": "cescandorcreations:verse_core_fragment"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_verse_core_fragment"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "cescandorcreations:verse_core"
+    ]
+  }
+}

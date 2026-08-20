@@ -49,8 +49,17 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.RESONIUM_DUST.get());
         basicItem(ModItems.ELECTRUM_DUST.get());
         basicItem(ModItems.NOTE.get());
+        basicItem(ModItems.CHORD_FRAGMENT.get());
+        basicItem(ModItems.CHORD_CORE_FRAGMENT.get());
+        basicItem(ModItems.CHORD_CORE.get());
         basicItem(ModItems.CHORD.get());
+        basicItem(ModItems.VERSE_FRAGMENT.get());
+        basicItem(ModItems.VERSE_CORE_FRAGMENT.get());
+        basicItem(ModItems.VERSE_CORE.get());
         basicItem(ModItems.VERSE.get());
+        basicItem(ModItems.STANZA_FRAGMENT.get());
+        basicItem(ModItems.STANZA_CORE_FRAGMENT.get());
+        basicItem(ModItems.STANZA_CORE.get());
         basicItem(ModItems.STANZA.get());
         basicItem(ModItems.MELANTHIUM.get());
         basicItem(ModItems.WAND.get());

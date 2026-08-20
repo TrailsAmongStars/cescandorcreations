@@ -42,6 +42,7 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         dropSelf(ModBlocks.RESONIUM_BLOCK.get());
         dropSelf(ModBlocks.RESONANT_QUARTZ_BLOCK.get());
         dropSelf(ModBlocks.PEDESTAL.get());
+        dropSelf(ModBlocks.ALCHEMY_TABLE.get());
 
         add(ModBlocks.ELECTRUM_ORE.get(),
                 block -> createOreDrop(ModBlocks.ELECTRUM_ORE.get(), ModItems.RAW_ELECTRUM.get()));

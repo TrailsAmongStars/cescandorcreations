@@ -116,6 +116,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.TALIUM_BLOCK);
                         output.accept(ModBlocks.ENCHANTED_SEMELIUM_BLOCK);
                         output.accept(ModBlocks.PEDESTAL);
+                        output.accept(ModBlocks.ALCHEMY_TABLE);
                     }).build());
 
     public static final Supplier<CreativeModeTab> CESCANDOR_TOOLS_TAB = CREATIVE_MODE_TAB.register("cescandor_tools_tab",
@@ -165,9 +166,18 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.cescandorcreations.cescandor_money"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.NOTE);
+                        output.accept(ModItems.CHORD_FRAGMENT);
                         output.accept(ModItems.CHORD);
+                        output.accept(ModItems.VERSE_FRAGMENT);
                         output.accept(ModItems.VERSE);
+                        output.accept(ModItems.STANZA_FRAGMENT);
                         output.accept(ModItems.STANZA);
+                        output.accept(ModItems.CHORD_CORE_FRAGMENT);
+                        output.accept(ModItems.VERSE_CORE_FRAGMENT);
+                        output.accept(ModItems.STANZA_CORE_FRAGMENT);
+                        output.accept(ModItems.CHORD_CORE);
+                        output.accept(ModItems.VERSE_CORE);
+                        output.accept(ModItems.STANZA_CORE);
                     }).build());
 
     public static final Supplier<CreativeModeTab> CESCANDOR_MUSIC_DISCS_TAB = CREATIVE_MODE_TAB.register("cescandor_music_discs_tab",

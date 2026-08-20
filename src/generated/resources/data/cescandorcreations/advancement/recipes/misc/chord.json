@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_chord_core": {
+      "conditions": {
+        "items": [
+          {
+            "items": "cescandorcreations:chord_core"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "cescandorcreations:chord"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_chord_core"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "cescandorcreations:chord"
+    ]
+  }
+}

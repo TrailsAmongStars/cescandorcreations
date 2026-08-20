@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "cescandorcreations:chord_core_fragment"
+    },
+    {
+      "item": "cescandorcreations:chord_core_fragment"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "cescandorcreations:chord_core"
+  }
+}

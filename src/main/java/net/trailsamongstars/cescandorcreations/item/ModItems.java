@@ -171,6 +171,24 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> RESONANT_QUARTZ = ITEMS.register("resonant_quartz",
             () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> CHORD_FRAGMENT = ITEMS.register("chord_fragment",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> VERSE_FRAGMENT = ITEMS.register("verse_fragment",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> STANZA_FRAGMENT = ITEMS.register("stanza_fragment",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> CHORD_CORE_FRAGMENT = ITEMS.register("chord_core_fragment",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> VERSE_CORE_FRAGMENT = ITEMS.register("verse_core_fragment",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> STANZA_CORE_FRAGMENT = ITEMS.register("stanza_core_fragment",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> CHORD_CORE = ITEMS.register("chord_core",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> VERSE_CORE = ITEMS.register("verse_core",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> STANZA_CORE = ITEMS.register("stanza_core",
+            () -> new Item(new Item.Properties()));
 
     public static final DeferredItem<SwordItem> ELECTRUM_SWORD = ITEMS.register("electrum_sword",
             () -> new SwordItem(ModToolTiers.ELECTRUM, new Item.Properties()

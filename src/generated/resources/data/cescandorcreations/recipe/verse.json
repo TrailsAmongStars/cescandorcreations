@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "$": {
+      "item": "cescandorcreations:verse_fragment"
+    },
+    "@": {
+      "item": "cescandorcreations:verse_core"
+    }
+  },
+  "pattern": [
+    "$$$",
+    "$@$",
+    "$$$"
+  ],
+  "result": {
+    "count": 1,
+    "id": "cescandorcreations:verse"
+  }
+}

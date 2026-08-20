@@ -1,0 +1,9 @@
+{
+  "type": "cescandorcreations:alchemy_table",
+  "ingredient": {
+    "item": "cescandorcreations:verse"
+  },
+  "result": {
+    "id": "cescandorcreations:stanza_fragment"
+  }
+}

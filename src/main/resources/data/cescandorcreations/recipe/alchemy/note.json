@@ -1,0 +1,9 @@
+{
+  "type": "cescandorcreations:alchemy_table",
+  "ingredient": {
+    "item": "minecraft:diamond"
+  },
+  "result": {
+    "id": "cescandorcreations:note"
+  }
+}

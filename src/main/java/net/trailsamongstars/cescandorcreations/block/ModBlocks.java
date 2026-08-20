@@ -11,6 +11,7 @@ import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.trailsamongstars.cescandorcreations.CescandorCreations;
+import net.trailsamongstars.cescandorcreations.block.custom.AlchemyTableBlock;
 import net.trailsamongstars.cescandorcreations.block.custom.MagicBlock;
 import net.trailsamongstars.cescandorcreations.block.custom.PedestalBlock;
 import net.trailsamongstars.cescandorcreations.item.ModItems;
@@ -73,6 +74,8 @@ public class ModBlocks {
 
     public static final DeferredBlock<Block> PEDESTAL = registerBlock("pedestal",
             () -> new PedestalBlock(BlockBehaviour.Properties.of().noOcclusion()));
+    public static final DeferredBlock<Block> ALCHEMY_TABLE = registerBlock("alchemy_table",
+            () -> new AlchemyTableBlock(BlockBehaviour.Properties.of()));
 
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
