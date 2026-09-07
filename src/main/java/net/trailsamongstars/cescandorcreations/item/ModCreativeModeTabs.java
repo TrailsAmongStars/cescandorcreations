@@ -33,6 +33,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.SHULKER_SLAG);
                         output.accept(ModItems.SHULKER_SHARD);
                         output.accept(ModItems.RESONIUM_DUST);
+                        output.accept(ModItems.RESONANT_QUARTZ);
+                        output.accept(ModItems.POLISHED_RESONANT_QUARTZ);
 
                         output.accept(ModItems.VESSEL_HELMET);
                         output.accept(ModItems.CUT_VESSEL_HELMET);
