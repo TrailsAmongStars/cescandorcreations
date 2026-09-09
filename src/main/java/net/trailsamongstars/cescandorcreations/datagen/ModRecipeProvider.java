@@ -785,6 +785,11 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .requires(ModItems.MUSIC_DISC_TRACK_CUTIE_MEW_MEW_MAGIC)
                 .unlockedBy("has_resonium_dust", has(ModItems.RESONIUM_DUST)).save(recipeOutput);
 
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.CUTIE_MEW_MEW_MAGRIC_MUSIC_DISC)
+                .requires(ModItems.MUSIC_DISC_BASE.get())
+                .requires(ModItems.MUSIC_DISC_TRACK_CUTIE_MEW_MEW_MAGRIC)
+                .unlockedBy("has_resonium_dust", has(ModItems.RESONIUM_DUST)).save(recipeOutput);
+
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, Items.MUSIC_DISC_CREATOR)
                 .requires(ModItems.MUSIC_DISC_BASE.get())
                 .requires(ModItems.MUSIC_DISC_TRACK_CREATOR)

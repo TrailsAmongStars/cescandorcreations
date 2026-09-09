@@ -198,6 +198,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.CASIO_MUSIC_DISC);
                         output.accept(ModItems.TOO_SWEET_MUSIC_DISC);
                         output.accept(ModItems.CUTIE_MEW_MEW_MAGIC_MUSIC_DISC);
+                        output.accept(ModItems.CUTIE_MEW_MEW_MAGRIC_MUSIC_DISC);
 
                         output.accept(ModBlocks.UNCARVED_MUSIC_DISC_BASE);
                         output.accept(ModItems.MUSIC_DISC_BASE);
